@@ -4,42 +4,49 @@ import plotly.express as px
 import pydeck
 import math
 import matplotlib.pyplot as plt
+import numpy as np
 from streamlit_dynamic_filters import DynamicFilters
 from wordcloud import WordCloud, STOPWORDS
 
 
 # Load dataframes
-dir_path = "c:/Users/nickm/Desktop/Coding/Projects/job-market-dashboard/"
-
-df_raw = pd.read_csv(f"{dir_path}/job_data.csv", index_col=0)
+df_raw = pd.read_csv(f"data/job_data.csv", index_col=0)
 df_raw.index.name = "ID"
 
-df_long = pd.read_csv(f"{dir_path}/job_data_long.csv")
+df_long = pd.read_csv(f"data/job_data_long.csv")
 df_long = df_long.fillna("N/A")
 
 
 # Rescale initial size of location count bubbles shown in map
 def initial_size_scale(x, low, high):
-    if max(x) == min(x): return low
+    #if max(x) == min(x): return low
     return (high - low)*(x - min(x)) / (max(x) - min(x)) + low
 low, high = (6500, 30000)
 
-df_raw["location_count_initial"] = df_raw["location"].map(df_raw["location"].value_counts())
-df_raw["location_size_initial"] = initial_size_scale(df_raw["location_count_initial"].apply(lambda x: math.sqrt(x)), low, high)
+df_raw["location_count_initial"] = df_raw["location_clean"] \
+    .map(df_raw["location_clean"].value_counts())
+df_raw["location_size_initial"] = initial_size_scale(np.sqrt(df_raw["location_count_initial"]), low, high)
 
 
 ####  FILTERS  ####
 ###################
 
-df_long = df_long.rename(columns={"location": "Location",
-                                  "title_short_ChatGPT": "Job Title",
-                                  "seniority_level_5": "Seniority Level",
-                                  "days_online_grouped": "Days Online",
-                                  "job_type": "Job/Contract Type",
-                                  "tech_stack": "Tech Stack"})
+df_long = df_long.rename(
+    columns={"location_clean": "Location",
+             "title_cat_ChatGPT": "Job Title",
+             "seniority_level_5": "Seniority Level",
+             "days_online_grouped": "Days Online",
+             "job_type": "Job/Contract Type",
+             "tech_stack": "Tech Stack"}
+    )
 
 # Create dynamic filters class
-filter_columns = ["Location", "Job Title", "Seniority Level", "Days Online", "Job/Contract Type", "Tech Stack"]
+filter_columns = ["Location", 
+                  "Job Title",
+                  "Seniority Level",
+                  "Days Online",
+                  "Job/Contract Type",
+                  "Tech Stack"]
 dynamic_filters = DynamicFilters(df_long, filters=filter_columns)
 
 # Update dataframes
@@ -52,16 +59,18 @@ df = df_raw.loc[df_long_filtered_ids]
 ####################
 
 # Define data output shown in dashboard (tab "Data")
-data_table_columns = ["company_clean", "title", "location", "source", "date_posted"]
+data_table_columns = ["company_clean", 
+                      "title", 
+                      "location_clean",
+                      "date_posted"]
 data_table_df = df.filter(data_table_columns)
-data_table_df = data_table_df.sort_values(by=["location", "company_clean", "title"])
+data_table_df = data_table_df.sort_values(by=["location_clean", "company_clean", "title"])
 
 data_table_column_styler = {
     "company_clean": st.column_config.Column(label="Company", width="medium"),
-    "title": st.column_config.Column(label="Job title", width="medium"), 
-    "location": st.column_config.Column(label="Location", width="small"), 
-    "source": st.column_config.Column(label="Source", width="small"), 
-    "date_posted": st.column_config.Column(label="Date posted", width="small")
+    "title": st.column_config.Column(label="Job title", width="large"), 
+    "location_clean": st.column_config.Column(label="Location", width="small"),
+    "date_posted": st.column_config.Column(label="Date posted", width="small"),
 }
 
 
@@ -72,12 +81,13 @@ data_table_column_styler = {
 ### PREPARE DATA
 
 # Generate aggregated dataframe with coordinates and count
-df_location_agg = df.groupby("location").agg({"location_lat": "min", 
-                                              "location_long": "min", 
-                                              "location": "count",
-                                              "location_count_initial": "min",
-                                              "location_size_initial": "min"})
-df_location_agg = df_location_agg.rename(columns={"location": "location_count"})
+aggregation_functions = {"location_lat": "min", 
+                         "location_long": "min", 
+                         "location_clean": "count",
+                         "location_count_initial": "min",
+                         "location_size_initial": "min"}
+df_location_agg = df.groupby("location_clean").agg(aggregation_functions)
+df_location_agg = df_location_agg.rename(columns={"location_clean": "location_count"})
 df_location_agg["location"] = df_location_agg.index.to_list()
 
 # Make bubbles representing cities with more than 10 listings more transparent
@@ -95,7 +105,9 @@ update_bubble_size = any(len(st.session_state["filters"][cf]) > 0 for cf in chec
 
 # Rescale size of bubbles if more than 1 city is selected
 def rescale_size(row, low, high):
-    """ This function is an adapted version of the earlier defined function 'initial_size_scale' """
+    """ This function is an altered version of the earlier defined 
+        function 'initial_size_scale', which returns the initial 
+        location bubble size if the min and max value are identical """
     min_count = min(df_location_agg["location_count"])
     max_count = max(df_location_agg["location_count"])
     if min_count == max_count:
@@ -171,8 +183,8 @@ tech_stack_fig = px.bar(tech_stack_table, x="Technology", y="Count",
 #### JOB TITLE ####
 ###################
 
-job_title_table = pd.DataFrame({"Job Title": df["title_short_ChatGPT"].unique()})
-job_title_table["Count"] = job_title_table["Job Title"].map(df["title_short_ChatGPT"].value_counts())
+job_title_table = pd.DataFrame({"Job Title": df["title_cat_ChatGPT"].unique()})
+job_title_table["Count"] = job_title_table["Job Title"].map(df["title_cat_ChatGPT"].value_counts())
 job_title_table["Percent"] = round(job_title_table["Count"] / len(df) * 100, 1)
 
 job_title_fig = px.pie(job_title_table,
@@ -180,7 +192,6 @@ job_title_fig = px.pie(job_title_table,
                        values="Count",
                        hole=0.35)
 job_title_fig.update_traces(textposition='inside', textinfo='percent+label')
-
 
 
 #### SENIORITY ####
@@ -296,9 +307,9 @@ with tab1:
                                             margin=dict(t=30, b=0, l=5, r=5),
                                             showlegend=False,
                                             title={'text': "Job Title",
-                                                'y':0.988, 'x':0.5,
-                                                'xanchor': 'center',
-                                                'yanchor': 'top'})
+                                                   'y':0.988, 'x':0.5,
+                                                   'xanchor': 'center',
+                                                   'yanchor': 'top'})
                 st.plotly_chart(job_title_fig, 
                                 config={'displayModeBar': False},
                                 key="job_title_fig")
@@ -310,9 +321,9 @@ with tab1:
                                             yaxis_title=None,
                                             xaxis_title=None,
                                             title={'text': "Tech Stack",
-                                                    'y':0.988, 'x':0.5,
-                                                    'xanchor': 'center',
-                                                    'yanchor': 'top'})
+                                                   'y':0.988, 'x':0.5,
+                                                   'xanchor': 'center',
+                                                   'yanchor': 'top'})
                 tech_stack_fig.update_xaxes(tickangle=-45, tickfont=dict(size=10))
                 st.plotly_chart(tech_stack_fig,
                                 config={'displayModeBar': False},
@@ -328,9 +339,9 @@ with tab1:
                                             margin=dict(t=30, b=0, l=5, r=5),
                                             showlegend=False,
                                             title={'text': "Level of Seniority",
-                                                'y':0.988, 'x':0.5,
-                                                'xanchor': 'center',
-                                                'yanchor': 'top'})        
+                                                   'y':0.988, 'x':0.5,
+                                                   'xanchor': 'center',
+                                                   'yanchor': 'top'})        
                 st.plotly_chart(seniority_fig, 
                                 config={'displayModeBar': False},
                                 key="seniority_fig")
@@ -342,9 +353,9 @@ with tab1:
                                         yaxis_title=None,
                                         xaxis_title=None,
                                         title={'text': "Job Type",
-                                                'y':0.988, 'x':0.5,
-                                                'xanchor': 'center',
-                                                'yanchor': 'top'})
+                                               'y':0.988, 'x':0.5,
+                                               'xanchor': 'center',
+                                               'yanchor': 'top'})
                 job_type_fig.update_xaxes(tickangle=-45, tickfont=dict(size=10))
                 st.plotly_chart(job_type_fig,
                                 config={'displayModeBar': False},
@@ -361,9 +372,9 @@ with tab1:
                                             yaxis_title=None,
                                             xaxis_title=None,
                                             title={'text': "Number of Days Online",
-                                                    'y':0.988, 'x':0.5,
-                                                    'xanchor': 'center',
-                                                    'yanchor': 'top'})
+                                                   'y':0.988, 'x':0.5,
+                                                   'xanchor': 'center',
+                                                   'yanchor': 'top'})
                 st.plotly_chart(days_online_fig, 
                                 config={'displayModeBar': False},
                                 key="days_online_fig")
@@ -375,9 +386,9 @@ with tab1:
                                                     yaxis_title=None,
                                                     xaxis_title=None,
                                                     title={'text': "Number of Applicants",
-                                                        'y':0.988, 'x':0.5,
-                                                        'xanchor': 'center',
-                                                        'yanchor': 'top'})
+                                                           'y':0.988, 'x':0.5,
+                                                           'xanchor': 'center',
+                                                           'yanchor': 'top'})
                 st.plotly_chart(number_applicants_fig, 
                                 config={'displayModeBar': False},
                                 key="number_applicants_fig")
@@ -471,11 +482,11 @@ with tab3:
                 return fig            
 
             if st.session_state.generate_wordcloud and not st.session_state.auto_update_wordcloud:
-                wordcloud = create_wordcloud(df["job_description_cleaned"])
+                wordcloud = create_wordcloud(df["job_description_anonymized"])
                 st.pyplot(wordcloud)
                 st.session_state.generate_wordcloud = False
             
             if st.session_state.auto_update_wordcloud:
-                wordcloud = create_wordcloud(df["job_description_cleaned"])
+                wordcloud = create_wordcloud(df["job_description_anonymized"])
                 st.pyplot(wordcloud)
     
