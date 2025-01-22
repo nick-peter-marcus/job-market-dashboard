@@ -1,0 +1,8 @@
+streamlit
+pandas
+plotly.express
+pydeck
+matplotlib.pyplot
+numpy
+streamlit_dynamic_filters
+wordcloud

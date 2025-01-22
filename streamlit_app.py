@@ -19,7 +19,7 @@ df_long = df_long.fillna("N/A")
 
 # Rescale initial size of location count bubbles shown in map
 def initial_size_scale(x, low, high):
-    #if max(x) == min(x): return low
+    if max(x) == min(x): return low
     return (high - low)*(x - min(x)) / (max(x) - min(x)) + low
 low, high = (6500, 30000)
 
