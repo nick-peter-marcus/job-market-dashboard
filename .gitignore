@@ -1,0 +1,5 @@
+_streamlit_tests
+data/_data_collection
+data/data_cleaning/_clear_contact_details
+data/data_cleaning/_duplicate_checks
+data/data_cleaning/_old
