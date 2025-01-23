@@ -74,7 +74,6 @@ data_table_column_styler = {
 }
 
 
-
 ####  LOCATION GEODATA/MAP  ####
 ################################
 
@@ -141,7 +140,7 @@ view_state = pydeck.ViewState(
     latitude=view_state_lat, 
     longitude=view_state_long, 
     controller=True, 
-    zoom=4
+    zoom=4.25
 )
 # Create map
 chart = pydeck.Deck(
@@ -255,9 +254,6 @@ number_applicants_fig.update_layout(bargap=0.2)
 
 
 
-##############################################################################
-
-
 #### APP LAYOUT ####
 ####################
 
@@ -276,13 +272,16 @@ st.markdown("""
         [data-testid="stSidebar"] {
             width: 244px;
         }
-        [data-testid="stVerticalBlock"] {
-            #gap: 0rem;
+        [data-testid="stSidebarHeader"] {
+	        padding: 0;
+        }
+        [data-testid="stHeader"] {
+            height: 0;
         }
         [data-testid="stMainBlockContainer"] {
             padding-left: 2rem;
             padding-right: 2rem;
-            padding-top: 3rem;
+            padding-top: 0;
             padding-bottom: 1rem;
         }
     </style>
