@@ -264,13 +264,13 @@ dynamic_filters.display_filters(location='sidebar')
 
 with st.sidebar:
     st.html(f"<i>{len(df)}/{len(df_raw)} jobs selected</i>")
-    st.button("Reset Filters", on_click=dynamic_filters.reset_filters)
+    st.button("Reset Filters", type="primary", on_click=dynamic_filters.reset_filters)
 
 # CSS STYLING
 st.markdown("""
     <style>
         [data-testid="stSidebar"] {
-            width: 244px;
+            width: 244px !IMPORTANT;
         }
         [data-testid="stSidebarHeader"] {
 	        padding: 0;
@@ -283,6 +283,9 @@ st.markdown("""
             padding-right: 2rem;
             padding-top: 0;
             padding-bottom: 1rem;
+        }
+        div.st-emotion-cache-fsammq p {
+            font-weight: 600;
         }
     </style>
 """, unsafe_allow_html=True)
