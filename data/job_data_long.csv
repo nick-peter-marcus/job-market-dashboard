@@ -17,7 +17,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 16,München,Data Scientist,Associate/Mid-Level,22-28,Full-time,Python
 17,Berlin,Machine Learning Engineer,Associate/Mid-Level,29+,Full-time,Python
 18,München,Machine Learning Engineer,Associate/Mid-Level,0-7,-,Python
-20,Freiburg,Other,Entry level,0-7,-,Python
+20,Freiburg,Data Scientist,Entry level,0-7,-,Python
 21,Berlin,Machine Learning Engineer,Associate/Mid-Level,15-21,Full-time,Python
 22,Berlin,Data Scientist,Associate/Mid-Level,8-14,Full-time,Python
 23,Leipzig,Other,Associate/Mid-Level,29+,Full-time,-
@@ -31,7 +31,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 32,Berlin,Data Scientist,Senior,0-7,Full-time,Python
 33,Deutschland,Data Scientist,Associate/Mid-Level,29+,Full-time,-
 34,Hessen,Machine Learning Engineer,Associate/Mid-Level,0-7,Full-time,Python
-35,Deutschland,AI/ML Specialist,Entry level,15-21,-,Python
+35,Deutschland,Data Analyst,Entry level,15-21,-,Python
 37,Heilbronn,Machine Learning Engineer,Associate/Mid-Level,29+,Full-time,Python
 38,Schwalbach,Data Scientist,Entry level,15-21,Full-time,Python
 39,Bremen,Data Scientist,Entry level,0-7,Full-time,Python
@@ -51,7 +51,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 53,Frankfurt am Main,Research Scientist,Senior,29+,Full-time,Python
 54,Nordrhein-Westfalen,AI/ML Specialist,Director,0-7,Full-time,-
 55,Berlin,Data Scientist,Senior,0-7,-,Python
-56,Düsseldorf,Other,Entry level,0-7,Full-time,Python
+56,Düsseldorf,Data Analyst,Entry level,0-7,Full-time,Python
 58,Deutschland,Data Scientist,Associate/Mid-Level,29+,-,Python
 60,Berlin,Machine Learning Engineer,Associate/Mid-Level,8-14,Full-time,Python
 61,Hürth,Data Scientist,Associate/Mid-Level,29+,Full-time,Python
@@ -63,10 +63,10 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 67,Düsseldorf,Data Scientist,Entry level,15-21,Full-time,Python
 68,Deutschland,AI/ML Specialist,Associate/Mid-Level,0-7,Full-time,Python
 69,München,Data Scientist,Associate/Mid-Level,0-7,-,Python
-70,Berlin,Data Analyst,Associate/Mid-Level,0-7,Full-time,Python
+70,Berlin,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
 71,Deutschland,AI/ML Specialist,Associate/Mid-Level,22-28,Full-time,Python
 72,Hürth,AI Engineer,Entry level,29+,Full-time,Python
-73,Hamburg,Other,Associate/Mid-Level,0-7,Full-time,-
+73,Hamburg,Data Analyst,Associate/Mid-Level,0-7,Full-time,-
 74,Berlin,Data Scientist,Senior,0-7,Full-time,Python
 75,Köln,Data Scientist,Entry level,0-7,Full-time,Python
 76,Hamburg,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
@@ -88,7 +88,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 97,Berlin,Data Scientist,Director,0-7,Full-time,-
 98,Berlin,Data Analyst,Associate/Mid-Level,0-7,Full-time,-
 100,Hamburg,AI/ML Specialist,Associate/Mid-Level,22-28,Full-time,Python
-101,Frankfurt am Main,Other,Director,0-7,Full-time,Python
+101,Frankfurt am Main,Data Analyst,Director,0-7,Full-time,Python
 102,München,AI/ML Specialist,Director,8-14,Full-time,-
 103,Berlin,Other,Associate/Mid-Level,8-14,Full-time,Python
 104,Deutschland,Data Scientist,Associate/Mid-Level,22-28,-,Python
@@ -97,12 +97,12 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 107,München,Data Analyst,Associate/Mid-Level,0-7,Full-time,Python
 108,Sulzbach,Data Scientist,Associate/Mid-Level,22-28,Full-time,Python
 109,Berlin,Other,Senior,0-7,Full-time,Python
-110,München,AI/ML Specialist,Associate/Mid-Level,0-7,Full-time,-
+110,München,Data Scientist,Associate/Mid-Level,0-7,Full-time,-
 111,Deutschland,Data Scientist,Associate/Mid-Level,29+,Full-time,Python
 112,Hamburg,AI Engineer,Associate/Mid-Level,8-14,Full-time,Python
 113,München,Data Scientist,Associate/Mid-Level,29+,Full-time,Python
 114,Berlin,Data Analyst,Senior,0-7,Full-time,Python
-115,Berlin,Data Analyst,Associate/Mid-Level,8-14,Full-time,Python
+115,Berlin,Data Scientist,Associate/Mid-Level,8-14,Full-time,Python
 116,München,AI/ML Specialist,Associate/Mid-Level,8-14,Full-time,-
 117,München,AI Engineer,Associate/Mid-Level,29+,Full-time,Python
 118,Berlin,Data Scientist,Director,0-7,Full-time,-
@@ -120,11 +120,11 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 133,Deutschland,Data Scientist,Senior,0-7,Full-time,-
 134,Köln,Data Scientist,Entry level,0-7,-,Python
 135,Tübingen,Data Analyst,Associate/Mid-Level,0-7,Full-time,-
-136,Detmold,Other,Associate/Mid-Level,0-7,Full-time,-
-137,Bad Salzuflen,Other,Director,15-21,Full-time,-
+136,Detmold,Data Analyst,Associate/Mid-Level,0-7,Full-time,-
+137,Bad Salzuflen,Data Scientist,Director,15-21,Full-time,-
 138,Deutschland,Data Scientist,Senior,0-7,Full-time,Python
 139,München,Data Scientist,Associate/Mid-Level,22-28,Full-time,Python
-140,München,AI/ML Specialist,Entry level,0-7,Full-time,Python
+140,München,Data Analyst,Entry level,0-7,Full-time,Python
 141,Berlin,Machine Learning Engineer,Entry level,29+,-,Python
 142,Berlin,Data Analyst,Associate/Mid-Level,8-14,Full-time,Python
 143,München,Data Scientist,Associate/Mid-Level,8-14,Full-time,-
@@ -137,7 +137,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 150,Darmstadt,AI/ML Specialist,Entry level,15-21,Full-time,Python
 151,Düsseldorf,Data Scientist,Entry level,22-28,Full-time,Python
 152,Berlin,Data Scientist,Associate/Mid-Level,15-21,Full-time,Python
-153,Würzburg,Other,Associate/Mid-Level,29+,Full-time,Python
+153,Würzburg,Data Scientist,Associate/Mid-Level,29+,Full-time,Python
 154,Fellbach,Data Scientist,Associate/Mid-Level,8-14,Full-time,Python
 155,Berlin,Data Scientist,Director,8-14,Full-time,Python
 156,Berlin,Data Scientist,Associate/Mid-Level,15-21,Full-time,Python
@@ -232,8 +232,8 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 255,München,Machine Learning Engineer,Entry level,0-7,Full-time,Python
 257,Winnenden,Data Scientist,Entry level,29+,Full-time,-
 258,Karlsruhe,Data Scientist,Entry level,0-7,-,Python
-259,Bielefeld,Other,Entry level,15-21,Full-time,Python
-260,Hamburg,Other,Associate/Mid-Level,15-21,Full-time,Python
+259,Bielefeld,Data Analyst,Entry level,15-21,Full-time,Python
+260,Hamburg,Data Analyst,Associate/Mid-Level,15-21,Full-time,Python
 262,Düsseldorf,Data Scientist,Associate/Mid-Level,8-14,Full-time,Python
 263,Deutschland,Research Scientist,Associate/Mid-Level,15-21,Full-time,Python
 264,Deutschland,Other,Associate/Mid-Level,0-7,Full-time,-
@@ -243,7 +243,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 270,Bad Homburg,Data Scientist,Entry level,15-21,-,Python
 271,Berlin,Data Engineer,Associate/Mid-Level,0-7,Full-time,Python
 272,München,Other,Entry level,8-14,Full-time,Python
-273,Frankfurt am Main,Data Consultant,Entry level,8-14,Full-time,-
+273,Frankfurt am Main,Data Analyst,Entry level,8-14,Full-time,-
 275,Hannover,Data Scientist,Entry level,0-7,Full-time,Python
 276,München,Data Analyst,Associate/Mid-Level,8-14,Full-time,Python
 277,Hamburg,Data Scientist,Associate/Mid-Level,29+,Full-time,Python
@@ -251,7 +251,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 279,Berlin,Data Scientist,Director,0-7,Full-time,Python
 280,Köln,Data Analyst,Associate/Mid-Level,29+,Full-time,Python
 281,Berlin,Data Scientist,Senior,29+,Full-time,Python
-282,Dortmund,Data Analyst,Associate/Mid-Level,15-21,Full-time,-
+282,Dortmund,Data Scientist,Associate/Mid-Level,15-21,Full-time,-
 283,Deutschland,Data Analyst,Senior,29+,Full-time,Python
 284,München,Data Scientist,Associate/Mid-Level,0-7,Full-time,-
 285,Hamburg,Data Scientist,Associate/Mid-Level,22-28,Full-time,Python
@@ -314,8 +314,8 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 354,Berlin,Other,Entry level,0-7,Full-time,Python
 356,Heidelberg,Data Analyst,Associate/Mid-Level,29+,Full-time,-
 357,Berlin,Other,Associate/Mid-Level,0-7,Full-time,Python
-358,Frankfurt am Main,Other,Entry level,0-7,-,Python
-359,Hamburg,Other,Associate/Mid-Level,0-7,Full-time,-
+358,Frankfurt am Main,Data Analyst,Entry level,0-7,-,Python
+359,Hamburg,Data Analyst,Associate/Mid-Level,0-7,Full-time,-
 360,Berlin,Machine Learning Engineer,Associate/Mid-Level,29+,Full-time,-
 361,Deutschland,Machine Learning Engineer,Associate/Mid-Level,15-21,Full-time,Python
 362,Berlin,Machine Learning Engineer,Associate/Mid-Level,29+,Full-time,Python
@@ -330,7 +330,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 371,Berlin,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
 373,Berlin,Machine Learning Engineer,Director,0-7,Full-time,-
 374,Neuried,Other,Associate/Mid-Level,8-14,Full-time,-
-375,Frankfurt am Main,Other,Associate/Mid-Level,22-28,Full-time,Python
+375,Frankfurt am Main,Data Analyst,Associate/Mid-Level,22-28,Full-time,Python
 376,Berlin,Machine Learning Engineer,Associate/Mid-Level,29+,Full-time,Python
 377,Deutschland,Other,Associate/Mid-Level,15-21,Full-time,Python
 378,Köln,Other,Entry level,29+,Full-time,-
@@ -347,7 +347,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 393,Salzgitter,Data Analyst,Associate/Mid-Level,0-7,Full-time,Python
 394,Neuenstadt am Kocher,Data Scientist,Entry level,29+,Full-time,-
 396,Berlin,Other,Entry level,0-7,Full-time,-
-397,Augsburg,Other,Associate/Mid-Level,22-28,Full-time,-
+397,Augsburg,Data Analyst,Associate/Mid-Level,22-28,Full-time,-
 398,Berlin,Data Analyst,Associate/Mid-Level,0-7,Full-time,Python
 399,Stuttgart,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
 400,Berlin,Machine Learning Engineer,Senior,0-7,Full-time,Python
@@ -356,7 +356,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 404,München,Research Scientist,Entry level,15-21,Full-time,-
 405,Verl,Other,Entry level,0-7,Full-time,Python
 406,Weeze,Data Scientist,Associate/Mid-Level,29+,Full-time,Python
-409,Karlsruhe,Other,Entry level,0-7,-,Python
+409,Karlsruhe,Data Analyst,Entry level,0-7,-,Python
 410,Deutschland,Other,Associate/Mid-Level,8-14,Full-time,Python
 412,Frankfurt am Main,Data Consultant,Entry level,29+,Full-time,Python
 413,Berlin,Other,Associate/Mid-Level,29+,Full-time,Python
@@ -366,7 +366,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 420,München,AI/ML Specialist,Entry level,29+,-,Python
 422,Stuttgart,Data Scientist,Associate/Mid-Level,15-21,Full-time,Python
 423,Frankfurt am Main,AI/ML Specialist,Director,0-7,Full-time,-
-425,Dortmund,Data Analyst,Associate/Mid-Level,15-21,Full-time,-
+425,Dortmund,Data Scientist,Associate/Mid-Level,15-21,Full-time,-
 426,Weinheim,Research Scientist,Associate/Mid-Level,0-7,Full-time,-
 427,Hamburg,AI Engineer,Associate/Mid-Level,15-21,Full-time,-
 428,Berlin,AI/ML Specialist,Associate/Mid-Level,0-7,Full-time,Python
@@ -385,7 +385,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 442,Hamburg,AI Engineer,Senior,8-14,Full-time,Python
 443,Hannover,Data Engineer,Entry level,22-28,-,Python
 446,Frankfurt am Main,Other,Associate/Mid-Level,0-7,Full-time,-
-447,München,Other,Entry level,29+,-,Python
+447,München,Data Analyst,Entry level,29+,-,Python
 448,Deutschland,Machine Learning Engineer,Associate/Mid-Level,29+,Full-time,Python
 449,Potsdam,Data Engineer,Senior,0-7,Full-time,Python
 450,Berlin,Machine Learning Engineer,Senior,29+,Full-time,Python
@@ -395,7 +395,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 454,München,Data Scientist,Director,29+,Full-time,Python
 455,München,Data Scientist,Entry level,8-14,Full-time,Python
 456,Deutschland,Other,Associate/Mid-Level,29+,-,Python
-457,Köln,Data Engineer,Associate/Mid-Level,0-7,Full-time,Python
+457,Köln,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
 458,Eschborn,Other,Associate/Mid-Level,29+,Full-time,-
 459,Stuttgart,Other,Associate/Mid-Level,15-21,Full-time,-
 460,Mülheim an der Ruhr,Data Scientist,Associate/Mid-Level,8-14,Full-time,Python
@@ -408,7 +408,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 468,Mannheim,Data Engineer,Entry level,0-7,Full-time,-
 469,Berlin,Other,Associate/Mid-Level,0-7,Full-time,Python
 470,Bremen,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
-471,Mannheim,Other,Entry level,0-7,-,Python
+471,Mannheim,Data Analyst,Entry level,0-7,-,Python
 472,München,Data Scientist,Entry level,0-7,Full-time,Python
 473,Heilbronn,Other,Entry level,15-21,-,Python
 474,Esch,Data Scientist,Associate/Mid-Level,29+,Full-time,Python
@@ -416,7 +416,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 476,Berlin,Other,Associate/Mid-Level,8-14,Full-time,Python
 477,Bayreuth,Machine Learning Engineer,Entry level,0-7,Full-time,-
 478,Berlin,AI Engineer,Associate/Mid-Level,22-28,Full-time,-
-479,Hamburg,Data Engineer,Associate/Mid-Level,0-7,Full-time,Python
+479,Hamburg,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
 480,Köln,Data Scientist,Entry level,29+,-,Python
 481,Coburg,Other,Associate/Mid-Level,15-21,Full-time,-
 482,Berlin,Other,Associate/Mid-Level,8-14,Full-time,-
@@ -434,7 +434,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 494,Berlin,Other,Associate/Mid-Level,0-7,Full-time,-
 495,Bremerhaven,AI Engineer,Associate/Mid-Level,15-21,Full-time,-
 497,Leipzig,Other,Associate/Mid-Level,0-7,Full-time,Python
-498,München,Other,Associate/Mid-Level,8-14,Full-time,Python
+498,München,Data Analyst,Associate/Mid-Level,8-14,Full-time,Python
 499,Köln,Data Scientist,Associate/Mid-Level,22-28,Full-time,Python
 500,Berlin,Data Scientist,Senior,15-21,Full-time,Python
 501,Karlsruhe,Machine Learning Engineer,Entry level,22-28,-,Python
@@ -447,11 +447,11 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 509,Kassel,Data Scientist,Entry level,29+,-,Python
 510,München,Machine Learning Engineer,Entry level,8-14,Full-time,Python
 511,Deutschland,Data Scientist,Senior,29+,Full-time,Python
-512,Stuttgart,Data Engineer,Associate/Mid-Level,0-7,Full-time,Python
+512,Stuttgart,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
 513,Karlsruhe,Machine Learning Engineer,Entry level,22-28,-,Python
 514,Berlin,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
 515,Berlin,Data Engineer,Entry level,15-21,Full-time,Python
-516,Frankfurt am Main,AI/ML Specialist,Associate/Mid-Level,15-21,Full-time,-
+516,Frankfurt am Main,Data Scientist,Associate/Mid-Level,15-21,Full-time,-
 517,München,Other,Associate/Mid-Level,29+,Full-time,Python
 518,Deutschland,Data Scientist,Senior,0-7,Full-time,Python
 519,München,Data Scientist,Senior,0-7,Full-time,Python
@@ -468,7 +468,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 533,Berlin,Data Scientist,Senior,15-21,Full-time,Python
 534,München,Data Engineer,Associate/Mid-Level,15-21,Full-time,Python
 536,Frankfurt am Main,Data Analyst,Associate/Mid-Level,0-7,Full-time,-
-538,Zweibrücken,Other,Associate/Mid-Level,15-21,-,Python
+538,Zweibrücken,Data Analyst,Associate/Mid-Level,15-21,-,Python
 539,Köln,Research Scientist,Associate/Mid-Level,0-7,Full-time,-
 540,München,Data Scientist,Entry level,0-7,-,Python
 541,Freiburg,Other,Associate/Mid-Level,22-28,Full-time,-
@@ -479,15 +479,15 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 546,Berlin,Data Engineer,Associate/Mid-Level,22-28,Full-time,-
 547,München,Machine Learning Engineer,Associate/Mid-Level,29+,Full-time,Python
 548,Mainz,Data Engineer,Associate/Mid-Level,8-14,Full-time,Python
-550,Immenstadt,Other,Associate/Mid-Level,29+,Full-time,Python
+550,Immenstadt,Data Analyst,Associate/Mid-Level,29+,Full-time,Python
 551,Heilbronn,Machine Learning Engineer,Senior,29+,Full-time,Python
 552,Hamburg,Data Analyst,Associate/Mid-Level,29+,-,Python
 553,Berlin,AI/ML Specialist,Entry level,8-14,Full-time,-
 554,Attenkirchen,AI/ML Specialist,Entry level,29+,-,Python
-555,Bremen,Other,Associate/Mid-Level,15-21,Full-time,Python
+555,Bremen,Data Analyst,Associate/Mid-Level,15-21,Full-time,Python
 556,Berlin,Data Scientist,Associate/Mid-Level,29+,Full-time,Python
 557,Berlin,Other,Director,8-14,Full-time,-
-558,München,Data Engineer,Associate/Mid-Level,29+,Full-time,Python
+558,München,Data Analyst,Associate/Mid-Level,29+,Full-time,Python
 559,Deutschland,Data Engineer,Associate/Mid-Level,0-7,Full-time,Python
 560,Berlin,Other,Director,29+,Full-time,-
 561,Bonn,Data Scientist,Senior,22-28,Full-time,Python
@@ -555,15 +555,15 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 635,Baden-Württemberg,Other,Associate/Mid-Level,15-21,Full-time,-
 636,Hamburg,Data Analyst,Associate/Mid-Level,8-14,Full-time,Python
 637,Berlin,Data Scientist,Director,29+,Full-time,Python
-639,Grünheide,Other,Associate/Mid-Level,0-7,-,Python
-640,Salzgitter,Other,Associate/Mid-Level,0-7,Full-time,Python
+639,Grünheide,Data Analyst,Associate/Mid-Level,0-7,-,Python
+640,Salzgitter,Data Analyst,Associate/Mid-Level,0-7,Full-time,Python
 641,Kempten,Data Scientist,Entry level,29+,-,Python
 643,Frankfurt am Main,Other,Entry level,0-7,Full-time,-
-644,München,Other,Associate/Mid-Level,29+,Full-time,Python
+644,München,Data Analyst,Associate/Mid-Level,29+,Full-time,Python
 645,München,Business Intelligence (BI),Associate/Mid-Level,22-28,Full-time,-
 646,Hamburg,Other,Associate/Mid-Level,0-7,Full-time,Python
 647,Hechingen,Other,Entry level,0-7,-,Python
-649,Ludwigshafen,Other,Entry level,8-14,-,Python
+649,Ludwigshafen,Data Analyst,Entry level,8-14,-,Python
 650,Berlin,Data Scientist,Associate/Mid-Level,15-21,Full-time,Python
 651,Frankfurt am Main,Other,Director,0-7,Full-time,-
 652,Verl,Other,Entry level,0-7,Full-time,Python
@@ -590,7 +590,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 676,München,Other,Associate/Mid-Level,0-7,Full-time,-
 677,Stuttgart,Data Analyst,Associate/Mid-Level,15-21,Full-time,-
 678,Köln,Data Scientist,Associate/Mid-Level,8-14,Full-time,Python
-679,München,Other,Associate/Mid-Level,15-21,Full-time,-
+679,München,Data Analyst,Associate/Mid-Level,15-21,Full-time,-
 680,Köln,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
 681,Hamburg,Data Engineer,Associate/Mid-Level,29+,Full-time,Python
 683,Sankt Augustin,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
@@ -616,7 +616,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 705,Darmstadt,Other,Associate/Mid-Level,8-14,Full-time,-
 706,Hamburg,Data Scientist,Associate/Mid-Level,29+,Full-time,Python
 707,Köln,Data Scientist,Associate/Mid-Level,29+,Full-time,Python
-708,München,Other,Entry level,0-7,Full-time,Python
+708,München,Data Analyst,Entry level,0-7,Full-time,Python
 709,Leipzig,Business Intelligence (BI),Associate/Mid-Level,29+,Full-time,-
 710,München,Data Analyst,Associate/Mid-Level,0-7,Full-time,Python
 711,Berlin,Machine Learning Engineer,Entry level,0-7,Full-time,Python
@@ -664,7 +664,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 762,Berlin,AI Engineer,Senior,8-14,Full-time,Python
 763,Stuttgart,Data Engineer,Entry level,0-7,Full-time,Python
 764,Frankfurt am Main,Other,Entry level,15-21,Full-time,-
-765,München,AI/ML Specialist,Associate/Mid-Level,8-14,Full-time,Python
+765,München,Data Analyst,Associate/Mid-Level,8-14,Full-time,Python
 766,Burgdorf,AI Engineer,Associate/Mid-Level,0-7,Full-time,Python
 767,Köln,Data Engineer,Entry level,0-7,Full-time,Python
 768,Vallendar,Other,Associate/Mid-Level,29+,Full-time,-
@@ -672,8 +672,8 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 770,Deutschland,Data Analyst,Senior,22-28,Full-time,-
 772,München,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
 773,Hamburg,Data Analyst,Associate/Mid-Level,0-7,Full-time,-
-775,München,Other,Entry level,15-21,-,Python
-776,Frankfurt am Main,Other,Director,29+,Full-time,Python
+775,München,Data Analyst,Entry level,15-21,-,Python
+776,Frankfurt am Main,Data Analyst,Director,29+,Full-time,Python
 777,Gießen,Other,Associate/Mid-Level,29+,Full-time,-
 778,München,Data Scientist,Entry level,29+,-,Python
 779,Büren,Business Intelligence (BI),Entry level,22-28,Full-time,-
@@ -700,7 +700,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 810,Hamburg,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
 811,Hamburg,Data Scientist,Associate/Mid-Level,N/A,-,Python
 812,Königstein im Taunus,Data Scientist,Associate/Mid-Level,N/A,Full-time,Python
-815,Hamburg,Other,Entry level,N/A,-,Python
+815,Hamburg,Data Scientist,Entry level,N/A,-,Python
 817,Düsseldorf,Data Scientist,Associate/Mid-Level,N/A,Full-time,Python
 818,Dresden,Data Scientist,Entry level,N/A,-,Python
 819,Hamburg,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
@@ -719,7 +719,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 834,Wesel,Data Scientist,Associate/Mid-Level,N/A,-,Python
 835,Coburg,Data Scientist,Associate/Mid-Level,N/A,-,Python
 838,Darmstadt,Data Scientist,Entry level,N/A,Full-time,-
-840,Ilsenburg,Other,Associate/Mid-Level,N/A,-,Python
+840,Ilsenburg,Data Scientist,Associate/Mid-Level,N/A,-,Python
 842,Saarbrücken,Data Scientist,Associate/Mid-Level,N/A,-,Python
 843,Berlin,Other,Associate/Mid-Level,N/A,Full-time,Python
 846,Karlsruhe,Data Scientist,Associate/Mid-Level,N/A,Full-time,Python
@@ -729,7 +729,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 852,Lübeck,Data Scientist,Associate/Mid-Level,N/A,Full-time,Python
 853,Leipzig,Data Scientist,Entry level,N/A,Full-time,Python
 854,München,Data Scientist,Associate/Mid-Level,N/A,-,Python
-855,München,Data Analyst,Entry level,N/A,Full-time,-
+855,München,Data Scientist,Entry level,N/A,Full-time,-
 856,München,Data Scientist,Entry level,N/A,Full-time,Python
 857,Marburg an der Lahn,Other,Associate/Mid-Level,N/A,Full-time,-
 858,Siegburg,Data Scientist,Senior,15-21,Full-time,Python
@@ -785,7 +785,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 922,Hannover,Data Scientist,Associate/Mid-Level,N/A,-,Python
 923,Duisburg,Data Scientist,Senior,0-7,Full-time,Python
 925,Mainz,Other,Associate/Mid-Level,N/A,Full-time,-
-927,Bielefeld,Data Analyst,Senior,N/A,Full-time,Python
+927,Bielefeld,Data Scientist,Senior,N/A,Full-time,Python
 928,Deutschland,Data Scientist,Entry level,N/A,-,Python
 929,Oberschleißheim,Other,Associate/Mid-Level,N/A,Full-time,-
 932,Hamburg,Data Scientist,Director,N/A,Full-time,Python
@@ -806,7 +806,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 951,Wiesbaden,Data Scientist,Associate/Mid-Level,N/A,Full-time,-
 952,Berlin,Other,Associate/Mid-Level,N/A,Full-time,Python
 953,Aachen,Data Scientist,Entry level,N/A,-,Python
-954,Kirchentellinsfurt,Other,Associate/Mid-Level,N/A,Full-time,-
+954,Kirchentellinsfurt,Data Analyst,Associate/Mid-Level,N/A,Full-time,-
 955,Berlin,Other,Associate/Mid-Level,N/A,Full-time,Python
 956,Lübeck,Data Engineer,Associate/Mid-Level,N/A,Full-time,Python
 958,Mainz,Other,Associate/Mid-Level,N/A,-,Python
@@ -825,7 +825,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 975,Heidelberg,AI/ML Specialist,Postdoc,N/A,Full-time,Python
 976,Potsdam,Other,Associate/Mid-Level,N/A,-,Python
 977,Frankfurt am Main,Data Scientist,Director,N/A,Full-time,Python
-978,Mülheim an der Ruhr,Data Engineer,Senior,N/A,Full-time,Python
+978,Mülheim an der Ruhr,Data Analyst,Senior,N/A,Full-time,Python
 979,Berlin,Data Scientist,Director,N/A,Full-time,Python
 980,München,Data Scientist,Director,N/A,Full-time,Python
 981,Planegg,Research Scientist,Associate/Mid-Level,N/A,Full-time,-
@@ -954,7 +954,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1160,Berlin,Data Scientist,Entry level,N/A,Full-time,Python
 1161,Hamburg,Data Scientist,Associate/Mid-Level,N/A,Full-time,-
 1164,Konstanz,Data Scientist,Associate/Mid-Level,N/A,Full-time,Python
-1165,Bad Gandersheim,Data Analyst,Associate/Mid-Level,N/A,Full-time,-
+1165,Bad Gandersheim,Data Scientist,Associate/Mid-Level,N/A,Full-time,-
 1168,Deutschland,Data Scientist,Associate/Mid-Level,N/A,Full-time,Python
 1172,Deutschland,Data Scientist,Senior,N/A,-,Python
 1173,München,Data Scientist,Entry level,N/A,-,Python
@@ -967,12 +967,12 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1188,München,Data Scientist,Senior,N/A,Full-time,-
 1189,Kassel,Other,Associate/Mid-Level,N/A,Full-time,-
 1190,Köln,Data Scientist,Associate/Mid-Level,N/A,Full-time,Python
-1191,Hamburg,Data Analyst,Senior,N/A,-,Python
+1191,Hamburg,Data Scientist,Senior,N/A,-,Python
 1192,Berlin,Data Scientist,Senior,N/A,Full-time,Python
 1193,München,Data Scientist,Entry level,N/A,-,Python
 1194,Karlsruhe,Data Scientist,Associate/Mid-Level,N/A,Full-time,Python
 1195,Deutschland,Data Scientist,Senior,N/A,Full-time,Python
-1196,Nördlingen,Other,Associate/Mid-Level,N/A,Full-time,-
+1196,Nördlingen,Data Scientist,Associate/Mid-Level,N/A,Full-time,-
 1199,Görlitz,Data Scientist,Associate/Mid-Level,N/A,Full-time,-
 1201,Berlin,Data Scientist,Director,N/A,Full-time,Python
 1202,Berlin,Data Scientist,Senior,N/A,Full-time,-
@@ -1024,7 +1024,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1315,Hamburg,Data Consultant,Associate/Mid-Level,0-7,Full-time,-
 1316,Stuttgart,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
 1317,Stuttgart,Data Scientist,Senior,0-7,Full-time,Python
-1318,Bielefeld,Data Analyst,Senior,0-7,Full-time,Python
+1318,Bielefeld,Data Scientist,Senior,0-7,Full-time,Python
 1323,Coesfeld-Lette,Data Scientist,Senior,8-14,Full-time,Python
 1324,Düsseldorf,Data Scientist,Senior,8-14,Full-time,Python
 1325,Düsseldorf,Data Scientist,Entry level,8-14,Full-time,Python
@@ -1041,7 +1041,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1343,Ettlingen,Data Scientist,Associate/Mid-Level,8-14,Full-time,Python
 1344,Berlin,Data Scientist,Associate/Mid-Level,8-14,Full-time,Python
 1345,München,Other,Associate/Mid-Level,0-7,Full-time,Python
-1346,Düsseldorf,Other,Entry level,0-7,-,Python
+1346,Düsseldorf,Data Analyst,Entry level,0-7,-,Python
 1347,Coesfeld-Lette,Other,Associate/Mid-Level,8-14,Full-time,-
 1348,Rosenheim,Data Scientist,Entry level,8-14,Full-time,-
 1349,Mannheim,Other,Associate/Mid-Level,0-7,Full-time,-
@@ -1053,7 +1053,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1356,Bremen,Other,Associate/Mid-Level,0-7,Full-time,Python
 1357,Luxembourg,Other,Senior,0-7,Full-time,Python
 1358,Frankfurt am Main,Other,Associate/Mid-Level,0-7,Full-time,-
-1359,München,AI Engineer,Associate/Mid-Level,8-14,Full-time,Python
+1359,München,Data Analyst,Associate/Mid-Level,8-14,Full-time,Python
 1361,Coesfeld-Lette,Other,Associate/Mid-Level,8-14,Full-time,-
 1362,Hannover,Other,Associate/Mid-Level,8-14,Full-time,Python
 1363,Stuttgart,Data Scientist,Entry level,0-7,-,Python
@@ -1127,7 +1127,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1452,Kassel,Other,Associate/Mid-Level,0-7,Full-time,-
 1455,Leimen,Research Scientist,Associate/Mid-Level,22-28,Full-time,-
 1456,Sindelfingen,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
-1457,Stuttgart,Other,Associate/Mid-Level,0-7,Full-time,-
+1457,Stuttgart,Data Analyst,Associate/Mid-Level,0-7,Full-time,-
 1458,Lüneburg,Other,Associate/Mid-Level,0-7,Full-time,-
 1459,Oldenburg,Business Intelligence (BI),Associate/Mid-Level,0-7,Full-time,Python
 1460,Stuttgart,Data Consultant,Associate/Mid-Level,0-7,Full-time,-
@@ -1136,7 +1136,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1463,Luxembourg,Business Intelligence (BI),Associate/Mid-Level,0-7,Full-time,Python
 1464,Münster,Other,Associate/Mid-Level,0-7,Full-time,-
 1465,Hannover,Other,Associate/Mid-Level,0-7,Full-time,-
-1466,Frankfurt am Main,Business Intelligence (BI),Associate/Mid-Level,0-7,Full-time,-
+1466,Frankfurt am Main,Data Analyst,Associate/Mid-Level,0-7,Full-time,-
 1467,Berlin,Data Consultant,Associate/Mid-Level,0-7,Full-time,-
 1468,Köln,Data Analyst,Associate/Mid-Level,0-7,Full-time,Python
 1469,München,Data Consultant,Associate/Mid-Level,0-7,Full-time,-
@@ -1157,17 +1157,17 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1484,Deutschland,Machine Learning Engineer,Associate/Mid-Level,0-7,Full-time,-
 1485,Bensheim,Other,Associate/Mid-Level,8-14,Full-time,-
 1486,Deutschland,Other,Associate/Mid-Level,0-7,Full-time,-
-1487,Burghausen,Other,Associate/Mid-Level,8-14,Full-time,Python
+1487,Burghausen,Data Analyst,Associate/Mid-Level,8-14,Full-time,Python
 1488,Frankfurt am Main,Other,Associate/Mid-Level,0-7,Full-time,Python
 1489,Solingen,Other,Associate/Mid-Level,8-14,Full-time,-
 1490,München,Other,Associate/Mid-Level,8-14,Full-time,Python
-1491,Berlin,Other,Associate/Mid-Level,8-14,Full-time,-
+1491,Berlin,Data Analyst,Associate/Mid-Level,8-14,Full-time,-
 1492,Offenbach,Other,Associate/Mid-Level,0-7,Full-time,-
 1493,Ulm,Business Intelligence (BI),Associate/Mid-Level,0-7,Full-time,Python
 1494,Luxembourg,Business Intelligence (BI),Associate/Mid-Level,0-7,Full-time,Python
 1495,Osnabrück,Business Intelligence (BI),Associate/Mid-Level,8-14,Full-time,-
 1496,Düsseldorf,Data Engineer,Entry level,0-7,Full-time,-
-1497,Frankfurt am Main,Other,Associate/Mid-Level,8-14,Full-time,-
+1497,Frankfurt am Main,Data Analyst,Associate/Mid-Level,8-14,Full-time,-
 1498,Offenburg,Data Scientist,Associate/Mid-Level,8-14,Full-time,Python
 1499,Frankfurt am Main,Other,Associate/Mid-Level,8-14,Full-time,-
 1500,Hannover,Data Analyst,Associate/Mid-Level,8-14,Full-time,-
@@ -1177,7 +1177,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1504,Bremen,Data Analyst,Senior,8-14,Full-time,-
 1505,Hamburg,Other,Associate/Mid-Level,8-14,Full-time,-
 1506,Stuttgart,Other,Associate/Mid-Level,8-14,Full-time,Python
-1507,Frankfurt am Main,Other,Associate/Mid-Level,8-14,Full-time,-
+1507,Frankfurt am Main,Data Analyst,Associate/Mid-Level,8-14,Full-time,-
 1508,Essen,Other,Associate/Mid-Level,8-14,Full-time,-
 1509,Bremen,Other,Associate/Mid-Level,8-14,Full-time,-
 1510,Hamburg,Other,Associate/Mid-Level,0-7,Full-time,-
@@ -1226,7 +1226,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1553,Nürnberg,Other,Associate/Mid-Level,15-21,Full-time,-
 1554,München,Other,Senior,22-28,Full-time,-
 1555,Berlin,Machine Learning Engineer,Senior,0-7,Full-time,Python
-1556,Monheim am Rhein,Other,Senior,0-7,Full-time,Python
+1556,Monheim am Rhein,Data Analyst,Senior,0-7,Full-time,Python
 1557,München,Data Engineer,Senior,0-7,Full-time,Python
 1558,Berlin,Data Engineer,Senior,0-7,Full-time,Python
 1560,Bielefeld,Data Analyst,Senior,0-7,Full-time,Python
@@ -1240,8 +1240,8 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1568,Düsseldorf,Data Engineer,Senior,8-14,Full-time,Python
 1569,München,Data Engineer,Senior,8-14,Full-time,Python
 1570,Münster,Data Engineer,Senior,8-14,Full-time,-
-1571,Bremen,Other,Associate/Mid-Level,8-14,Full-time,Python
-1572,Deutschland,Data Consultant,Senior,15-21,Full-time,-
+1571,Bremen,Data Analyst,Associate/Mid-Level,8-14,Full-time,Python
+1572,Deutschland,Data Analyst,Senior,15-21,Full-time,-
 1573,Wiesbaden,Other,Senior,8-14,Full-time,Python
 1574,Hamburg,Data Engineer,Senior,15-21,Full-time,Python
 1575,Berlin,Data Engineer,Senior,8-14,Full-time,Python
@@ -1260,12 +1260,12 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1589,Westerstede,Other,Associate/Mid-Level,0-7,Full-time,-
 1590,Hamburg,Research Scientist,Associate/Mid-Level,8-14,Full-time,-
 1591,Berlin,AI/ML Specialist,Associate/Mid-Level,0-7,Full-time,-
-1592,Taufkirchen,Machine Learning Engineer,Associate/Mid-Level,0-7,Full-time,Python
+1592,Taufkirchen,Data Analyst,Associate/Mid-Level,0-7,Full-time,Python
 1593,München,Data Consultant,Associate/Mid-Level,0-7,Full-time,-
 1595,Bielefeld,Data Consultant,Senior,0-7,Full-time,Python
 1598,Berlin,Data Analyst,Associate/Mid-Level,0-7,Full-time,Python
 1599,Berlin,AI/ML Specialist,Associate/Mid-Level,8-14,Full-time,-
-1600,Bonn,Business Intelligence (BI),Associate/Mid-Level,8-14,Full-time,-
+1600,Bonn,Data Analyst,Associate/Mid-Level,8-14,Full-time,-
 1601,Nürnberg,Data Consultant,Senior,8-14,Full-time,-
 1602,Mainz,Data Engineer,Senior,8-14,Full-time,Python
 1603,Berlin,Research Scientist,Associate/Mid-Level,8-14,Full-time,-
@@ -1298,7 +1298,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 213,Hamburg,Data Scientist,Associate/Mid-Level,0-7,Full-time,-
 250,Berlin,Other,Senior,29+,Full-time,Python
 293,Hamburg,Data Scientist,Entry level,29+,Full-time,Python
-312,Bonn,Other,Associate/Mid-Level,29+,Full-time,Python
+312,Bonn,Data Scientist,Associate/Mid-Level,29+,Full-time,Python
 316,Dresden,Data Scientist,Director,8-14,Full-time,Python
 347,Deutschland,Machine Learning Engineer,Associate/Mid-Level,29+,Full-time,Python
 372,München,Data Scientist,Associate/Mid-Level,0-7,Full-time,Python
@@ -1318,9 +1318,9 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 798,Aachen,Other,Associate/Mid-Level,N/A,Full-time,Python
 957,Bochum,Data Scientist,Senior,0-7,Full-time,Python
 987,Coburg,Machine Learning Engineer,Senior,N/A,Full-time,Python
-1596,Köln,Data Consultant,Associate/Mid-Level,8-14,Full-time,-
+1596,Köln,Data Analyst,Associate/Mid-Level,8-14,Full-time,-
 1611,Luxembourg,Other,Director,0-7,Full-time,-
-20,Freiburg,Other,Entry level,0-7,Part-time,-
+20,Freiburg,Data Scientist,Entry level,0-7,Part-time,-
 64,München,Data Scientist,Entry level,29+,Part-time,-
 76,Hamburg,Data Scientist,Associate/Mid-Level,0-7,-,Julia
 93,Weil am Rhein,Data Scientist,Associate/Mid-Level,0-7,Part-time,-
@@ -1343,7 +1343,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 321,Berlin,Research Scientist,Associate/Mid-Level,15-21,Part-time,-
 341,München,Data Scientist,Senior,29+,Part-time,-
 348,Ilmenau,Data Scientist,Associate/Mid-Level,0-7,Part-time,-
-358,Frankfurt am Main,Other,Entry level,0-7,Part-time,-
+358,Frankfurt am Main,Data Analyst,Entry level,0-7,Part-time,-
 369,Nürnberg,Data Scientist,Associate/Mid-Level,22-28,Part-time,-
 379,Berlin,Other,Entry level,0-7,Part-time,-
 399,Stuttgart,Data Scientist,Associate/Mid-Level,0-7,Part-time,-
@@ -1359,7 +1359,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 501,Karlsruhe,Machine Learning Engineer,Entry level,22-28,Part-time,-
 513,Karlsruhe,Machine Learning Engineer,Entry level,22-28,Part-time,-
 528,Berlin,Other,Entry level,8-14,Part-time,-
-538,Zweibrücken,Other,Associate/Mid-Level,15-21,Part-time,-
+538,Zweibrücken,Data Analyst,Associate/Mid-Level,15-21,Part-time,-
 554,Attenkirchen,AI/ML Specialist,Entry level,29+,Part-time,-
 561,Bonn,Data Scientist,Senior,22-28,Part-time,-
 564,Hannover,Business Intelligence (BI),Associate/Mid-Level,0-7,Part-time,-
@@ -1397,7 +1397,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 948,Martinsried,Other,Senior,N/A,Part-time,-
 951,Wiesbaden,Data Scientist,Associate/Mid-Level,N/A,Part-time,-
 961,Biberach an der Riß,Data Scientist,Postdoc,N/A,-,Julia
-978,Mülheim an der Ruhr,Data Engineer,Senior,N/A,Part-time,-
+978,Mülheim an der Ruhr,Data Analyst,Senior,N/A,Part-time,-
 984,Kiel,Other,Postdoc,N/A,Part-time,-
 986,Wuppertal,Other,Director,N/A,Part-time,-
 990,Dortmund,Other,Postdoc,8-14,Part-time,-
@@ -1420,7 +1420,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1141,Berlin,Data Scientist,Senior,N/A,-,Julia
 1145,Berlin,Data Scientist,Associate/Mid-Level,22-28,Part-time,-
 1157,Mannheim,Data Scientist,Associate/Mid-Level,N/A,Part-time,-
-1165,Bad Gandersheim,Data Analyst,Associate/Mid-Level,N/A,Part-time,-
+1165,Bad Gandersheim,Data Scientist,Associate/Mid-Level,N/A,Part-time,-
 1233,Aalen,Other,Associate/Mid-Level,N/A,Part-time,-
 1240,Rosenheim,Data Scientist,Associate/Mid-Level,N/A,-,Julia
 1247,Puchheim,Machine Learning Engineer,Entry level,N/A,Part-time,-
@@ -1434,7 +1434,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1317,Stuttgart,Data Scientist,Senior,0-7,Part-time,-
 1329,Berlin,Data Scientist,Senior,15-21,Part-time,-
 1337,Osnabrück,Data Scientist,Entry level,0-7,Part-time,-
-1346,Düsseldorf,Other,Entry level,0-7,Part-time,-
+1346,Düsseldorf,Data Analyst,Entry level,0-7,Part-time,-
 1358,Frankfurt am Main,Other,Associate/Mid-Level,0-7,Part-time,-
 1362,Hannover,Other,Associate/Mid-Level,8-14,Part-time,-
 1363,Stuttgart,Data Scientist,Entry level,0-7,Part-time,-
@@ -1448,9 +1448,9 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1397,Ludwigshafen,Data Scientist,Senior,8-14,Part-time,-
 1405,Hamburg,Other,Associate/Mid-Level,8-14,Part-time,-
 1406,Aachen,Other,Associate/Mid-Level,0-7,Part-time,-
-1415,Augsburg,Business Intelligence (BI),Entry level,0-7,Part-time,-
+1415,Augsburg,Data Analyst,Entry level,0-7,Part-time,-
 1417,Augsburg,Other,Entry level,0-7,Part-time,-
-1418,München,Business Intelligence (BI),Entry level,0-7,Part-time,-
+1418,München,Data Analyst,Entry level,0-7,Part-time,-
 1419,München,Other,Entry level,0-7,Part-time,-
 1420,München,Other,Entry level,0-7,Part-time,-
 1421,Augsburg,Other,Entry level,0-7,Part-time,-
@@ -1464,7 +1464,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1433,Augsburg,Other,Entry level,0-7,Part-time,-
 1434,Berlin,Other,Entry level,8-14,Part-time,-
 1453,Schweinfurt,Other,Associate/Mid-Level,0-7,Part-time,-
-1466,Frankfurt am Main,Business Intelligence (BI),Associate/Mid-Level,0-7,Part-time,-
+1466,Frankfurt am Main,Data Analyst,Associate/Mid-Level,0-7,Part-time,-
 1468,Köln,Data Analyst,Associate/Mid-Level,0-7,Part-time,-
 1469,München,Data Consultant,Associate/Mid-Level,0-7,Part-time,-
 1473,Neuss,Machine Learning Engineer,Entry level,0-7,Part-time,-
@@ -1482,7 +1482,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1537,Bremen,Other,Associate/Mid-Level,8-14,Part-time,-
 1558,Berlin,Data Engineer,Senior,0-7,Part-time,-
 1567,Berlin,Machine Learning Engineer,Senior,8-14,Part-time,-
-1571,Bremen,Other,Associate/Mid-Level,8-14,Part-time,-
+1571,Bremen,Data Analyst,Associate/Mid-Level,8-14,Part-time,-
 1574,Hamburg,Data Engineer,Senior,15-21,Part-time,-
 1605,Berlin,Other,Associate/Mid-Level,8-14,Part-time,-
 957,Bochum,Data Scientist,Senior,0-7,Part-time,Julia
@@ -1491,7 +1491,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 43,Berlin,Data Scientist,Associate/Mid-Level,8-14,Permanent,-
 88,Essen,Data Scientist,Associate/Mid-Level,8-14,Permanent,-
 95,Dresden,Data Scientist,Associate/Mid-Level,15-21,Permanent,-
-153,Würzburg,Other,Associate/Mid-Level,29+,Permanent,-
+153,Würzburg,Data Scientist,Associate/Mid-Level,29+,Permanent,-
 154,Fellbach,Data Scientist,Associate/Mid-Level,8-14,Permanent,-
 188,Coburg,Machine Learning Engineer,Senior,0-7,Permanent,-
 251,Coburg,Other,Senior,22-28,Permanent,-
@@ -1500,7 +1500,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 341,München,Data Scientist,Senior,29+,Permanent,-
 369,Nürnberg,Data Scientist,Associate/Mid-Level,22-28,Permanent,-
 416,Köln,Machine Learning Engineer,Associate/Mid-Level,15-21,Permanent,-
-425,Dortmund,Data Analyst,Associate/Mid-Level,15-21,Permanent,-
+425,Dortmund,Data Scientist,Associate/Mid-Level,15-21,Permanent,-
 426,Weinheim,Research Scientist,Associate/Mid-Level,0-7,-,SPSS
 449,Potsdam,Data Engineer,Senior,0-7,Permanent,-
 459,Stuttgart,Other,Associate/Mid-Level,15-21,-,SPSS
@@ -1516,7 +1516,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 755,Stuttgart,Data Scientist,Associate/Mid-Level,29+,Permanent,-
 810,Hamburg,Data Scientist,Associate/Mid-Level,0-7,Permanent,-
 812,Königstein im Taunus,Data Scientist,Associate/Mid-Level,N/A,Permanent,-
-815,Hamburg,Other,Entry level,N/A,Permanent,-
+815,Hamburg,Data Scientist,Entry level,N/A,Permanent,-
 819,Hamburg,Data Scientist,Associate/Mid-Level,0-7,Permanent,-
 824,Aachen,Data Scientist,Entry level,N/A,Permanent,-
 831,Starnberg,Data Scientist,Associate/Mid-Level,N/A,Permanent,-
@@ -1539,7 +1539,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 915,Paderborn,Data Scientist,Senior,N/A,Permanent,-
 922,Hannover,Data Scientist,Associate/Mid-Level,N/A,Permanent,-
 923,Duisburg,Data Scientist,Senior,0-7,Permanent,-
-927,Bielefeld,Data Analyst,Senior,N/A,Permanent,-
+927,Bielefeld,Data Scientist,Senior,N/A,Permanent,-
 932,Hamburg,Data Scientist,Director,N/A,Permanent,-
 941,Berlin,Data Scientist,Associate/Mid-Level,N/A,Permanent,-
 942,Berlin,Data Scientist,Associate/Mid-Level,15-21,Permanent,-
@@ -1580,7 +1580,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1177,Frankfurt am Main,Data Scientist,Associate/Mid-Level,N/A,Permanent,-
 1178,Hanau,Data Scientist,Associate/Mid-Level,N/A,Permanent,-
 1181,Ludwigshafen,Research Scientist,Director,15-21,Permanent,-
-1191,Hamburg,Data Analyst,Senior,N/A,Permanent,-
+1191,Hamburg,Data Scientist,Senior,N/A,Permanent,-
 1215,München,Data Scientist,Senior,8-14,Permanent,-
 1219,Offenbach,Data Scientist,Associate/Mid-Level,N/A,Permanent,-
 1222,München,Data Engineer,Senior,8-14,Permanent,-
@@ -1611,7 +1611,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1315,Hamburg,Data Consultant,Associate/Mid-Level,0-7,Permanent,-
 1316,Stuttgart,Data Scientist,Associate/Mid-Level,0-7,Permanent,-
 1317,Stuttgart,Data Scientist,Senior,0-7,Permanent,-
-1318,Bielefeld,Data Analyst,Senior,0-7,Permanent,-
+1318,Bielefeld,Data Scientist,Senior,0-7,Permanent,-
 1323,Coesfeld-Lette,Data Scientist,Senior,8-14,Permanent,-
 1324,Düsseldorf,Data Scientist,Senior,8-14,Permanent,-
 1325,Düsseldorf,Data Scientist,Entry level,8-14,Permanent,-
@@ -1636,7 +1636,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1354,Frankfurt am Main,Other,Associate/Mid-Level,0-7,Permanent,-
 1357,Luxembourg,Other,Senior,0-7,Permanent,-
 1358,Frankfurt am Main,Other,Associate/Mid-Level,0-7,Permanent,-
-1359,München,AI Engineer,Associate/Mid-Level,8-14,Permanent,-
+1359,München,Data Analyst,Associate/Mid-Level,8-14,Permanent,-
 1361,Coesfeld-Lette,Other,Associate/Mid-Level,8-14,Permanent,-
 1364,Ahrensburg,Other,Associate/Mid-Level,8-14,Permanent,-
 1365,Dortmund,Other,Associate/Mid-Level,8-14,Permanent,-
@@ -1700,7 +1700,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1451,Hamburg,Other,Associate/Mid-Level,0-7,Permanent,-
 1452,Kassel,Other,Associate/Mid-Level,0-7,Permanent,-
 1455,Leimen,Research Scientist,Associate/Mid-Level,22-28,Permanent,-
-1457,Stuttgart,Other,Associate/Mid-Level,0-7,Permanent,-
+1457,Stuttgart,Data Analyst,Associate/Mid-Level,0-7,Permanent,-
 1458,Lüneburg,Other,Associate/Mid-Level,0-7,Permanent,-
 1459,Oldenburg,Business Intelligence (BI),Associate/Mid-Level,0-7,Permanent,-
 1460,Stuttgart,Data Consultant,Associate/Mid-Level,0-7,Permanent,-
@@ -1709,7 +1709,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1463,Luxembourg,Business Intelligence (BI),Associate/Mid-Level,0-7,Permanent,-
 1464,Münster,Other,Associate/Mid-Level,0-7,Permanent,-
 1465,Hannover,Other,Associate/Mid-Level,0-7,Permanent,-
-1466,Frankfurt am Main,Business Intelligence (BI),Associate/Mid-Level,0-7,Permanent,-
+1466,Frankfurt am Main,Data Analyst,Associate/Mid-Level,0-7,Permanent,-
 1467,Berlin,Data Consultant,Associate/Mid-Level,0-7,Permanent,-
 1468,Köln,Data Analyst,Associate/Mid-Level,0-7,Permanent,-
 1469,München,Data Consultant,Associate/Mid-Level,0-7,Permanent,-
@@ -1727,15 +1727,15 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1484,Deutschland,Machine Learning Engineer,Associate/Mid-Level,0-7,Permanent,-
 1485,Bensheim,Other,Associate/Mid-Level,8-14,Permanent,-
 1486,Deutschland,Other,Associate/Mid-Level,0-7,Permanent,-
-1487,Burghausen,Other,Associate/Mid-Level,8-14,Permanent,-
+1487,Burghausen,Data Analyst,Associate/Mid-Level,8-14,Permanent,-
 1488,Frankfurt am Main,Other,Associate/Mid-Level,0-7,Permanent,-
 1489,Solingen,Other,Associate/Mid-Level,8-14,Permanent,-
-1491,Berlin,Other,Associate/Mid-Level,8-14,Permanent,-
+1491,Berlin,Data Analyst,Associate/Mid-Level,8-14,Permanent,-
 1492,Offenbach,Other,Associate/Mid-Level,0-7,Permanent,-
 1494,Luxembourg,Business Intelligence (BI),Associate/Mid-Level,0-7,Permanent,-
 1495,Osnabrück,Business Intelligence (BI),Associate/Mid-Level,8-14,Permanent,-
 1496,Düsseldorf,Data Engineer,Entry level,0-7,Permanent,-
-1497,Frankfurt am Main,Other,Associate/Mid-Level,8-14,Permanent,-
+1497,Frankfurt am Main,Data Analyst,Associate/Mid-Level,8-14,Permanent,-
 1498,Offenburg,Data Scientist,Associate/Mid-Level,8-14,Permanent,-
 1499,Frankfurt am Main,Other,Associate/Mid-Level,8-14,Permanent,-
 1500,Hannover,Data Analyst,Associate/Mid-Level,8-14,Permanent,-
@@ -1744,7 +1744,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1504,Bremen,Data Analyst,Senior,8-14,Permanent,-
 1505,Hamburg,Other,Associate/Mid-Level,8-14,Permanent,-
 1506,Stuttgart,Other,Associate/Mid-Level,8-14,Permanent,-
-1507,Frankfurt am Main,Other,Associate/Mid-Level,8-14,Permanent,-
+1507,Frankfurt am Main,Data Analyst,Associate/Mid-Level,8-14,Permanent,-
 1508,Essen,Other,Associate/Mid-Level,8-14,Permanent,-
 1509,Bremen,Other,Associate/Mid-Level,8-14,Permanent,-
 1510,Hamburg,Other,Associate/Mid-Level,0-7,Permanent,-
@@ -1792,7 +1792,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1553,Nürnberg,Other,Associate/Mid-Level,15-21,Permanent,-
 1554,München,Other,Senior,22-28,Permanent,-
 1555,Berlin,Machine Learning Engineer,Senior,0-7,Permanent,-
-1556,Monheim am Rhein,Other,Senior,0-7,Permanent,-
+1556,Monheim am Rhein,Data Analyst,Senior,0-7,Permanent,-
 1557,München,Data Engineer,Senior,0-7,Permanent,-
 1558,Berlin,Data Engineer,Senior,0-7,Permanent,-
 1560,Bielefeld,Data Analyst,Senior,0-7,Permanent,-
@@ -1806,8 +1806,8 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1568,Düsseldorf,Data Engineer,Senior,8-14,Permanent,-
 1569,München,Data Engineer,Senior,8-14,Permanent,-
 1570,Münster,Data Engineer,Senior,8-14,Permanent,-
-1571,Bremen,Other,Associate/Mid-Level,8-14,Permanent,-
-1572,Deutschland,Data Consultant,Senior,15-21,Permanent,-
+1571,Bremen,Data Analyst,Associate/Mid-Level,8-14,Permanent,-
+1572,Deutschland,Data Analyst,Senior,15-21,Permanent,-
 1573,Wiesbaden,Other,Senior,8-14,Permanent,SPSS
 1574,Hamburg,Data Engineer,Senior,15-21,Permanent,-
 1575,Berlin,Data Engineer,Senior,8-14,Permanent,-
@@ -1823,12 +1823,12 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1588,Duisburg,Machine Learning Engineer,Associate/Mid-Level,0-7,Permanent,-
 1589,Westerstede,Other,Associate/Mid-Level,0-7,Permanent,-
 1591,Berlin,AI/ML Specialist,Associate/Mid-Level,0-7,Permanent,-
-1592,Taufkirchen,Machine Learning Engineer,Associate/Mid-Level,0-7,Permanent,-
+1592,Taufkirchen,Data Analyst,Associate/Mid-Level,0-7,Permanent,-
 1593,München,Data Consultant,Associate/Mid-Level,0-7,Permanent,-
 1595,Bielefeld,Data Consultant,Senior,0-7,Permanent,-
 1598,Berlin,Data Analyst,Associate/Mid-Level,0-7,Permanent,-
 1599,Berlin,AI/ML Specialist,Associate/Mid-Level,8-14,Permanent,-
-1600,Bonn,Business Intelligence (BI),Associate/Mid-Level,8-14,Permanent,-
+1600,Bonn,Data Analyst,Associate/Mid-Level,8-14,Permanent,-
 1601,Nürnberg,Data Consultant,Senior,8-14,Permanent,-
 1602,Mainz,Data Engineer,Senior,8-14,Permanent,-
 1603,Berlin,Research Scientist,Associate/Mid-Level,8-14,Permanent,-
@@ -1852,9 +1852,9 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1624,München,Other,Senior,0-7,Permanent,-
 59,Hamburg,Research Scientist,Associate/Mid-Level,15-21,-,SPSS
 957,Bochum,Data Scientist,Senior,0-7,Permanent,-
-1596,Köln,Data Consultant,Associate/Mid-Level,8-14,Permanent,-
+1596,Köln,Data Analyst,Associate/Mid-Level,8-14,Permanent,-
 1611,Luxembourg,Other,Director,0-7,Permanent,-
-115,Berlin,Data Analyst,Associate/Mid-Level,8-14,-,Stata
+115,Berlin,Data Scientist,Associate/Mid-Level,8-14,-,Stata
 172,Berlin,Other,Entry level,29+,Fixed-term,-
 288,Berlin,Other,Associate/Mid-Level,0-7,-,Stata
 537,Nürnberg,Data Analyst,Entry level,0-7,Fixed-term,-
@@ -1893,14 +1893,14 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 369,Nürnberg,Data Scientist,Associate/Mid-Level,22-28,Homeoffice,-
 401,Clausthal-Zellerfeld,Research Scientist,Associate/Mid-Level,8-14,-,JavaScript
 416,Köln,Machine Learning Engineer,Associate/Mid-Level,15-21,Homeoffice,-
-425,Dortmund,Data Analyst,Associate/Mid-Level,15-21,Homeoffice,-
+425,Dortmund,Data Scientist,Associate/Mid-Level,15-21,Homeoffice,-
 442,Hamburg,AI Engineer,Senior,8-14,-,JavaScript
 449,Potsdam,Data Engineer,Senior,0-7,Homeoffice,-
 456,Deutschland,Other,Associate/Mid-Level,29+,-,JavaScript
 460,Mülheim an der Ruhr,Data Scientist,Associate/Mid-Level,8-14,Homeoffice,-
 464,Stuttgart,Data Analyst,Associate/Mid-Level,29+,-,JavaScript
 466,Hamburg,Data Scientist,Senior,29+,-,JavaScript
-555,Bremen,Other,Associate/Mid-Level,15-21,-,JavaScript
+555,Bremen,Data Analyst,Associate/Mid-Level,15-21,-,JavaScript
 605,Stuttgart,Data Scientist,Entry level,22-28,Homeoffice,-
 606,Hamburg,Data Scientist,Associate/Mid-Level,15-21,Homeoffice,-
 613,München,Other,Entry level,15-21,-,JavaScript
@@ -1913,9 +1913,9 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 697,Ebermannstadt,Research Scientist,Associate/Mid-Level,0-7,-,JavaScript
 744,Hamburg,Data Engineer,Associate/Mid-Level,29+,-,JavaScript
 760,Würzburg,AI Engineer,Associate/Mid-Level,29+,-,JavaScript
-765,München,AI/ML Specialist,Associate/Mid-Level,8-14,-,JavaScript
+765,München,Data Analyst,Associate/Mid-Level,8-14,-,JavaScript
 772,München,Data Scientist,Associate/Mid-Level,0-7,-,JavaScript
-775,München,Other,Entry level,15-21,-,JavaScript
+775,München,Data Analyst,Entry level,15-21,-,JavaScript
 810,Hamburg,Data Scientist,Associate/Mid-Level,0-7,Homeoffice,-
 819,Hamburg,Data Scientist,Associate/Mid-Level,0-7,Homeoffice,-
 848,Damme,Data Scientist,Associate/Mid-Level,0-7,Homeoffice,-
@@ -1963,7 +1963,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1315,Hamburg,Data Consultant,Associate/Mid-Level,0-7,Homeoffice,-
 1316,Stuttgart,Data Scientist,Associate/Mid-Level,0-7,-,JavaScript
 1317,Stuttgart,Data Scientist,Senior,0-7,Homeoffice,-
-1318,Bielefeld,Data Analyst,Senior,0-7,Homeoffice,-
+1318,Bielefeld,Data Scientist,Senior,0-7,Homeoffice,-
 1324,Düsseldorf,Data Scientist,Senior,8-14,Homeoffice,-
 1325,Düsseldorf,Data Scientist,Entry level,8-14,Homeoffice,-
 1329,Berlin,Data Scientist,Senior,15-21,Homeoffice,-
@@ -1975,7 +1975,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1340,Frankfurt,Data Scientist,Senior,0-7,Homeoffice,-
 1344,Berlin,Data Scientist,Associate/Mid-Level,8-14,Homeoffice,-
 1345,München,Other,Associate/Mid-Level,0-7,-,JavaScript
-1346,Düsseldorf,Other,Entry level,0-7,Homeoffice,-
+1346,Düsseldorf,Data Analyst,Entry level,0-7,Homeoffice,-
 1348,Rosenheim,Data Scientist,Entry level,8-14,Homeoffice,-
 1350,Berlin,Data Scientist,Entry level,8-14,Homeoffice,JavaScript
 1358,Frankfurt am Main,Other,Associate/Mid-Level,0-7,Homeoffice,-
@@ -2025,12 +2025,12 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1452,Kassel,Other,Associate/Mid-Level,0-7,Homeoffice,-
 1455,Leimen,Research Scientist,Associate/Mid-Level,22-28,Homeoffice,-
 1456,Sindelfingen,Data Scientist,Associate/Mid-Level,0-7,Homeoffice,-
-1457,Stuttgart,Other,Associate/Mid-Level,0-7,Homeoffice,-
+1457,Stuttgart,Data Analyst,Associate/Mid-Level,0-7,Homeoffice,-
 1459,Oldenburg,Business Intelligence (BI),Associate/Mid-Level,0-7,Homeoffice,-
 1460,Stuttgart,Data Consultant,Associate/Mid-Level,0-7,Homeoffice,-
 1461,Berlin,Data Analyst,Associate/Mid-Level,0-7,Homeoffice,-
 1465,Hannover,Other,Associate/Mid-Level,0-7,Homeoffice,-
-1466,Frankfurt am Main,Business Intelligence (BI),Associate/Mid-Level,0-7,Homeoffice,-
+1466,Frankfurt am Main,Data Analyst,Associate/Mid-Level,0-7,Homeoffice,-
 1467,Berlin,Data Consultant,Associate/Mid-Level,0-7,Homeoffice,-
 1468,Köln,Data Analyst,Associate/Mid-Level,0-7,Homeoffice,-
 1469,München,Data Consultant,Associate/Mid-Level,0-7,Homeoffice,-
@@ -2048,7 +2048,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1488,Frankfurt am Main,Other,Associate/Mid-Level,0-7,Homeoffice,-
 1489,Solingen,Other,Associate/Mid-Level,8-14,Homeoffice,-
 1490,München,Other,Associate/Mid-Level,8-14,Homeoffice,-
-1491,Berlin,Other,Associate/Mid-Level,8-14,Homeoffice,-
+1491,Berlin,Data Analyst,Associate/Mid-Level,8-14,Homeoffice,-
 1492,Offenbach,Other,Associate/Mid-Level,0-7,Homeoffice,-
 1495,Osnabrück,Business Intelligence (BI),Associate/Mid-Level,8-14,Homeoffice,-
 1498,Offenburg,Data Scientist,Associate/Mid-Level,8-14,Homeoffice,-
@@ -2093,7 +2093,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1551,Berlin,AI/ML Specialist,Associate/Mid-Level,22-28,Homeoffice,-
 1552,Hoisdorf,Data Consultant,Senior,22-28,Homeoffice,-
 1555,Berlin,Machine Learning Engineer,Senior,0-7,Homeoffice,-
-1556,Monheim am Rhein,Other,Senior,0-7,Homeoffice,-
+1556,Monheim am Rhein,Data Analyst,Senior,0-7,Homeoffice,-
 1557,München,Data Engineer,Senior,0-7,Homeoffice,-
 1560,Bielefeld,Data Analyst,Senior,0-7,Homeoffice,-
 1561,Rheda-Wiedenbrück,Other,Senior,8-14,Homeoffice,-
@@ -2105,8 +2105,8 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1568,Düsseldorf,Data Engineer,Senior,8-14,Homeoffice,-
 1569,München,Data Engineer,Senior,8-14,Homeoffice,JavaScript
 1570,Münster,Data Engineer,Senior,8-14,Homeoffice,-
-1571,Bremen,Other,Associate/Mid-Level,8-14,Homeoffice,JavaScript
-1572,Deutschland,Data Consultant,Senior,15-21,Homeoffice,-
+1571,Bremen,Data Analyst,Associate/Mid-Level,8-14,Homeoffice,JavaScript
+1572,Deutschland,Data Analyst,Senior,15-21,Homeoffice,-
 1573,Wiesbaden,Other,Senior,8-14,Homeoffice,-
 1574,Hamburg,Data Engineer,Senior,15-21,Homeoffice,-
 1575,Berlin,Data Engineer,Senior,8-14,Homeoffice,-
@@ -2122,11 +2122,11 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1589,Westerstede,Other,Associate/Mid-Level,0-7,Homeoffice,-
 1590,Hamburg,Research Scientist,Associate/Mid-Level,8-14,Homeoffice,-
 1591,Berlin,AI/ML Specialist,Associate/Mid-Level,0-7,Homeoffice,-
-1592,Taufkirchen,Machine Learning Engineer,Associate/Mid-Level,0-7,Homeoffice,-
+1592,Taufkirchen,Data Analyst,Associate/Mid-Level,0-7,Homeoffice,-
 1595,Bielefeld,Data Consultant,Senior,0-7,Homeoffice,-
 1598,Berlin,Data Analyst,Associate/Mid-Level,0-7,Homeoffice,-
 1599,Berlin,AI/ML Specialist,Associate/Mid-Level,8-14,Homeoffice,-
-1600,Bonn,Business Intelligence (BI),Associate/Mid-Level,8-14,Homeoffice,-
+1600,Bonn,Data Analyst,Associate/Mid-Level,8-14,Homeoffice,-
 1605,Berlin,Other,Associate/Mid-Level,8-14,Homeoffice,-
 1606,Hannover,Other,Associate/Mid-Level,8-14,-,JavaScript
 1607,Leipzig,Data Consultant,Associate/Mid-Level,15-21,Homeoffice,-
@@ -2140,7 +2140,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1624,München,Other,Senior,0-7,Homeoffice,-
 78,Hamburg,Data Scientist,Associate/Mid-Level,29+,-,JavaScript
 293,Hamburg,Data Scientist,Entry level,29+,-,JavaScript
-1596,Köln,Data Consultant,Associate/Mid-Level,8-14,Homeoffice,-
+1596,Köln,Data Analyst,Associate/Mid-Level,8-14,Homeoffice,-
 0,Berlin,Data Scientist,Associate/Mid-Level,15-21,-,SQL
 1,Berlin,Data Scientist,Entry level,8-14,-,SQL
 4,Frankfurt am Main,Data Scientist,Associate/Mid-Level,15-21,-,SQL
@@ -2166,14 +2166,14 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 49,München,Data Scientist,Entry level,0-7,-,SQL
 50,Hamburg,Data Scientist,Associate/Mid-Level,0-7,-,SQL
 55,Berlin,Data Scientist,Senior,0-7,Freelance,-
-56,Düsseldorf,Other,Entry level,0-7,-,SQL
+56,Düsseldorf,Data Analyst,Entry level,0-7,-,SQL
 58,Deutschland,Data Scientist,Associate/Mid-Level,29+,Freelance,-
 61,Hürth,Data Scientist,Associate/Mid-Level,29+,-,SQL
 63,Hamburg,Other,Associate/Mid-Level,15-21,-,SQL
 65,Berlin,Data Scientist,Entry level,0-7,-,SQL
 67,Düsseldorf,Data Scientist,Entry level,15-21,-,SQL
 69,München,Data Scientist,Associate/Mid-Level,0-7,-,SQL
-70,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,SQL
+70,Berlin,Data Scientist,Associate/Mid-Level,0-7,-,SQL
 74,Berlin,Data Scientist,Senior,0-7,-,SQL
 79,Deutschland,Data Analyst,Associate/Mid-Level,0-7,-,SQL
 80,München,Data Scientist,Associate/Mid-Level,0-7,-,SQL
@@ -2190,7 +2190,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 111,Deutschland,Data Scientist,Associate/Mid-Level,29+,-,SQL
 112,Hamburg,AI Engineer,Associate/Mid-Level,8-14,-,SQL
 114,Berlin,Data Analyst,Senior,0-7,-,SQL
-115,Berlin,Data Analyst,Associate/Mid-Level,8-14,-,SQL
+115,Berlin,Data Scientist,Associate/Mid-Level,8-14,-,SQL
 124,Baden-Württemberg,Other,Associate/Mid-Level,0-7,-,SQL
 130,Deutschland,Data Analyst,Associate/Mid-Level,8-14,-,SQL
 138,Deutschland,Data Scientist,Senior,0-7,-,SQL
@@ -2236,18 +2236,18 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 248,München,Data Scientist,Entry level,0-7,-,SQL
 252,Berlin,Other,Director,0-7,-,SQL
 253,Berlin,Data Scientist,Senior,29+,-,SQL
-259,Bielefeld,Other,Entry level,15-21,-,SQL
-260,Hamburg,Other,Associate/Mid-Level,15-21,-,SQL
+259,Bielefeld,Data Analyst,Entry level,15-21,-,SQL
+260,Hamburg,Data Analyst,Associate/Mid-Level,15-21,-,SQL
 262,Düsseldorf,Data Scientist,Associate/Mid-Level,8-14,-,SQL
 269,Berlin,Data Scientist,Director,8-14,-,SQL
 270,Bad Homburg,Data Scientist,Entry level,15-21,-,SQL
 271,Berlin,Data Engineer,Associate/Mid-Level,0-7,-,SQL
 272,München,Other,Entry level,8-14,-,SQL
-273,Frankfurt am Main,Data Consultant,Entry level,8-14,-,SQL
+273,Frankfurt am Main,Data Analyst,Entry level,8-14,-,SQL
 274,Frankfurt am Main,Other,Associate/Mid-Level,0-7,Freelance,-
 276,München,Data Analyst,Associate/Mid-Level,8-14,-,SQL
 277,Hamburg,Data Scientist,Associate/Mid-Level,29+,-,SQL
-282,Dortmund,Data Analyst,Associate/Mid-Level,15-21,-,SQL
+282,Dortmund,Data Scientist,Associate/Mid-Level,15-21,-,SQL
 283,Deutschland,Data Analyst,Senior,29+,-,SQL
 288,Berlin,Other,Associate/Mid-Level,0-7,-,SQL
 291,Frankfurt am Main,Other,Associate/Mid-Level,29+,-,SQL
@@ -2271,13 +2271,13 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 353,Düsseldorf,Data Engineer,Associate/Mid-Level,0-7,-,SQL
 356,Heidelberg,Data Analyst,Associate/Mid-Level,29+,-,SQL
 357,Berlin,Other,Associate/Mid-Level,0-7,-,SQL
-358,Frankfurt am Main,Other,Entry level,0-7,-,SQL
+358,Frankfurt am Main,Data Analyst,Entry level,0-7,-,SQL
 361,Deutschland,Machine Learning Engineer,Associate/Mid-Level,15-21,-,SQL
 363,München,Data Scientist,Entry level,8-14,-,SQL
 365,Berlin,Other,Associate/Mid-Level,22-28,-,SQL
 367,Nürnberg,Data Scientist,Senior,15-21,-,SQL
 371,Berlin,Data Scientist,Associate/Mid-Level,0-7,-,SQL
-375,Frankfurt am Main,Other,Associate/Mid-Level,22-28,-,SQL
+375,Frankfurt am Main,Data Analyst,Associate/Mid-Level,22-28,-,SQL
 376,Berlin,Machine Learning Engineer,Associate/Mid-Level,29+,-,SQL
 377,Deutschland,Other,Associate/Mid-Level,15-21,-,SQL
 381,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,SQL
@@ -2288,13 +2288,13 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 398,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,SQL
 405,Verl,Other,Entry level,0-7,-,SQL
 406,Weeze,Data Scientist,Associate/Mid-Level,29+,-,SQL
-409,Karlsruhe,Other,Entry level,0-7,-,SQL
+409,Karlsruhe,Data Analyst,Entry level,0-7,-,SQL
 410,Deutschland,Other,Associate/Mid-Level,8-14,-,SQL
 413,Berlin,Other,Associate/Mid-Level,29+,-,SQL
 415,München,Other,Entry level,8-14,-,SQL
 418,Frankfurt am Main,AI/ML Specialist,Associate/Mid-Level,0-7,Freelance,-
 419,Deutschland,Data Scientist,Senior,0-7,-,SQL
-425,Dortmund,Data Analyst,Associate/Mid-Level,15-21,-,SQL
+425,Dortmund,Data Scientist,Associate/Mid-Level,15-21,-,SQL
 430,Neuwied,Data Analyst,Associate/Mid-Level,0-7,-,SQL
 432,München,Data Scientist,Associate/Mid-Level,29+,-,SQL
 433,Berlin,Data Scientist,Senior,8-14,-,SQL
@@ -2303,10 +2303,10 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 437,Hannover,Data Scientist,Associate/Mid-Level,8-14,-,SQL
 441,Hamburg,Data Scientist,Senior,0-7,-,SQL
 445,Berlin,Business Intelligence (BI),Associate/Mid-Level,8-14,-,SQL
-447,München,Other,Entry level,29+,-,SQL
+447,München,Data Analyst,Entry level,29+,-,SQL
 449,Potsdam,Data Engineer,Senior,0-7,-,SQL
 456,Deutschland,Other,Associate/Mid-Level,29+,Freelance,SQL
-457,Köln,Data Engineer,Associate/Mid-Level,0-7,-,SQL
+457,Köln,Data Scientist,Associate/Mid-Level,0-7,-,SQL
 464,Stuttgart,Data Analyst,Associate/Mid-Level,29+,-,SQL
 466,Hamburg,Data Scientist,Senior,29+,-,SQL
 467,Berlin,Other,Senior,0-7,-,SQL
@@ -2314,18 +2314,18 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 474,Esch,Data Scientist,Associate/Mid-Level,29+,-,SQL
 475,Nordrhein-Westfalen,AI Engineer,Associate/Mid-Level,8-14,Freelance,-
 476,Berlin,Other,Associate/Mid-Level,8-14,-,SQL
-479,Hamburg,Data Engineer,Associate/Mid-Level,0-7,-,SQL
+479,Hamburg,Data Scientist,Associate/Mid-Level,0-7,-,SQL
 480,Köln,Data Scientist,Entry level,29+,-,SQL
 489,Konstanz,Data Analyst,Associate/Mid-Level,29+,-,SQL
 491,München,Data Scientist,Entry level,0-7,-,SQL
 493,Köln,Data Scientist,Entry level,29+,-,SQL
-498,München,Other,Associate/Mid-Level,8-14,-,SQL
+498,München,Data Analyst,Associate/Mid-Level,8-14,-,SQL
 500,Berlin,Data Scientist,Senior,15-21,-,SQL
 504,Deutschland,Other,Associate/Mid-Level,15-21,-,SQL
 505,Berlin,Other,Associate/Mid-Level,29+,-,SQL
 506,Mailand,AI/ML Specialist,Associate/Mid-Level,0-7,-,SQL
 507,Frankfurt am Main,Data Engineer,Associate/Mid-Level,8-14,-,SQL
-512,Stuttgart,Data Engineer,Associate/Mid-Level,0-7,-,SQL
+512,Stuttgart,Data Scientist,Associate/Mid-Level,0-7,-,SQL
 514,Berlin,Data Scientist,Associate/Mid-Level,0-7,-,SQL
 515,Berlin,Data Engineer,Entry level,15-21,-,SQL
 522,Hamburg,Data Analyst,Associate/Mid-Level,29+,-,SQL
@@ -2342,7 +2342,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 540,München,Data Scientist,Entry level,0-7,-,SQL
 546,Berlin,Data Engineer,Associate/Mid-Level,22-28,-,SQL
 548,Mainz,Data Engineer,Associate/Mid-Level,8-14,-,SQL
-550,Immenstadt,Other,Associate/Mid-Level,29+,-,SQL
+550,Immenstadt,Data Analyst,Associate/Mid-Level,29+,-,SQL
 551,Heilbronn,Machine Learning Engineer,Senior,29+,-,SQL
 552,Hamburg,Data Analyst,Associate/Mid-Level,29+,Freelance,SQL
 559,Deutschland,Data Engineer,Associate/Mid-Level,0-7,-,SQL
@@ -2382,9 +2382,9 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 633,Gerlingen,Business Intelligence (BI),Entry level,0-7,-,SQL
 636,Hamburg,Data Analyst,Associate/Mid-Level,8-14,-,SQL
 637,Berlin,Data Scientist,Director,29+,-,SQL
-639,Grünheide,Other,Associate/Mid-Level,0-7,-,SQL
+639,Grünheide,Data Analyst,Associate/Mid-Level,0-7,-,SQL
 643,Frankfurt am Main,Other,Entry level,0-7,-,SQL
-644,München,Other,Associate/Mid-Level,29+,-,SQL
+644,München,Data Analyst,Associate/Mid-Level,29+,-,SQL
 645,München,Business Intelligence (BI),Associate/Mid-Level,22-28,-,SQL
 650,Berlin,Data Scientist,Associate/Mid-Level,15-21,-,SQL
 652,Verl,Other,Entry level,0-7,-,SQL
@@ -2401,7 +2401,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 673,München,Data Engineer,Associate/Mid-Level,29+,-,SQL
 675,München,Data Scientist,Associate/Mid-Level,0-7,-,SQL
 677,Stuttgart,Data Analyst,Associate/Mid-Level,15-21,-,SQL
-679,München,Other,Associate/Mid-Level,15-21,-,SQL
+679,München,Data Analyst,Associate/Mid-Level,15-21,-,SQL
 681,Hamburg,Data Engineer,Associate/Mid-Level,29+,-,SQL
 683,Sankt Augustin,Data Scientist,Associate/Mid-Level,0-7,-,SQL
 684,München,AI/ML Specialist,Entry level,29+,-,SQL
@@ -2415,7 +2415,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 701,Berlin,Data Engineer,Associate/Mid-Level,0-7,-,SQL
 702,Berlin,Other,Associate/Mid-Level,29+,-,SQL
 703,München,Business Intelligence (BI),Entry level,0-7,-,SQL
-708,München,Other,Entry level,0-7,-,SQL
+708,München,Data Analyst,Entry level,0-7,-,SQL
 710,München,Data Analyst,Associate/Mid-Level,0-7,-,SQL
 711,Berlin,Machine Learning Engineer,Entry level,0-7,-,SQL
 713,Köln,Data Scientist,Associate/Mid-Level,15-21,-,SQL
@@ -2444,10 +2444,10 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 759,Berlin,Data Engineer,Associate/Mid-Level,8-14,-,SQL
 762,Berlin,AI Engineer,Senior,8-14,-,SQL
 763,Stuttgart,Data Engineer,Entry level,0-7,-,SQL
-765,München,AI/ML Specialist,Associate/Mid-Level,8-14,-,SQL
+765,München,Data Analyst,Associate/Mid-Level,8-14,-,SQL
 767,Köln,Data Engineer,Entry level,0-7,-,SQL
 773,Hamburg,Data Analyst,Associate/Mid-Level,0-7,-,SQL
-775,München,Other,Entry level,15-21,-,SQL
+775,München,Data Analyst,Entry level,15-21,-,SQL
 778,München,Data Scientist,Entry level,29+,-,SQL
 780,Berlin,Data Scientist,Senior,29+,-,SQL
 783,Köln,Other,Associate/Mid-Level,15-21,-,SQL
@@ -2463,7 +2463,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 831,Starnberg,Data Scientist,Associate/Mid-Level,N/A,-,SQL
 833,Berlin,Data Scientist,Senior,N/A,-,SQL
 835,Coburg,Data Scientist,Associate/Mid-Level,N/A,-,SQL
-840,Ilsenburg,Other,Associate/Mid-Level,N/A,-,SQL
+840,Ilsenburg,Data Scientist,Associate/Mid-Level,N/A,-,SQL
 842,Saarbrücken,Data Scientist,Associate/Mid-Level,N/A,-,SQL
 843,Berlin,Other,Associate/Mid-Level,N/A,-,SQL
 851,Hamburg,Data Scientist,Associate/Mid-Level,N/A,-,SQL
@@ -2497,18 +2497,18 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 916,Erlangen,Data Scientist,Senior,N/A,-,SQL
 920,Potsdam,Other,Associate/Mid-Level,N/A,-,SQL
 923,Duisburg,Data Scientist,Senior,0-7,-,SQL
-927,Bielefeld,Data Analyst,Senior,N/A,-,SQL
+927,Bielefeld,Data Scientist,Senior,N/A,-,SQL
 932,Hamburg,Data Scientist,Director,N/A,-,SQL
 938,Köln,Data Scientist,Associate/Mid-Level,N/A,-,SQL
 945,München,Data Analyst,Associate/Mid-Level,N/A,-,SQL
 947,München,Data Scientist,Entry level,N/A,-,SQL
 951,Wiesbaden,Data Scientist,Associate/Mid-Level,N/A,-,SQL
-954,Kirchentellinsfurt,Other,Associate/Mid-Level,N/A,-,SQL
+954,Kirchentellinsfurt,Data Analyst,Associate/Mid-Level,N/A,-,SQL
 956,Lübeck,Data Engineer,Associate/Mid-Level,N/A,-,SQL
 963,Stuttgart,Machine Learning Engineer,Associate/Mid-Level,N/A,-,SQL
 966,Bad Homburg vor der Höhe,Data Engineer,Associate/Mid-Level,N/A,-,SQL
 976,Potsdam,Other,Associate/Mid-Level,N/A,-,SQL
-978,Mülheim an der Ruhr,Data Engineer,Senior,N/A,-,SQL
+978,Mülheim an der Ruhr,Data Analyst,Senior,N/A,-,SQL
 998,Rust,Business Intelligence (BI),Associate/Mid-Level,8-14,-,SQL
 999,Berlin,Data Scientist,Senior,N/A,-,SQL
 1003,Koblenz,Data Scientist,Senior,N/A,-,SQL
@@ -2560,16 +2560,16 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1150,Bonn,Data Scientist,Senior,N/A,-,SQL
 1157,Mannheim,Data Scientist,Associate/Mid-Level,N/A,-,SQL
 1160,Berlin,Data Scientist,Entry level,N/A,-,SQL
-1165,Bad Gandersheim,Data Analyst,Associate/Mid-Level,N/A,-,SQL
+1165,Bad Gandersheim,Data Scientist,Associate/Mid-Level,N/A,-,SQL
 1168,Deutschland,Data Scientist,Associate/Mid-Level,N/A,-,SQL
 1173,München,Data Scientist,Entry level,N/A,-,SQL
 1174,Heidelberg,Data Engineer,Entry level,0-7,-,SQL
 1175,Hamburg,Data Scientist,Associate/Mid-Level,N/A,-,SQL
 1178,Hanau,Data Scientist,Associate/Mid-Level,N/A,-,SQL
-1191,Hamburg,Data Analyst,Senior,N/A,-,SQL
+1191,Hamburg,Data Scientist,Senior,N/A,-,SQL
 1192,Berlin,Data Scientist,Senior,N/A,-,SQL
 1193,München,Data Scientist,Entry level,N/A,-,SQL
-1196,Nördlingen,Other,Associate/Mid-Level,N/A,-,SQL
+1196,Nördlingen,Data Scientist,Associate/Mid-Level,N/A,-,SQL
 1201,Berlin,Data Scientist,Director,N/A,-,SQL
 1205,Berlin,Data Scientist,Senior,N/A,-,SQL
 1209,Saterland,Other,Director,N/A,-,SQL
@@ -2594,13 +2594,13 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1310,Stuttgart,Data Scientist,Senior,0-7,-,SQL
 1311,Berlin,Data Scientist,Senior,0-7,-,SQL
 1313,Berlin,Data Scientist,Senior,0-7,-,SQL
-1318,Bielefeld,Data Analyst,Senior,0-7,-,SQL
+1318,Bielefeld,Data Scientist,Senior,0-7,-,SQL
 1323,Coesfeld-Lette,Data Scientist,Senior,8-14,-,SQL
 1329,Berlin,Data Scientist,Senior,15-21,-,SQL
 1336,Köln,Other,Senior,0-7,-,SQL
 1338,Fürth,Data Scientist,Associate/Mid-Level,0-7,-,SQL
 1343,Ettlingen,Data Scientist,Associate/Mid-Level,8-14,-,SQL
-1346,Düsseldorf,Other,Entry level,0-7,-,SQL
+1346,Düsseldorf,Data Analyst,Entry level,0-7,-,SQL
 1353,Stuttgart,Other,Associate/Mid-Level,15-21,-,SQL
 1364,Ahrensburg,Other,Associate/Mid-Level,8-14,-,SQL
 1367,Karlsruhe,Other,Associate/Mid-Level,15-21,-,SQL
@@ -2628,26 +2628,26 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1430,Augsburg,Other,Entry level,15-21,-,SQL
 1440,Augsburg,Other,Entry level,29+,-,SQL
 1445,Rosenheim,Data Engineer,Associate/Mid-Level,15-21,-,SQL
-1457,Stuttgart,Other,Associate/Mid-Level,0-7,-,SQL
+1457,Stuttgart,Data Analyst,Associate/Mid-Level,0-7,-,SQL
 1458,Lüneburg,Other,Associate/Mid-Level,0-7,-,SQL
 1459,Oldenburg,Business Intelligence (BI),Associate/Mid-Level,0-7,-,SQL
 1461,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,SQL
 1462,Luxembourg,Business Intelligence (BI),Associate/Mid-Level,0-7,-,SQL
 1463,Luxembourg,Business Intelligence (BI),Associate/Mid-Level,0-7,-,SQL
 1464,Münster,Other,Associate/Mid-Level,0-7,-,SQL
-1466,Frankfurt am Main,Business Intelligence (BI),Associate/Mid-Level,0-7,-,SQL
+1466,Frankfurt am Main,Data Analyst,Associate/Mid-Level,0-7,-,SQL
 1468,Köln,Data Analyst,Associate/Mid-Level,0-7,-,SQL
 1478,Hamburg,Other,Associate/Mid-Level,0-7,-,SQL
-1487,Burghausen,Other,Associate/Mid-Level,8-14,-,SQL
+1487,Burghausen,Data Analyst,Associate/Mid-Level,8-14,-,SQL
 1489,Solingen,Other,Associate/Mid-Level,8-14,-,SQL
-1491,Berlin,Other,Associate/Mid-Level,8-14,-,SQL
+1491,Berlin,Data Analyst,Associate/Mid-Level,8-14,-,SQL
 1493,Ulm,Business Intelligence (BI),Associate/Mid-Level,0-7,-,SQL
 1494,Luxembourg,Business Intelligence (BI),Associate/Mid-Level,0-7,-,SQL
-1497,Frankfurt am Main,Other,Associate/Mid-Level,8-14,-,SQL
+1497,Frankfurt am Main,Data Analyst,Associate/Mid-Level,8-14,-,SQL
 1502,Frankfurt am Main,Other,Associate/Mid-Level,8-14,-,SQL
 1504,Bremen,Data Analyst,Senior,8-14,-,SQL
 1505,Hamburg,Other,Associate/Mid-Level,8-14,-,SQL
-1507,Frankfurt am Main,Other,Associate/Mid-Level,8-14,-,SQL
+1507,Frankfurt am Main,Data Analyst,Associate/Mid-Level,8-14,-,SQL
 1508,Essen,Other,Associate/Mid-Level,8-14,-,SQL
 1512,Berlin,Business Intelligence (BI),Associate/Mid-Level,8-14,-,SQL
 1515,Luxembourg,Business Intelligence (BI),Associate/Mid-Level,8-14,-,SQL
@@ -2668,7 +2668,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1545,Karlsruhe,Data Engineer,Entry level,15-21,-,SQL
 1547,Wiesbaden,Other,Associate/Mid-Level,22-28,-,SQL
 1554,München,Other,Senior,22-28,-,SQL
-1556,Monheim am Rhein,Other,Senior,0-7,-,SQL
+1556,Monheim am Rhein,Data Analyst,Senior,0-7,-,SQL
 1557,München,Data Engineer,Senior,0-7,-,SQL
 1558,Berlin,Data Engineer,Senior,0-7,-,SQL
 1560,Bielefeld,Data Analyst,Senior,0-7,-,SQL
@@ -2682,7 +2682,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1580,Berlin,Data Engineer,Senior,22-28,-,SQL
 1584,Bochum,Other,Associate/Mid-Level,8-14,-,SQL
 1598,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,SQL
-1600,Bonn,Business Intelligence (BI),Associate/Mid-Level,8-14,-,SQL
+1600,Bonn,Data Analyst,Associate/Mid-Level,8-14,-,SQL
 1602,Mainz,Data Engineer,Senior,8-14,-,SQL
 1606,Hannover,Other,Associate/Mid-Level,8-14,-,SQL
 1608,Köln,Data Engineer,Associate/Mid-Level,15-21,-,SQL
@@ -2700,7 +2700,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 582,Weinheim,Data Scientist,Associate/Mid-Level,0-7,-,SQL
 736,Hamburg,Data Engineer,Associate/Mid-Level,8-14,-,SQL
 957,Bochum,Data Scientist,Senior,0-7,-,SQL
-1596,Köln,Data Consultant,Associate/Mid-Level,8-14,-,SQL
+1596,Köln,Data Analyst,Associate/Mid-Level,8-14,-,SQL
 1611,Luxembourg,Other,Director,0-7,-,SQL
 1,Berlin,Data Scientist,Entry level,8-14,-,Azure
 2,Frankfurt am Main,Data Scientist,Associate/Mid-Level,22-28,-,Azure
@@ -2730,9 +2730,9 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 113,München,Data Scientist,Associate/Mid-Level,29+,-,Azure
 116,München,AI/ML Specialist,Associate/Mid-Level,8-14,-,Azure
 117,München,AI Engineer,Associate/Mid-Level,29+,-,Azure
-140,München,AI/ML Specialist,Entry level,0-7,-,Azure
+140,München,Data Analyst,Entry level,0-7,-,Azure
 143,München,Data Scientist,Associate/Mid-Level,8-14,-,Azure
-153,Würzburg,Other,Associate/Mid-Level,29+,-,Azure
+153,Würzburg,Data Scientist,Associate/Mid-Level,29+,-,Azure
 160,Hamburg,AI Engineer,Associate/Mid-Level,15-21,-,Azure
 161,Stuttgart,Data Analyst,Associate/Mid-Level,0-7,-,Azure
 167,Düsseldorf,Other,Associate/Mid-Level,22-28,-,Azure
@@ -2747,10 +2747,10 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 233,Deutschland,AI/ML Specialist,Director,8-14,-,Azure
 238,Deutschland,Other,Senior,29+,-,Azure
 248,München,Data Scientist,Entry level,0-7,-,Azure
-260,Hamburg,Other,Associate/Mid-Level,15-21,-,Azure
+260,Hamburg,Data Analyst,Associate/Mid-Level,15-21,-,Azure
 262,Düsseldorf,Data Scientist,Associate/Mid-Level,8-14,-,Azure
 271,Berlin,Data Engineer,Associate/Mid-Level,0-7,-,Azure
-273,Frankfurt am Main,Data Consultant,Entry level,8-14,-,Azure
+273,Frankfurt am Main,Data Analyst,Entry level,8-14,-,Azure
 283,Deutschland,Data Analyst,Senior,29+,-,Azure
 287,Berlin,Machine Learning Engineer,Associate/Mid-Level,22-28,-,Azure
 289,Deutschland,Machine Learning Engineer,Senior,22-28,-,Azure
@@ -2780,13 +2780,13 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 431,Dortmund,AI/ML Specialist,Associate/Mid-Level,8-14,-,Azure
 437,Hannover,Data Scientist,Associate/Mid-Level,8-14,-,Azure
 438,Deutschland,Other,Associate/Mid-Level,22-28,-,Azure
-457,Köln,Data Engineer,Associate/Mid-Level,0-7,-,Azure
+457,Köln,Data Scientist,Associate/Mid-Level,0-7,-,Azure
 460,Mülheim an der Ruhr,Data Scientist,Associate/Mid-Level,8-14,-,Azure
 475,Nordrhein-Westfalen,AI Engineer,Associate/Mid-Level,8-14,-,Azure
-479,Hamburg,Data Engineer,Associate/Mid-Level,0-7,-,Azure
+479,Hamburg,Data Scientist,Associate/Mid-Level,0-7,-,Azure
 504,Deutschland,Other,Associate/Mid-Level,15-21,-,Azure
 509,Kassel,Data Scientist,Entry level,29+,-,Azure
-512,Stuttgart,Data Engineer,Associate/Mid-Level,0-7,-,Azure
+512,Stuttgart,Data Scientist,Associate/Mid-Level,0-7,-,Azure
 518,Deutschland,Data Scientist,Senior,0-7,-,Azure
 520,Ulm,Data Scientist,Associate/Mid-Level,29+,-,Azure
 543,Frankfurt am Main,Data Scientist,Entry level,0-7,-,Azure
@@ -2816,14 +2816,14 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 681,Hamburg,Data Engineer,Associate/Mid-Level,29+,-,Azure
 686,München,Data Scientist,Senior,29+,-,Azure
 700,Berlin,Data Scientist,Senior,15-21,-,Azure
-708,München,Other,Entry level,0-7,-,Azure
+708,München,Data Analyst,Entry level,0-7,-,Azure
 711,Berlin,Machine Learning Engineer,Entry level,0-7,-,Azure
 728,Deutschland,Data Scientist,Associate/Mid-Level,8-14,-,Azure
 739,Hamburg,Data Scientist,Associate/Mid-Level,15-21,-,Azure
 742,Stuttgart,Data Engineer,Associate/Mid-Level,15-21,-,Azure
 750,Düsseldorf,Data Scientist,Associate/Mid-Level,15-21,-,Azure
 763,Stuttgart,Data Engineer,Entry level,0-7,-,Azure
-765,München,AI/ML Specialist,Associate/Mid-Level,8-14,-,Azure
+765,München,Data Analyst,Associate/Mid-Level,8-14,-,Azure
 767,Köln,Data Engineer,Entry level,0-7,-,Azure
 783,Köln,Other,Associate/Mid-Level,15-21,-,Azure
 784,Ulm,Data Engineer,Entry level,0-7,-,Azure
@@ -2858,7 +2858,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 956,Lübeck,Data Engineer,Associate/Mid-Level,N/A,-,Azure
 963,Stuttgart,Machine Learning Engineer,Associate/Mid-Level,N/A,-,Azure
 964,Würzburg,Data Scientist,Senior,N/A,-,Azure
-978,Mülheim an der Ruhr,Data Engineer,Senior,N/A,-,Azure
+978,Mülheim an der Ruhr,Data Analyst,Senior,N/A,-,Azure
 995,München,Data Scientist,Senior,N/A,-,Azure
 1002,Frankfurt am Main,Data Scientist,Senior,N/A,-,Azure
 1005,Berlin,Data Scientist,Senior,N/A,-,Azure
@@ -2896,9 +2896,9 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1340,Frankfurt,Data Scientist,Senior,0-7,-,Azure
 1343,Ettlingen,Data Scientist,Associate/Mid-Level,8-14,-,Azure
 1345,München,Other,Associate/Mid-Level,0-7,-,Azure
-1346,Düsseldorf,Other,Entry level,0-7,-,Azure
+1346,Düsseldorf,Data Analyst,Entry level,0-7,-,Azure
 1353,Stuttgart,Other,Associate/Mid-Level,15-21,-,Azure
-1359,München,AI Engineer,Associate/Mid-Level,8-14,-,Azure
+1359,München,Data Analyst,Associate/Mid-Level,8-14,-,Azure
 1364,Ahrensburg,Other,Associate/Mid-Level,8-14,-,Azure
 1367,Karlsruhe,Other,Associate/Mid-Level,15-21,-,Azure
 1369,Berlin,Machine Learning Engineer,Entry level,8-14,-,Azure
@@ -2913,13 +2913,13 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1445,Rosenheim,Data Engineer,Associate/Mid-Level,15-21,-,Azure
 1448,Deutschland,Other,Associate/Mid-Level,0-7,-,Azure
 1449,Gütersloh,AI/ML Specialist,Senior,0-7,-,Azure
-1466,Frankfurt am Main,Business Intelligence (BI),Associate/Mid-Level,0-7,-,Azure
+1466,Frankfurt am Main,Data Analyst,Associate/Mid-Level,0-7,-,Azure
 1477,Sindelfingen,Other,Associate/Mid-Level,0-7,-,Azure
-1487,Burghausen,Other,Associate/Mid-Level,8-14,-,Azure
+1487,Burghausen,Data Analyst,Associate/Mid-Level,8-14,-,Azure
 1519,Berlin,Data Engineer,Senior,8-14,-,Azure
 1523,Berlin,Machine Learning Engineer,Associate/Mid-Level,15-21,-,Azure
 1527,Köln,Data Analyst,Associate/Mid-Level,8-14,-,Azure
-1556,Monheim am Rhein,Other,Senior,0-7,-,Azure
+1556,Monheim am Rhein,Data Analyst,Senior,0-7,-,Azure
 1557,München,Data Engineer,Senior,0-7,-,Azure
 1564,Unterschleißheim,Data Engineer,Senior,0-7,-,Azure
 1567,Berlin,Machine Learning Engineer,Senior,8-14,-,Azure
@@ -2975,7 +2975,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 238,Deutschland,Other,Senior,29+,-,GCP
 262,Düsseldorf,Data Scientist,Associate/Mid-Level,8-14,-,GCP
 271,Berlin,Data Engineer,Associate/Mid-Level,0-7,-,GCP
-273,Frankfurt am Main,Data Consultant,Entry level,8-14,-,GCP
+273,Frankfurt am Main,Data Analyst,Entry level,8-14,-,GCP
 283,Deutschland,Data Analyst,Senior,29+,-,GCP
 287,Berlin,Machine Learning Engineer,Associate/Mid-Level,22-28,-,GCP
 289,Deutschland,Machine Learning Engineer,Senior,22-28,-,GCP
@@ -3004,12 +3004,12 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 431,Dortmund,AI/ML Specialist,Associate/Mid-Level,8-14,-,GCP
 433,Berlin,Data Scientist,Senior,8-14,-,GCP
 456,Deutschland,Other,Associate/Mid-Level,29+,-,GCP
-457,Köln,Data Engineer,Associate/Mid-Level,0-7,-,GCP
+457,Köln,Data Scientist,Associate/Mid-Level,0-7,-,GCP
 466,Hamburg,Data Scientist,Senior,29+,-,GCP
 475,Nordrhein-Westfalen,AI Engineer,Associate/Mid-Level,8-14,-,GCP
-479,Hamburg,Data Engineer,Associate/Mid-Level,0-7,-,GCP
+479,Hamburg,Data Scientist,Associate/Mid-Level,0-7,-,GCP
 504,Deutschland,Other,Associate/Mid-Level,15-21,-,GCP
-512,Stuttgart,Data Engineer,Associate/Mid-Level,0-7,-,GCP
+512,Stuttgart,Data Scientist,Associate/Mid-Level,0-7,-,GCP
 515,Berlin,Data Engineer,Entry level,15-21,-,GCP
 527,Köln,Data Engineer,Entry level,8-14,-,GCP
 543,Frankfurt am Main,Data Scientist,Entry level,0-7,-,GCP
@@ -3019,7 +3019,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 601,Berlin,Other,Senior,8-14,-,GCP
 624,Oldenburg,Data Engineer,Entry level,29+,-,GCP
 627,München,Data Scientist,Associate/Mid-Level,15-21,-,GCP
-644,München,Other,Associate/Mid-Level,29+,-,GCP
+644,München,Data Analyst,Associate/Mid-Level,29+,-,GCP
 650,Berlin,Data Scientist,Associate/Mid-Level,15-21,-,GCP
 651,Frankfurt am Main,Other,Director,0-7,-,GCP
 653,Berlin,Machine Learning Engineer,Associate/Mid-Level,0-7,-,GCP
@@ -3079,14 +3079,14 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1334,Frankfurt am Main,Data Scientist,Senior,0-7,-,GCP
 1343,Ettlingen,Data Scientist,Associate/Mid-Level,8-14,-,GCP
 1344,Berlin,Data Scientist,Associate/Mid-Level,8-14,-,GCP
-1346,Düsseldorf,Other,Entry level,0-7,-,GCP
+1346,Düsseldorf,Data Analyst,Entry level,0-7,-,GCP
 1369,Berlin,Machine Learning Engineer,Entry level,8-14,-,GCP
 1375,Köln,Data Engineer,Associate/Mid-Level,0-7,-,GCP
 1381,Berlin,Other,Entry level,8-14,-,GCP
 1383,Berlin,Machine Learning Engineer,Senior,0-7,-,GCP
 1384,Nürnberg,Data Scientist,Entry level,8-14,Vocational training,-
 1449,Gütersloh,AI/ML Specialist,Senior,0-7,-,GCP
-1487,Burghausen,Other,Associate/Mid-Level,8-14,-,GCP
+1487,Burghausen,Data Analyst,Associate/Mid-Level,8-14,-,GCP
 1519,Berlin,Data Engineer,Senior,8-14,-,GCP
 1523,Berlin,Machine Learning Engineer,Associate/Mid-Level,15-21,-,GCP
 1558,Berlin,Data Engineer,Senior,0-7,-,GCP
@@ -3110,7 +3110,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 24,Berlin,AI/ML Specialist,Entry level,29+,Internship,Power BI
 28,Berlin,Other,Associate/Mid-Level,0-7,-,Power BI
 31,München,AI Engineer,Entry level,29+,Internship,-
-35,Deutschland,AI/ML Specialist,Entry level,15-21,Internship,-
+35,Deutschland,Data Analyst,Entry level,15-21,Internship,-
 36,Dresden,AI/ML Specialist,Entry level,29+,Internship,Power BI
 38,Schwalbach,Data Scientist,Entry level,15-21,-,Power BI
 45,Kronberg,Data Scientist,Entry level,15-21,-,Power BI
@@ -3125,7 +3125,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 97,Berlin,Data Scientist,Director,0-7,-,Power BI
 98,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,Power BI
 99,Berlin,Other,Associate/Mid-Level,29+,Internship,-
-101,Frankfurt am Main,Other,Director,0-7,-,Power BI
+101,Frankfurt am Main,Data Analyst,Director,0-7,-,Power BI
 103,Berlin,Other,Associate/Mid-Level,8-14,-,Power BI
 106,Hamburg,Data Scientist,Entry level,29+,Internship,Power BI
 134,Köln,Data Scientist,Entry level,0-7,Internship,-
@@ -3153,14 +3153,14 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 248,München,Data Scientist,Entry level,0-7,Internship,-
 254,München,AI/ML Specialist,Entry level,15-21,Internship,-
 258,Karlsruhe,Data Scientist,Entry level,0-7,Internship,-
-260,Hamburg,Other,Associate/Mid-Level,15-21,-,Power BI
+260,Hamburg,Data Analyst,Associate/Mid-Level,15-21,-,Power BI
 266,Berlin,Research Scientist,Entry level,0-7,Internship,-
 267,Berlin,Other,Entry level,15-21,Internship,-
 268,Hamburg,Other,Entry level,29+,Internship,-
 270,Bad Homburg,Data Scientist,Entry level,15-21,Internship,-
-273,Frankfurt am Main,Data Consultant,Entry level,8-14,-,Power BI
+273,Frankfurt am Main,Data Analyst,Entry level,8-14,-,Power BI
 276,München,Data Analyst,Associate/Mid-Level,8-14,-,Power BI
-282,Dortmund,Data Analyst,Associate/Mid-Level,15-21,-,Power BI
+282,Dortmund,Data Scientist,Associate/Mid-Level,15-21,-,Power BI
 283,Deutschland,Data Analyst,Senior,29+,-,Power BI
 291,Frankfurt am Main,Other,Associate/Mid-Level,29+,-,Power BI
 307,Berlin,Data Analyst,Associate/Mid-Level,15-21,-,Power BI
@@ -3170,28 +3170,28 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 350,München,Other,Entry level,0-7,Internship,-
 352,München,Other,Associate/Mid-Level,15-21,-,Power BI
 355,München,Other,Entry level,8-14,Internship,-
-358,Frankfurt am Main,Other,Entry level,0-7,-,Power BI
+358,Frankfurt am Main,Data Analyst,Entry level,0-7,-,Power BI
 363,München,Data Scientist,Entry level,8-14,Internship,-
 368,München,Machine Learning Engineer,Entry level,0-7,Internship,-
-375,Frankfurt am Main,Other,Associate/Mid-Level,22-28,-,Power BI
+375,Frankfurt am Main,Data Analyst,Associate/Mid-Level,22-28,-,Power BI
 381,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,Power BI
 384,München,Data Engineer,Entry level,8-14,Internship,-
 385,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,Power BI
 392,München,Data Analyst,Associate/Mid-Level,0-7,-,Power BI
-397,Augsburg,Other,Associate/Mid-Level,22-28,-,Power BI
-409,Karlsruhe,Other,Entry level,0-7,Internship,Power BI
+397,Augsburg,Data Analyst,Associate/Mid-Level,22-28,-,Power BI
+409,Karlsruhe,Data Analyst,Entry level,0-7,Internship,Power BI
 415,München,Other,Entry level,8-14,Internship,-
-425,Dortmund,Data Analyst,Associate/Mid-Level,15-21,-,Power BI
+425,Dortmund,Data Scientist,Associate/Mid-Level,15-21,-,Power BI
 436,Berlin,Business Intelligence (BI),Associate/Mid-Level,0-7,-,Power BI
 439,Hamburg,AI/ML Specialist,Entry level,29+,Internship,-
 443,Hannover,Data Engineer,Entry level,22-28,Internship,-
 444,Augsburg,Other,Associate/Mid-Level,29+,Internship,-
 445,Berlin,Business Intelligence (BI),Associate/Mid-Level,8-14,-,Power BI
-447,München,Other,Entry level,29+,Internship,-
+447,München,Data Analyst,Entry level,29+,Internship,-
 460,Mülheim an der Ruhr,Data Scientist,Associate/Mid-Level,8-14,-,Power BI
 462,Bergisch Gladbach,Research Scientist,Associate/Mid-Level,15-21,-,Power BI
 466,Hamburg,Data Scientist,Senior,29+,-,Power BI
-471,Mannheim,Other,Entry level,0-7,Internship,-
+471,Mannheim,Data Analyst,Entry level,0-7,Internship,-
 480,Köln,Data Scientist,Entry level,29+,Internship,-
 489,Konstanz,Data Analyst,Associate/Mid-Level,29+,-,Power BI
 493,Köln,Data Scientist,Entry level,29+,-,Power BI
@@ -3209,7 +3209,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 540,München,Data Scientist,Entry level,0-7,Internship,-
 542,Hamburg,Data Scientist,Associate/Mid-Level,0-7,-,Power BI
 548,Mainz,Data Engineer,Associate/Mid-Level,8-14,-,Power BI
-550,Immenstadt,Other,Associate/Mid-Level,29+,-,Power BI
+550,Immenstadt,Data Analyst,Associate/Mid-Level,29+,-,Power BI
 563,Oldenburg,AI Engineer,Entry level,29+,-,Power BI
 565,Fellbach,Data Analyst,Associate/Mid-Level,22-28,-,Power BI
 566,Bonn,Data Engineer,Associate/Mid-Level,8-14,-,Power BI
@@ -3232,7 +3232,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 623,Deutschland,Business Intelligence (BI),Entry level,15-21,Internship,-
 628,Bonn,Data Analyst,Associate/Mid-Level,0-7,-,Power BI
 629,Hannover,Data Scientist,Associate/Mid-Level,0-7,-,Power BI
-639,Grünheide,Other,Associate/Mid-Level,0-7,Internship,Power BI
+639,Grünheide,Data Analyst,Associate/Mid-Level,0-7,Internship,Power BI
 643,Frankfurt am Main,Other,Entry level,0-7,-,Power BI
 645,München,Business Intelligence (BI),Associate/Mid-Level,22-28,-,Power BI
 647,Hechingen,Other,Entry level,0-7,Internship,-
@@ -3266,8 +3266,8 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 751,Berlin,Business Intelligence (BI),Associate/Mid-Level,22-28,-,Power BI
 753,Deutschland,Data Analyst,Associate/Mid-Level,15-21,-,Power BI
 770,Deutschland,Data Analyst,Senior,22-28,-,Power BI
-775,München,Other,Entry level,15-21,Internship,-
-776,Frankfurt am Main,Other,Director,29+,-,Power BI
+775,München,Data Analyst,Entry level,15-21,Internship,-
+776,Frankfurt am Main,Data Analyst,Director,29+,-,Power BI
 778,München,Data Scientist,Entry level,29+,Internship,-
 784,Ulm,Data Engineer,Entry level,0-7,Internship,-
 787,Würzburg,Data Analyst,Associate/Mid-Level,0-7,-,Power BI
@@ -3276,7 +3276,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 818,Dresden,Data Scientist,Entry level,N/A,Internship,-
 824,Aachen,Data Scientist,Entry level,N/A,Internship,-
 846,Karlsruhe,Data Scientist,Associate/Mid-Level,N/A,Internship,-
-855,München,Data Analyst,Entry level,N/A,-,Power BI
+855,München,Data Scientist,Entry level,N/A,-,Power BI
 858,Siegburg,Data Scientist,Senior,15-21,-,Power BI
 860,Braunschweig,Data Scientist,Associate/Mid-Level,N/A,-,Power BI
 873,Hannover,Data Scientist,Senior,N/A,-,Power BI
@@ -3305,7 +3305,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1103,Erlangen,Data Scientist,Associate/Mid-Level,N/A,-,Power BI
 1135,Paderborn,Data Scientist,Associate/Mid-Level,N/A,-,Power BI
 1140,Berlin,Data Scientist,Senior,N/A,-,Power BI
-1165,Bad Gandersheim,Data Analyst,Associate/Mid-Level,N/A,-,Power BI
+1165,Bad Gandersheim,Data Scientist,Associate/Mid-Level,N/A,-,Power BI
 1193,München,Data Scientist,Entry level,N/A,-,Power BI
 1262,Bergisch Gladbach,Other,Associate/Mid-Level,N/A,-,Power BI
 1297,Koblenz,Data Scientist,Entry level,0-7,-,Power BI
@@ -3326,7 +3326,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1459,Oldenburg,Business Intelligence (BI),Associate/Mid-Level,0-7,-,Power BI
 1460,Stuttgart,Data Consultant,Associate/Mid-Level,0-7,-,Power BI
 1461,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,Power BI
-1466,Frankfurt am Main,Business Intelligence (BI),Associate/Mid-Level,0-7,-,Power BI
+1466,Frankfurt am Main,Data Analyst,Associate/Mid-Level,0-7,-,Power BI
 1478,Hamburg,Other,Associate/Mid-Level,0-7,-,Power BI
 1482,Sindelfingen,Machine Learning Engineer,Entry level,0-7,Internship,-
 1483,Stuttgart,Data Consultant,Entry level,0-7,-,Power BI
@@ -3348,12 +3348,12 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1542,Braunschweig,Business Intelligence (BI),Associate/Mid-Level,15-21,-,Power BI
 1546,Bremen,Business Intelligence (BI),Associate/Mid-Level,15-21,-,Power BI
 1549,Oldenburg,Business Intelligence (BI),Associate/Mid-Level,15-21,-,Power BI
-1556,Monheim am Rhein,Other,Senior,0-7,-,Power BI
+1556,Monheim am Rhein,Data Analyst,Senior,0-7,-,Power BI
 1565,Traunreut,Business Intelligence (BI),Senior,0-7,-,Power BI
 1573,Wiesbaden,Other,Senior,8-14,-,Power BI
 1574,Hamburg,Data Engineer,Senior,15-21,-,Power BI
 1575,Berlin,Data Engineer,Senior,8-14,-,Power BI
-1600,Bonn,Business Intelligence (BI),Associate/Mid-Level,8-14,-,Power BI
+1600,Bonn,Data Analyst,Associate/Mid-Level,8-14,-,Power BI
 1602,Mainz,Data Engineer,Senior,8-14,-,Power BI
 1606,Hannover,Other,Associate/Mid-Level,8-14,-,Power BI
 78,Hamburg,Data Scientist,Associate/Mid-Level,29+,-,Power BI
@@ -3364,21 +3364,21 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 549,Hamburg,Data Scientist,Director,15-21,-,Power BI
 562,Berlin,Other,Entry level,29+,Internship,-
 957,Bochum,Data Scientist,Senior,0-7,-,Power BI
-1596,Köln,Data Consultant,Associate/Mid-Level,8-14,-,Power BI
+1596,Köln,Data Analyst,Associate/Mid-Level,8-14,-,Power BI
 10,Hamburg,Data Scientist,Entry level,22-28,-,Tableau
 24,Berlin,AI/ML Specialist,Entry level,29+,-,Tableau
 28,Berlin,Other,Associate/Mid-Level,0-7,-,Tableau
 32,Berlin,Data Scientist,Senior,0-7,-,Tableau
-35,Deutschland,AI/ML Specialist,Entry level,15-21,-,Tableau
+35,Deutschland,Data Analyst,Entry level,15-21,-,Tableau
 36,Dresden,AI/ML Specialist,Entry level,29+,-,Tableau
 49,München,Data Scientist,Entry level,0-7,-,Tableau
 61,Hürth,Data Scientist,Associate/Mid-Level,29+,-,Tableau
-70,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,Tableau
+70,Berlin,Data Scientist,Associate/Mid-Level,0-7,-,Tableau
 72,Hürth,AI Engineer,Entry level,29+,-,Tableau
 80,München,Data Scientist,Associate/Mid-Level,0-7,-,Tableau
 81,Frankfurt am Main,Other,Associate/Mid-Level,22-28,-,Tableau
 103,Berlin,Other,Associate/Mid-Level,8-14,-,Tableau
-115,Berlin,Data Analyst,Associate/Mid-Level,8-14,-,Tableau
+115,Berlin,Data Scientist,Associate/Mid-Level,8-14,-,Tableau
 158,Berlin,Data Analyst,Associate/Mid-Level,8-14,-,Tableau
 166,Berlin,Other,Associate/Mid-Level,29+,-,Tableau
 173,Deutschland,Data Analyst,Entry level,15-21,-,Tableau
@@ -3391,23 +3391,23 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 236,Deutschland,Business Intelligence (BI),Senior,0-7,-,Tableau
 238,Deutschland,Other,Senior,29+,-,Tableau
 252,Berlin,Other,Director,0-7,-,Tableau
-273,Frankfurt am Main,Data Consultant,Entry level,8-14,-,Tableau
+273,Frankfurt am Main,Data Analyst,Entry level,8-14,-,Tableau
 276,München,Data Analyst,Associate/Mid-Level,8-14,-,Tableau
 277,Hamburg,Data Scientist,Associate/Mid-Level,29+,-,Tableau
-282,Dortmund,Data Analyst,Associate/Mid-Level,15-21,-,Tableau
+282,Dortmund,Data Scientist,Associate/Mid-Level,15-21,-,Tableau
 283,Deutschland,Data Analyst,Senior,29+,-,Tableau
 292,Leipzig,Data Scientist,Senior,15-21,-,Tableau
 307,Berlin,Data Analyst,Associate/Mid-Level,15-21,-,Tableau
 319,München,Data Scientist,Entry level,0-7,-,Tableau
 340,Arnstorf,Data Scientist,Associate/Mid-Level,29+,-,Tableau
 354,Berlin,Other,Entry level,0-7,-,Tableau
-375,Frankfurt am Main,Other,Associate/Mid-Level,22-28,-,Tableau
+375,Frankfurt am Main,Data Analyst,Associate/Mid-Level,22-28,-,Tableau
 385,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,Tableau
 392,München,Data Analyst,Associate/Mid-Level,0-7,-,Tableau
 393,Salzgitter,Data Analyst,Associate/Mid-Level,0-7,-,Tableau
-397,Augsburg,Other,Associate/Mid-Level,22-28,-,Tableau
-409,Karlsruhe,Other,Entry level,0-7,-,Tableau
-425,Dortmund,Data Analyst,Associate/Mid-Level,15-21,-,Tableau
+397,Augsburg,Data Analyst,Associate/Mid-Level,22-28,-,Tableau
+409,Karlsruhe,Data Analyst,Entry level,0-7,-,Tableau
+425,Dortmund,Data Scientist,Associate/Mid-Level,15-21,-,Tableau
 430,Neuwied,Data Analyst,Associate/Mid-Level,0-7,-,Tableau
 436,Berlin,Business Intelligence (BI),Associate/Mid-Level,0-7,-,Tableau
 466,Hamburg,Data Scientist,Senior,29+,-,Tableau
@@ -3421,7 +3421,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 531,München,Data Engineer,Associate/Mid-Level,8-14,-,Tableau
 536,Frankfurt am Main,Data Analyst,Associate/Mid-Level,0-7,-,Tableau
 548,Mainz,Data Engineer,Associate/Mid-Level,8-14,-,Tableau
-550,Immenstadt,Other,Associate/Mid-Level,29+,-,Tableau
+550,Immenstadt,Data Analyst,Associate/Mid-Level,29+,-,Tableau
 556,Berlin,Data Scientist,Associate/Mid-Level,29+,-,Tableau
 560,Berlin,Other,Director,29+,-,Tableau
 563,Oldenburg,AI Engineer,Entry level,29+,-,Tableau
@@ -3443,14 +3443,14 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 627,München,Data Scientist,Associate/Mid-Level,15-21,-,Tableau
 628,Bonn,Data Analyst,Associate/Mid-Level,0-7,-,Tableau
 629,Hannover,Data Scientist,Associate/Mid-Level,0-7,-,Tableau
-639,Grünheide,Other,Associate/Mid-Level,0-7,-,Tableau
+639,Grünheide,Data Analyst,Associate/Mid-Level,0-7,-,Tableau
 650,Berlin,Data Scientist,Associate/Mid-Level,15-21,-,Tableau
 655,Köln,Data Scientist,Associate/Mid-Level,8-14,-,Tableau
 659,Frankfurt am Main,Data Scientist,Associate/Mid-Level,29+,-,Tableau
 664,Frankfurt am Main,Data Scientist,Associate/Mid-Level,15-21,-,Tableau
 669,Berlin,Other,Associate/Mid-Level,29+,-,Tableau
 671,Nürnberg,Data Analyst,Associate/Mid-Level,0-7,-,Tableau
-679,München,Other,Associate/Mid-Level,15-21,-,Tableau
+679,München,Data Analyst,Associate/Mid-Level,15-21,-,Tableau
 681,Hamburg,Data Engineer,Associate/Mid-Level,29+,-,Tableau
 689,Nürnberg,Data Scientist,Associate/Mid-Level,29+,-,Tableau
 699,Ingolstadt,Data Scientist,Associate/Mid-Level,8-14,-,Tableau
@@ -3476,7 +3476,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 755,Stuttgart,Data Scientist,Associate/Mid-Level,29+,-,Tableau
 800,Penzberg,Data Scientist,Associate/Mid-Level,N/A,-,Tableau
 824,Aachen,Data Scientist,Entry level,N/A,Working student,-
-855,München,Data Analyst,Entry level,N/A,-,Tableau
+855,München,Data Scientist,Entry level,N/A,-,Tableau
 858,Siegburg,Data Scientist,Senior,15-21,-,Tableau
 860,Braunschweig,Data Scientist,Associate/Mid-Level,N/A,-,Tableau
 864,Bremen,Data Scientist,Entry level,N/A,Working student,-
@@ -3505,7 +3505,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1302,Bremen,Data Scientist,Entry level,8-14,Working student,-
 1307,München,Data Scientist,Entry level,0-7,-,Tableau
 1313,Berlin,Data Scientist,Senior,0-7,-,Tableau
-1346,Düsseldorf,Other,Entry level,0-7,Working student,Tableau
+1346,Düsseldorf,Data Analyst,Entry level,0-7,Working student,Tableau
 1353,Stuttgart,Other,Associate/Mid-Level,15-21,-,Tableau
 1355,München,Other,Entry level,0-7,Working student,-
 1356,Bremen,Other,Associate/Mid-Level,0-7,Working student,-
@@ -3516,9 +3516,9 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1379,Berlin,Business Intelligence (BI),Entry level,8-14,-,Tableau
 1393,Mülheim an der Ruhr,Data Analyst,Senior,8-14,-,Tableau
 1395,Hamburg,Data Analyst,Senior,0-7,-,Tableau
-1415,Augsburg,Business Intelligence (BI),Entry level,0-7,Working student,Tableau
+1415,Augsburg,Data Analyst,Entry level,0-7,Working student,Tableau
 1417,Augsburg,Other,Entry level,0-7,Working student,-
-1418,München,Business Intelligence (BI),Entry level,0-7,Working student,Tableau
+1418,München,Data Analyst,Entry level,0-7,Working student,Tableau
 1419,München,Other,Entry level,0-7,Working student,-
 1420,München,Other,Entry level,0-7,Working student,-
 1421,Augsburg,Other,Entry level,0-7,Working student,-
@@ -3536,7 +3536,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1460,Stuttgart,Data Consultant,Associate/Mid-Level,0-7,-,Tableau
 1462,Luxembourg,Business Intelligence (BI),Associate/Mid-Level,0-7,-,Tableau
 1463,Luxembourg,Business Intelligence (BI),Associate/Mid-Level,0-7,-,Tableau
-1466,Frankfurt am Main,Business Intelligence (BI),Associate/Mid-Level,0-7,-,Tableau
+1466,Frankfurt am Main,Data Analyst,Associate/Mid-Level,0-7,-,Tableau
 1468,Köln,Data Analyst,Associate/Mid-Level,0-7,-,Tableau
 1473,Neuss,Machine Learning Engineer,Entry level,0-7,Working student,-
 1478,Hamburg,Other,Associate/Mid-Level,0-7,-,Tableau
@@ -3560,7 +3560,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 187,Berlin,Other,Associate/Mid-Level,0-7,-,Qlik
 193,Berlin,Other,Associate/Mid-Level,15-21,-,Qlik
 236,Deutschland,Business Intelligence (BI),Senior,0-7,-,Qlik
-273,Frankfurt am Main,Data Consultant,Entry level,8-14,-,Qlik
+273,Frankfurt am Main,Data Analyst,Entry level,8-14,-,Qlik
 507,Frankfurt am Main,Data Engineer,Associate/Mid-Level,8-14,-,Qlik
 523,Stuttgart,Other,Associate/Mid-Level,8-14,-,Qlik
 525,Erlangen,Data Scientist,Senior,0-7,-,Qlik
@@ -3577,7 +3577,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 620,Köln,Business Intelligence (BI),Entry level,29+,-,Qlik
 627,München,Data Scientist,Associate/Mid-Level,15-21,-,Qlik
 628,Bonn,Data Analyst,Associate/Mid-Level,0-7,-,Qlik
-639,Grünheide,Other,Associate/Mid-Level,0-7,-,Qlik
+639,Grünheide,Data Analyst,Associate/Mid-Level,0-7,-,Qlik
 650,Berlin,Data Scientist,Associate/Mid-Level,15-21,-,Qlik
 659,Frankfurt am Main,Data Scientist,Associate/Mid-Level,29+,-,Qlik
 664,Frankfurt am Main,Data Scientist,Associate/Mid-Level,15-21,-,Qlik
@@ -3591,7 +3591,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 739,Hamburg,Data Scientist,Associate/Mid-Level,15-21,-,Qlik
 750,Düsseldorf,Data Scientist,Associate/Mid-Level,15-21,-,Qlik
 755,Stuttgart,Data Scientist,Associate/Mid-Level,29+,-,Qlik
-855,München,Data Analyst,Entry level,N/A,-,Qlik
+855,München,Data Scientist,Entry level,N/A,-,Qlik
 883,Erlangen,Data Scientist,Senior,N/A,-,Qlik
 916,Erlangen,Data Scientist,Senior,N/A,-,Qlik
 922,Hannover,Data Scientist,Associate/Mid-Level,N/A,-,Qlik
@@ -3602,8 +3602,8 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1140,Berlin,Data Scientist,Senior,N/A,-,Qlik
 1307,München,Data Scientist,Entry level,0-7,-,Qlik
 1338,Fürth,Data Scientist,Associate/Mid-Level,0-7,-,Qlik
-1415,Augsburg,Business Intelligence (BI),Entry level,0-7,-,Qlik
-1418,München,Business Intelligence (BI),Entry level,0-7,-,Qlik
+1415,Augsburg,Data Analyst,Entry level,0-7,-,Qlik
+1418,München,Data Analyst,Entry level,0-7,-,Qlik
 1440,Augsburg,Other,Entry level,29+,-,Qlik
 1478,Hamburg,Other,Associate/Mid-Level,0-7,-,Qlik
 1495,Osnabrück,Business Intelligence (BI),Associate/Mid-Level,8-14,-,Qlik
@@ -3633,7 +3633,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 60,Berlin,Machine Learning Engineer,Associate/Mid-Level,8-14,-,Docker
 89,Berlin,AI/ML Specialist,Director,22-28,-,Docker
 124,Baden-Württemberg,Other,Associate/Mid-Level,0-7,-,Docker
-153,Würzburg,Other,Associate/Mid-Level,29+,-,Docker
+153,Würzburg,Data Scientist,Associate/Mid-Level,29+,-,Docker
 156,Berlin,Data Scientist,Associate/Mid-Level,15-21,-,Docker
 159,Deutschland,Research Scientist,Associate/Mid-Level,29+,-,Docker
 164,Berlin,AI Engineer,Associate/Mid-Level,8-14,-,Docker
@@ -3649,7 +3649,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 335,Frankfurt am Main,Data Scientist,Entry level,8-14,-,Docker
 343,Lübeck,Data Scientist,Associate/Mid-Level,29+,-,Docker
 351,Köln,AI Engineer,Entry level,0-7,-,Docker
-358,Frankfurt am Main,Other,Entry level,0-7,-,Docker
+358,Frankfurt am Main,Data Analyst,Entry level,0-7,-,Docker
 361,Deutschland,Machine Learning Engineer,Associate/Mid-Level,15-21,-,Docker
 391,Bremen,Data Scientist,Associate/Mid-Level,8-14,-,Docker
 398,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,Docker
@@ -3667,20 +3667,20 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 518,Deutschland,Data Scientist,Senior,0-7,-,Docker
 520,Ulm,Data Scientist,Associate/Mid-Level,29+,-,Docker
 545,Bremen,AI Engineer,Associate/Mid-Level,0-7,-,Docker
-550,Immenstadt,Other,Associate/Mid-Level,29+,-,Docker
+550,Immenstadt,Data Analyst,Associate/Mid-Level,29+,-,Docker
 561,Bonn,Data Scientist,Senior,22-28,-,Docker
 570,Deutschland,Machine Learning Engineer,Director,0-7,-,Docker
 587,Berlin,Data Scientist,Senior,8-14,-,Docker
 604,Bremen,AI Engineer,Associate/Mid-Level,0-7,-,Docker
 614,Garching,Data Scientist,Senior,29+,-,Docker
 626,Deutschland,Machine Learning Engineer,Associate/Mid-Level,0-7,-,Docker
-649,Ludwigshafen,Other,Entry level,8-14,-,Docker
+649,Ludwigshafen,Data Analyst,Entry level,8-14,-,Docker
 657,Deutschland,Other,Associate/Mid-Level,29+,-,Docker
 665,Berlin,Data Scientist,Associate/Mid-Level,0-7,-,Docker
 683,Sankt Augustin,Data Scientist,Associate/Mid-Level,0-7,-,Docker
 686,München,Data Scientist,Senior,29+,-,Docker
 698,Berlin,Other,Entry level,15-21,-,Docker
-708,München,Other,Entry level,0-7,-,Docker
+708,München,Data Analyst,Entry level,0-7,-,Docker
 744,Hamburg,Data Engineer,Associate/Mid-Level,29+,-,Docker
 746,München,Machine Learning Engineer,Entry level,8-14,-,Docker
 766,Burgdorf,AI Engineer,Associate/Mid-Level,0-7,-,Docker
@@ -3731,7 +3731,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1555,Berlin,Machine Learning Engineer,Senior,0-7,-,Docker
 1567,Berlin,Machine Learning Engineer,Senior,8-14,-,Docker
 1585,Jena,Other,Associate/Mid-Level,15-21,-,Docker
-1592,Taufkirchen,Machine Learning Engineer,Associate/Mid-Level,0-7,-,Docker
+1592,Taufkirchen,Data Analyst,Associate/Mid-Level,0-7,-,Docker
 78,Hamburg,Data Scientist,Associate/Mid-Level,29+,-,Docker
 82,Deutschland,AI/ML Specialist,Associate/Mid-Level,0-7,-,Docker
 250,Berlin,Other,Senior,29+,-,Docker
@@ -3740,20 +3740,20 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 520,Ulm,Data Scientist,Associate/Mid-Level,29+,-,Rust
 570,Deutschland,Machine Learning Engineer,Director,0-7,-,Rust
 657,Deutschland,Other,Associate/Mid-Level,29+,-,Rust
-765,München,AI/ML Specialist,Associate/Mid-Level,8-14,-,Rust
+765,München,Data Analyst,Associate/Mid-Level,8-14,-,Rust
 941,Berlin,Data Scientist,Associate/Mid-Level,N/A,-,Rust
 942,Berlin,Data Scientist,Associate/Mid-Level,15-21,-,Rust
 1247,Puchheim,Machine Learning Engineer,Entry level,N/A,-,Rust
 1329,Berlin,Data Scientist,Senior,15-21,-,Rust
 1410,Bielefeld,AI Engineer,Associate/Mid-Level,0-7,-,Rust
-1592,Taufkirchen,Machine Learning Engineer,Associate/Mid-Level,0-7,-,Rust
+1592,Taufkirchen,Data Analyst,Associate/Mid-Level,0-7,-,Rust
 25,Frankfurt am Main,Data Scientist,Associate/Mid-Level,0-7,-,SAS
 152,Berlin,Data Scientist,Associate/Mid-Level,15-21,-,SAS
 202,München,Other,Associate/Mid-Level,22-28,-,SAS
 283,Deutschland,Data Analyst,Senior,29+,-,SAS
 356,Heidelberg,Data Analyst,Associate/Mid-Level,29+,-,SAS
 415,München,Other,Entry level,8-14,-,SAS
-447,München,Other,Entry level,29+,-,SAS
+447,München,Data Analyst,Entry level,29+,-,SAS
 565,Fellbach,Data Analyst,Associate/Mid-Level,22-28,-,SAS
 600,München,Data Analyst,Associate/Mid-Level,8-14,-,SAS
 690,München,Data Scientist,Associate/Mid-Level,0-7,-,SAS
@@ -3790,10 +3790,10 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1525,Kornwestheim,Data Analyst,Associate/Mid-Level,8-14,-,SAS
 1551,Berlin,AI/ML Specialist,Associate/Mid-Level,22-28,-,SAS
 26,Berlin,Data Scientist,Associate/Mid-Level,29+,-,Excel
-35,Deutschland,AI/ML Specialist,Entry level,15-21,-,Excel
+35,Deutschland,Data Analyst,Entry level,15-21,-,Excel
 41,Eschborn,AI/ML Specialist,Entry level,0-7,-,Excel
 69,München,Data Scientist,Associate/Mid-Level,0-7,-,Excel
-73,Hamburg,Other,Associate/Mid-Level,0-7,-,Excel
+73,Hamburg,Data Analyst,Associate/Mid-Level,0-7,-,Excel
 103,Berlin,Other,Associate/Mid-Level,8-14,-,Excel
 114,Berlin,Data Analyst,Senior,0-7,-,Excel
 123,Ottobrunn,Data Scientist,Entry level,29+,-,Excel
@@ -3811,7 +3811,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 238,Deutschland,Other,Senior,29+,-,Excel
 272,München,Other,Entry level,8-14,-,Excel
 281,Berlin,Data Scientist,Senior,29+,-,Excel
-282,Dortmund,Data Analyst,Associate/Mid-Level,15-21,-,Excel
+282,Dortmund,Data Scientist,Associate/Mid-Level,15-21,-,Excel
 283,Deutschland,Data Analyst,Senior,29+,-,Excel
 285,Hamburg,Data Scientist,Associate/Mid-Level,22-28,-,Excel
 291,Frankfurt am Main,Other,Associate/Mid-Level,29+,-,Excel
@@ -3820,20 +3820,20 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 338,Frankfurt am Main,Data Analyst,Associate/Mid-Level,8-14,-,Excel
 350,München,Other,Entry level,0-7,-,Excel
 354,Berlin,Other,Entry level,0-7,-,Excel
-359,Hamburg,Other,Associate/Mid-Level,0-7,-,Excel
+359,Hamburg,Data Analyst,Associate/Mid-Level,0-7,-,Excel
 368,München,Machine Learning Engineer,Entry level,0-7,-,Excel
 377,Deutschland,Other,Associate/Mid-Level,15-21,-,Excel
 378,Köln,Other,Entry level,29+,-,Excel
 385,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,Excel
 399,Stuttgart,Data Scientist,Associate/Mid-Level,0-7,-,Excel
-425,Dortmund,Data Analyst,Associate/Mid-Level,15-21,-,Excel
+425,Dortmund,Data Scientist,Associate/Mid-Level,15-21,-,Excel
 426,Weinheim,Research Scientist,Associate/Mid-Level,0-7,-,Excel
 433,Berlin,Data Scientist,Senior,8-14,-,Excel
 446,Frankfurt am Main,Other,Associate/Mid-Level,0-7,-,Excel
-447,München,Other,Entry level,29+,-,Excel
+447,München,Data Analyst,Entry level,29+,-,Excel
 459,Stuttgart,Other,Associate/Mid-Level,15-21,-,Excel
 461,Deutschland,AI/ML Specialist,Entry level,8-14,-,Excel
-471,Mannheim,Other,Entry level,0-7,-,Excel
+471,Mannheim,Data Analyst,Entry level,0-7,-,Excel
 488,Karlsruhe,Machine Learning Engineer,Associate/Mid-Level,0-7,-,Excel
 491,München,Data Scientist,Entry level,0-7,-,Excel
 492,Berlin,Data Scientist,Senior,29+,-,Excel
@@ -3846,7 +3846,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 573,München,Other,Entry level,8-14,-,Excel
 591,München,Other,Entry level,8-14,-,Excel
 613,München,Other,Entry level,15-21,-,Excel
-639,Grünheide,Other,Associate/Mid-Level,0-7,-,Excel
+639,Grünheide,Data Analyst,Associate/Mid-Level,0-7,-,Excel
 658,Hannover,Other,Entry level,8-14,-,Excel
 660,Köln,Business Intelligence (BI),Associate/Mid-Level,15-21,-,Excel
 696,Schwalbach,Other,Entry level,29+,-,Excel
@@ -3861,7 +3861,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 802,Norderstedt,Other,Entry level,N/A,-,Excel
 818,Dresden,Data Scientist,Entry level,N/A,-,Excel
 833,Berlin,Data Scientist,Senior,N/A,-,Excel
-855,München,Data Analyst,Entry level,N/A,-,Excel
+855,München,Data Scientist,Entry level,N/A,-,Excel
 873,Hannover,Data Scientist,Senior,N/A,-,Excel
 906,München,Data Scientist,Associate/Mid-Level,N/A,-,Excel
 910,München,Research Scientist,Associate/Mid-Level,N/A,-,Excel
@@ -3884,7 +3884,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1095,Berlin,Data Scientist,Associate/Mid-Level,N/A,-,Excel
 1107,Nürnberg,Data Scientist,Associate/Mid-Level,N/A,-,Excel
 1111,Dortmund,Data Scientist,Associate/Mid-Level,8-14,-,Excel
-1191,Hamburg,Data Analyst,Senior,N/A,-,Excel
+1191,Hamburg,Data Scientist,Senior,N/A,-,Excel
 1205,Berlin,Data Scientist,Senior,N/A,-,Excel
 1250,Deutschland,Data Scientist,Associate/Mid-Level,N/A,-,Excel
 1307,München,Data Scientist,Entry level,0-7,-,Excel
@@ -3897,9 +3897,9 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1400,Hannover,Other,Associate/Mid-Level,15-21,-,Excel
 1407,Aachen,Other,Associate/Mid-Level,8-14,-,Excel
 1410,Bielefeld,AI Engineer,Associate/Mid-Level,0-7,-,Excel
-1415,Augsburg,Business Intelligence (BI),Entry level,0-7,-,Excel
+1415,Augsburg,Data Analyst,Entry level,0-7,-,Excel
 1417,Augsburg,Other,Entry level,0-7,-,Excel
-1418,München,Business Intelligence (BI),Entry level,0-7,-,Excel
+1418,München,Data Analyst,Entry level,0-7,-,Excel
 1419,München,Other,Entry level,0-7,-,Excel
 1424,Augsburg,Other,Entry level,8-14,-,Excel
 1430,Augsburg,Other,Entry level,15-21,-,Excel
@@ -3931,7 +3931,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1569,München,Data Engineer,Senior,8-14,-,Excel
 1585,Jena,Other,Associate/Mid-Level,15-21,-,Excel
 1598,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,Excel
-1600,Bonn,Business Intelligence (BI),Associate/Mid-Level,8-14,-,Excel
+1600,Bonn,Data Analyst,Associate/Mid-Level,8-14,-,Excel
 1604,Mannheim,Other,Associate/Mid-Level,8-14,-,Excel
 1606,Hannover,Other,Associate/Mid-Level,8-14,-,Excel
 1621,München,Other,Associate/Mid-Level,0-7,-,Excel
@@ -3953,14 +3953,14 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 60,Berlin,Machine Learning Engineer,Associate/Mid-Level,8-14,-,AWS
 63,Hamburg,Other,Associate/Mid-Level,15-21,-,AWS
 66,Deutschland,AI/ML Specialist,Director,22-28,-,AWS
-70,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,AWS
-73,Hamburg,Other,Associate/Mid-Level,0-7,-,AWS
+70,Berlin,Data Scientist,Associate/Mid-Level,0-7,-,AWS
+73,Hamburg,Data Analyst,Associate/Mid-Level,0-7,-,AWS
 80,München,Data Scientist,Associate/Mid-Level,0-7,-,AWS
 84,Berlin,Data Scientist,Associate/Mid-Level,8-14,-,AWS
 85,Nordrhein-Westfalen,Data Scientist,Director,15-21,-,AWS
 89,Berlin,AI/ML Specialist,Director,22-28,-,AWS
 96,Leipzig,Machine Learning Engineer,Entry level,0-7,-,AWS
-101,Frankfurt am Main,Other,Director,0-7,-,AWS
+101,Frankfurt am Main,Data Analyst,Director,0-7,-,AWS
 104,Deutschland,Data Scientist,Associate/Mid-Level,22-28,-,AWS
 105,Berlin,AI Engineer,Associate/Mid-Level,15-21,-,AWS
 113,München,Data Scientist,Associate/Mid-Level,29+,-,AWS
@@ -3993,7 +3993,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 265,München,Data Scientist,Senior,29+,-,AWS
 269,Berlin,Data Scientist,Director,8-14,-,AWS
 271,Berlin,Data Engineer,Associate/Mid-Level,0-7,-,AWS
-273,Frankfurt am Main,Data Consultant,Entry level,8-14,-,AWS
+273,Frankfurt am Main,Data Analyst,Entry level,8-14,-,AWS
 277,Hamburg,Data Scientist,Associate/Mid-Level,29+,-,AWS
 279,Berlin,Data Scientist,Director,0-7,-,AWS
 283,Deutschland,Data Analyst,Senior,29+,-,AWS
@@ -4013,7 +4013,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 341,München,Data Scientist,Senior,29+,-,AWS
 353,Düsseldorf,Data Engineer,Associate/Mid-Level,0-7,-,AWS
 356,Heidelberg,Data Analyst,Associate/Mid-Level,29+,-,AWS
-358,Frankfurt am Main,Other,Entry level,0-7,-,AWS
+358,Frankfurt am Main,Data Analyst,Entry level,0-7,-,AWS
 361,Deutschland,Machine Learning Engineer,Associate/Mid-Level,15-21,-,AWS
 362,Berlin,Machine Learning Engineer,Associate/Mid-Level,29+,-,AWS
 363,München,Data Scientist,Entry level,8-14,-,AWS
@@ -4039,15 +4039,15 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 454,München,Data Scientist,Director,29+,-,AWS
 455,München,Data Scientist,Entry level,8-14,-,AWS
 456,Deutschland,Other,Associate/Mid-Level,29+,-,AWS
-457,Köln,Data Engineer,Associate/Mid-Level,0-7,-,AWS
+457,Köln,Data Scientist,Associate/Mid-Level,0-7,-,AWS
 466,Hamburg,Data Scientist,Senior,29+,-,AWS
 475,Nordrhein-Westfalen,AI Engineer,Associate/Mid-Level,8-14,-,AWS
-479,Hamburg,Data Engineer,Associate/Mid-Level,0-7,-,AWS
-498,München,Other,Associate/Mid-Level,8-14,-,AWS
+479,Hamburg,Data Scientist,Associate/Mid-Level,0-7,-,AWS
+498,München,Data Analyst,Associate/Mid-Level,8-14,-,AWS
 504,Deutschland,Other,Associate/Mid-Level,15-21,-,AWS
 509,Kassel,Data Scientist,Entry level,29+,-,AWS
-512,Stuttgart,Data Engineer,Associate/Mid-Level,0-7,-,AWS
-516,Frankfurt am Main,AI/ML Specialist,Associate/Mid-Level,15-21,-,AWS
+512,Stuttgart,Data Scientist,Associate/Mid-Level,0-7,-,AWS
+516,Frankfurt am Main,Data Scientist,Associate/Mid-Level,15-21,-,AWS
 518,Deutschland,Data Scientist,Senior,0-7,-,AWS
 519,München,Data Scientist,Senior,0-7,-,AWS
 520,Ulm,Data Scientist,Associate/Mid-Level,29+,-,AWS
@@ -4106,7 +4106,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 760,Würzburg,AI Engineer,Associate/Mid-Level,29+,-,AWS
 762,Berlin,AI Engineer,Senior,8-14,-,AWS
 763,Stuttgart,Data Engineer,Entry level,0-7,-,AWS
-765,München,AI/ML Specialist,Associate/Mid-Level,8-14,-,AWS
+765,München,Data Analyst,Associate/Mid-Level,8-14,-,AWS
 767,Köln,Data Engineer,Entry level,0-7,-,AWS
 782,Berlin,Machine Learning Engineer,Associate/Mid-Level,0-7,-,AWS
 784,Ulm,Data Engineer,Entry level,0-7,-,AWS
@@ -4133,7 +4133,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 945,München,Data Analyst,Associate/Mid-Level,N/A,-,AWS
 946,Deutschland,Data Scientist,Associate/Mid-Level,N/A,-,AWS
 947,München,Data Scientist,Entry level,N/A,-,AWS
-954,Kirchentellinsfurt,Other,Associate/Mid-Level,N/A,-,AWS
+954,Kirchentellinsfurt,Data Analyst,Associate/Mid-Level,N/A,-,AWS
 956,Lübeck,Data Engineer,Associate/Mid-Level,N/A,-,AWS
 964,Würzburg,Data Scientist,Senior,N/A,-,AWS
 995,München,Data Scientist,Senior,N/A,-,AWS
@@ -4176,7 +4176,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1334,Frankfurt am Main,Data Scientist,Senior,0-7,-,AWS
 1340,Frankfurt,Data Scientist,Senior,0-7,-,AWS
 1343,Ettlingen,Data Scientist,Associate/Mid-Level,8-14,-,AWS
-1346,Düsseldorf,Other,Entry level,0-7,-,AWS
+1346,Düsseldorf,Data Analyst,Entry level,0-7,-,AWS
 1351,Berlin,Other,Associate/Mid-Level,0-7,-,AWS
 1353,Stuttgart,Other,Associate/Mid-Level,15-21,-,AWS
 1364,Ahrensburg,Other,Associate/Mid-Level,8-14,-,AWS
@@ -4200,7 +4200,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1449,Gütersloh,AI/ML Specialist,Senior,0-7,-,AWS
 1462,Luxembourg,Business Intelligence (BI),Associate/Mid-Level,0-7,-,AWS
 1463,Luxembourg,Business Intelligence (BI),Associate/Mid-Level,0-7,-,AWS
-1487,Burghausen,Other,Associate/Mid-Level,8-14,-,AWS
+1487,Burghausen,Data Analyst,Associate/Mid-Level,8-14,-,AWS
 1515,Luxembourg,Business Intelligence (BI),Associate/Mid-Level,8-14,-,AWS
 1519,Berlin,Data Engineer,Senior,8-14,-,AWS
 1520,Berlin,Data Engineer,Associate/Mid-Level,15-21,-,AWS
@@ -4236,7 +4236,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 62,Aschheim,Other,Associate/Mid-Level,15-21,-,Git
 63,Hamburg,Other,Associate/Mid-Level,15-21,-,Git
 72,Hürth,AI Engineer,Entry level,29+,-,Git
-73,Hamburg,Other,Associate/Mid-Level,0-7,-,Git
+73,Hamburg,Data Analyst,Associate/Mid-Level,0-7,-,Git
 87,Köln,AI Engineer,Associate/Mid-Level,29+,-,Git
 88,Essen,Data Scientist,Associate/Mid-Level,8-14,-,Git
 92,Hamburg,Machine Learning Engineer,Associate/Mid-Level,29+,-,Git
@@ -4267,7 +4267,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 335,Frankfurt am Main,Data Scientist,Entry level,8-14,-,Git
 344,München,Data Scientist,Senior,15-21,-,Git
 351,Köln,AI Engineer,Entry level,0-7,-,Git
-358,Frankfurt am Main,Other,Entry level,0-7,-,Git
+358,Frankfurt am Main,Data Analyst,Entry level,0-7,-,Git
 362,Berlin,Machine Learning Engineer,Associate/Mid-Level,29+,-,Git
 365,Berlin,Other,Associate/Mid-Level,22-28,-,Git
 376,Berlin,Machine Learning Engineer,Associate/Mid-Level,29+,-,Git
@@ -4289,7 +4289,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 527,Köln,Data Engineer,Entry level,8-14,-,Git
 545,Bremen,AI Engineer,Associate/Mid-Level,0-7,-,Git
 547,München,Machine Learning Engineer,Associate/Mid-Level,29+,-,Git
-550,Immenstadt,Other,Associate/Mid-Level,29+,-,Git
+550,Immenstadt,Data Analyst,Associate/Mid-Level,29+,-,Git
 551,Heilbronn,Machine Learning Engineer,Senior,29+,-,Git
 552,Hamburg,Data Analyst,Associate/Mid-Level,29+,-,Git
 561,Bonn,Data Scientist,Senior,22-28,-,Git
@@ -4304,7 +4304,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 683,Sankt Augustin,Data Scientist,Associate/Mid-Level,0-7,-,Git
 687,Freiburg,Data Scientist,Associate/Mid-Level,29+,-,Git
 698,Berlin,Other,Entry level,15-21,-,Git
-708,München,Other,Entry level,0-7,-,Git
+708,München,Data Analyst,Entry level,0-7,-,Git
 719,Gunzenhausen,Other,Associate/Mid-Level,8-14,-,Git
 725,Deutschland,Data Scientist,Senior,0-7,-,Git
 741,Frankfurt am Main,Data Engineer,Associate/Mid-Level,29+,-,Git
@@ -4375,12 +4375,12 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1568,Düsseldorf,Data Engineer,Senior,8-14,-,Git
 1585,Jena,Other,Associate/Mid-Level,15-21,-,Git
 1586,Köln,Machine Learning Engineer,Associate/Mid-Level,0-7,-,Git
-1592,Taufkirchen,Machine Learning Engineer,Associate/Mid-Level,0-7,-,Git
+1592,Taufkirchen,Data Analyst,Associate/Mid-Level,0-7,-,Git
 82,Deutschland,AI/ML Specialist,Associate/Mid-Level,0-7,-,Git
 250,Berlin,Other,Senior,29+,-,Git
 408,Leipzig,Business Intelligence (BI),Associate/Mid-Level,22-28,-,Git
 17,Berlin,Machine Learning Engineer,Associate/Mid-Level,29+,-,Java
-73,Hamburg,Other,Associate/Mid-Level,0-7,-,Java
+73,Hamburg,Data Analyst,Associate/Mid-Level,0-7,-,Java
 95,Dresden,Data Scientist,Associate/Mid-Level,15-21,-,Java
 100,Hamburg,AI/ML Specialist,Associate/Mid-Level,22-28,-,Java
 105,Berlin,AI Engineer,Associate/Mid-Level,15-21,-,Java
@@ -4411,7 +4411,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 514,Berlin,Data Scientist,Associate/Mid-Level,0-7,-,Java
 520,Ulm,Data Scientist,Associate/Mid-Level,29+,-,Java
 527,Köln,Data Engineer,Entry level,8-14,-,Java
-538,Zweibrücken,Other,Associate/Mid-Level,15-21,-,Java
+538,Zweibrücken,Data Analyst,Associate/Mid-Level,15-21,-,Java
 556,Berlin,Data Scientist,Associate/Mid-Level,29+,-,Java
 559,Deutschland,Data Engineer,Associate/Mid-Level,0-7,-,Java
 585,München,Data Scientist,Associate/Mid-Level,29+,-,Java
@@ -4436,7 +4436,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 739,Hamburg,Data Scientist,Associate/Mid-Level,15-21,-,Java
 750,Düsseldorf,Data Scientist,Associate/Mid-Level,15-21,-,Java
 755,Stuttgart,Data Scientist,Associate/Mid-Level,29+,-,Java
-765,München,AI/ML Specialist,Associate/Mid-Level,8-14,-,Java
+765,München,Data Analyst,Associate/Mid-Level,8-14,-,Java
 782,Berlin,Machine Learning Engineer,Associate/Mid-Level,0-7,-,Java
 791,Berlin,AI/ML Specialist,Senior,22-28,-,Java
 801,Neuherberg,Data Scientist,Associate/Mid-Level,N/A,-,Java
@@ -4541,7 +4541,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 55,Berlin,Data Scientist,Senior,0-7,-,R
 61,Hürth,Data Scientist,Associate/Mid-Level,29+,-,R
 67,Düsseldorf,Data Scientist,Entry level,15-21,-,R
-70,Berlin,Data Analyst,Associate/Mid-Level,0-7,-,R
+70,Berlin,Data Scientist,Associate/Mid-Level,0-7,-,R
 75,Köln,Data Scientist,Entry level,0-7,-,R
 85,Nordrhein-Westfalen,Data Scientist,Director,15-21,-,R
 88,Essen,Data Scientist,Associate/Mid-Level,8-14,-,R
@@ -4552,11 +4552,11 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 112,Hamburg,AI Engineer,Associate/Mid-Level,8-14,-,R
 113,München,Data Scientist,Associate/Mid-Level,29+,-,R
 114,Berlin,Data Analyst,Senior,0-7,-,R
-115,Berlin,Data Analyst,Associate/Mid-Level,8-14,-,R
+115,Berlin,Data Scientist,Associate/Mid-Level,8-14,-,R
 125,Stuttgart,Data Scientist,Associate/Mid-Level,0-7,-,R
 129,München,Data Scientist,Associate/Mid-Level,29+,-,R
-137,Bad Salzuflen,Other,Director,15-21,-,R
-140,München,AI/ML Specialist,Entry level,0-7,-,R
+137,Bad Salzuflen,Data Scientist,Director,15-21,-,R
+140,München,Data Analyst,Entry level,0-7,-,R
 143,München,Data Scientist,Associate/Mid-Level,8-14,-,R
 150,Darmstadt,AI/ML Specialist,Entry level,15-21,-,R
 152,Berlin,Data Scientist,Associate/Mid-Level,15-21,-,R
@@ -4618,7 +4618,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 459,Stuttgart,Other,Associate/Mid-Level,15-21,-,R
 463,München,AI Engineer,Senior,0-7,-,R
 466,Hamburg,Data Scientist,Senior,29+,-,R
-471,Mannheim,Other,Entry level,0-7,-,R
+471,Mannheim,Data Analyst,Entry level,0-7,-,R
 474,Esch,Data Scientist,Associate/Mid-Level,29+,-,R
 480,Köln,Data Scientist,Entry level,29+,-,R
 491,München,Data Scientist,Entry level,0-7,-,R
@@ -4647,7 +4647,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 629,Hannover,Data Scientist,Associate/Mid-Level,0-7,-,R
 630,Karlsruhe,Data Analyst,Associate/Mid-Level,22-28,-,R
 633,Gerlingen,Business Intelligence (BI),Entry level,0-7,-,R
-639,Grünheide,Other,Associate/Mid-Level,0-7,-,R
+639,Grünheide,Data Analyst,Associate/Mid-Level,0-7,-,R
 646,Hamburg,Other,Associate/Mid-Level,0-7,-,R
 647,Hechingen,Other,Entry level,0-7,-,R
 650,Berlin,Data Scientist,Associate/Mid-Level,15-21,-,R
@@ -4672,7 +4672,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 751,Berlin,Business Intelligence (BI),Associate/Mid-Level,22-28,-,R
 752,Biberach an der Riß,Data Scientist,Entry level,8-14,-,R
 754,Berlin,Data Scientist,Associate/Mid-Level,15-21,-,R
-765,München,AI/ML Specialist,Associate/Mid-Level,8-14,-,R
+765,München,Data Analyst,Associate/Mid-Level,8-14,-,R
 772,München,Data Scientist,Associate/Mid-Level,0-7,-,R
 777,Gießen,Other,Associate/Mid-Level,29+,-,R
 800,Penzberg,Data Scientist,Associate/Mid-Level,N/A,-,R
@@ -4680,7 +4680,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 803,Gotha,Data Scientist,Associate/Mid-Level,N/A,-,R
 806,Hamburg,Data Scientist,Associate/Mid-Level,N/A,-,R
 812,Königstein im Taunus,Data Scientist,Associate/Mid-Level,N/A,-,R
-815,Hamburg,Other,Entry level,N/A,-,R
+815,Hamburg,Data Scientist,Entry level,N/A,-,R
 826,Bayern,Data Scientist,Associate/Mid-Level,N/A,-,R
 827,Wiesbaden,Data Scientist,Associate/Mid-Level,N/A,-,R
 831,Starnberg,Data Scientist,Associate/Mid-Level,N/A,-,R
@@ -4773,7 +4773,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1175,Hamburg,Data Scientist,Associate/Mid-Level,N/A,-,R
 1177,Frankfurt am Main,Data Scientist,Associate/Mid-Level,N/A,-,R
 1188,München,Data Scientist,Senior,N/A,-,R
-1191,Hamburg,Data Analyst,Senior,N/A,-,R
+1191,Hamburg,Data Scientist,Senior,N/A,-,R
 1193,München,Data Scientist,Entry level,N/A,-,R
 1209,Saterland,Other,Director,N/A,-,R
 1210,Planegg,Research Scientist,Associate/Mid-Level,N/A,-,R
@@ -4794,7 +4794,7 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1329,Berlin,Data Scientist,Senior,15-21,-,R
 1334,Frankfurt am Main,Data Scientist,Senior,0-7,-,R
 1337,Osnabrück,Data Scientist,Entry level,0-7,-,R
-1346,Düsseldorf,Other,Entry level,0-7,-,R
+1346,Düsseldorf,Data Analyst,Entry level,0-7,-,R
 1353,Stuttgart,Other,Associate/Mid-Level,15-21,-,R
 1355,München,Other,Entry level,0-7,-,R
 1357,Luxembourg,Other,Senior,0-7,-,R
@@ -4817,14 +4817,14 @@ id,location_clean,title_cat_ChatGPT,seniority_level_5,days_online_grouped,job_ty
 1541,Weeze,Business Intelligence (BI),Associate/Mid-Level,15-21,-,R
 1547,Wiesbaden,Other,Associate/Mid-Level,22-28,-,R
 1551,Berlin,AI/ML Specialist,Associate/Mid-Level,22-28,-,R
-1556,Monheim am Rhein,Other,Senior,0-7,-,R
+1556,Monheim am Rhein,Data Analyst,Senior,0-7,-,R
 1560,Bielefeld,Data Analyst,Senior,0-7,-,R
 1573,Wiesbaden,Other,Senior,8-14,-,R
 1574,Hamburg,Data Engineer,Senior,15-21,-,R
 1575,Berlin,Data Engineer,Senior,8-14,-,R
 1582,Dortmund,Other,Associate/Mid-Level,0-7,-,R
 1583,Stuttgart,Other,Associate/Mid-Level,0-7,-,R
-1600,Bonn,Business Intelligence (BI),Associate/Mid-Level,8-14,-,R
+1600,Bonn,Data Analyst,Associate/Mid-Level,8-14,-,R
 1603,Berlin,Research Scientist,Associate/Mid-Level,8-14,-,R
 1608,Köln,Data Engineer,Associate/Mid-Level,15-21,-,R
 59,Hamburg,Research Scientist,Associate/Mid-Level,15-21,-,R
