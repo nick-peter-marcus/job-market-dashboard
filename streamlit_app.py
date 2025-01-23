@@ -39,7 +39,7 @@ def create_data_table(data: pd.DataFrame, column_in: str, column_out: str) -> pd
                     the unique values (keys) from the input column.
 
     Returns:
-        A dataframe containing columns [column_out], "Count" and "Percent".
+        A dataframe containing columns "[column_out]", "Count" and "Percent".
     """
     data_keys = data[column_in].unique().tolist()
     data_keys = [k for k in data_keys if k != "-"]
@@ -54,10 +54,11 @@ def create_data_table(data: pd.DataFrame, column_in: str, column_out: str) -> pd
     return data_table
 
 
+###################################################
+###################   FILTERS   ###################
+###################################################
 
-####  FILTERS  ####
-###################
-
+# Rename columns of dataframe
 filters_dict = {
     "location_clean": "Location",
     "title_cat_ChatGPT": "Job Title",
@@ -66,13 +67,12 @@ filters_dict = {
     "job_type": "Job/Contract Type",
     "tech_stack": "Tech Stack"
 }
-
 df_long = df_long.rename(columns=filters_dict)
 
-# Create dynamic filters class
+# Create dynamic filters class using created dict
 dynamic_filters = DynamicFilters(df_long, filters=filters_dict.values())
 
-# Update dataframes
+# Update dataframes based on applied filters
 df_long_filtered = pd.DataFrame(dynamic_filters.filter_df())
 df_long_filtered_ids = df_long_filtered["id"].unique()
 df = df_raw.loc[df_long_filtered_ids]
@@ -98,6 +98,11 @@ data_table_column_styler = {
     "date_posted": st.column_config.Column(label="Date posted", width="small"),
 }
 
+
+
+###################################################
+###################    PLOTS    ###################
+###################################################
 
 ####  LOCATION GEODATA/MAP  ####
 ################################
@@ -168,7 +173,7 @@ view_state = pydeck.ViewState(
     zoom=4.25
 )
 # Create map
-chart = pydeck.Deck(
+location_map = pydeck.Deck(
     point_layer,
     initial_view_state=view_state,
     tooltip={"text": "{location}\nJob count: {location_count}"},
@@ -182,8 +187,11 @@ chart = pydeck.Deck(
 
 tech_stack_table = create_data_table(df_long_filtered, "Tech Stack", "Technology")
 
-tech_stack_fig = px.bar(tech_stack_table, x="Technology", y="Count",
-                        hover_data=["Technology", "Count", "Percent"])
+tech_stack_fig = px.bar(
+    tech_stack_table, 
+    x="Technology", y="Count",
+    hover_data=["Technology", "Count", "Percent"]
+)
 
 
 #### JOB TITLE ####
@@ -191,10 +199,13 @@ tech_stack_fig = px.bar(tech_stack_table, x="Technology", y="Count",
 
 job_title_table = create_data_table(df, "title_cat_ChatGPT", "Job Title")
 
-job_title_fig = px.pie(job_title_table,
-                       names="Job Title",
-                       values="Count",
-                       hole=0.35)
+job_title_fig = px.pie(
+    job_title_table,
+    names="Job Title",
+    values="Count",
+    hole=0.35
+)
+
 job_title_fig.update_traces(textposition='inside', textinfo='percent+label')
 
 
@@ -205,11 +216,14 @@ seniority_table = create_data_table(df, "seniority_level_5", "Seniority")
 
 seniority_order = ['Entry level', 'Associate/Mid-Level', 'Senior', 'Director', 'Postdoc']
 
-seniority_fig = px.pie(seniority_table,
-                       names="Seniority", 
-                       values="Count",
-                       hole=0.35,
-                       category_orders={"Seniority": seniority_order})
+seniority_fig = px.pie(
+    seniority_table,
+    names="Seniority", 
+    values="Count",
+    hole=0.35,
+    category_orders={"Seniority": seniority_order}
+)
+
 seniority_fig.update_traces(textposition='inside', textinfo='percent+label')
 
 
@@ -218,10 +232,11 @@ seniority_fig.update_traces(textposition='inside', textinfo='percent+label')
 
 job_type_table = create_data_table(df_long_filtered, "Job/Contract Type", "Job Type")
 
-job_type_fig = px.bar(job_type_table,
-                      x="Job Type", y="Count",
-                      hover_data=["Job Type", "Count", "Percent"],
-                      )
+job_type_fig = px.bar(
+    job_type_table,
+    x="Job Type", y="Count",
+    hover_data=["Job Type", "Count", "Percent"]
+)
 
 
 #### DAYS ONLINE ####
@@ -234,9 +249,11 @@ days_online_fig = px.bar(
     x="Days Online", y="Count",
     hover_data=["Days Online", "Count", "Percent"]
 )
-days_online_order = ["0-7", "8-14", "15-21", "22-28", "29+"]
-days_online_fig.update_layout(xaxis={'categoryorder': 'array', 
-                                     'categoryarray': days_online_order})
+
+days_online_fig.update_xaxes(
+    categoryorder='array', 
+    categoryarray=["0-7", "8-14", "15-21", "22-28", "29+"]
+)
 
 
 #### NUMBER APPLICANTS ####
@@ -245,21 +262,16 @@ days_online_fig.update_layout(xaxis={'categoryorder': 'array',
 number_applicants_fig = px.histogram(
     df, x="number_applicants", nbins=5
 )
+
 number_applicants_fig.update_layout(bargap=0.2)
 
 
 
-#### APP LAYOUT ####
-####################
+######################################################
+###################   APP LAYOUT   ###################
+######################################################
 
 st.set_page_config(layout="wide", page_title="Job Market Dashboard")
-
-# SIDEBAR
-dynamic_filters.display_filters(location='sidebar')
-
-with st.sidebar:
-    st.html(f"<i>{len(df)}/{len(df_raw)} jobs selected</i>")
-    st.button("Reset Filters", type="primary", on_click=dynamic_filters.reset_filters)
 
 # CSS STYLING
 st.markdown("""
@@ -286,10 +298,27 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+# SIDEBAR
+dynamic_filters.display_filters(location='sidebar')
+
+with st.sidebar:
+    st.html(f"<i>{len(df)}/{len(df_raw)} jobs selected</i>")
+    st.button("Reset Filters", type="primary", on_click=dynamic_filters.reset_filters)
+
+
 # DASHBOARD CONTENT
+
+# Define style templates
+def customize_title(title: str) -> dict:
+    return {'text': title, 'y':0.988, 'x':0.5, 'xanchor': 'center', 'yanchor': 'top'}
+
+plotly_config = {'displayModeBar': False}
+
+
+# Define tabs
 tab1, tab2, tab3 = st.tabs(["Graphs", "Data", "Wordcloud"])
 
-### TAB 1: Technology, Job Type ; title, seniority level, days_online
+### TAB 1:
 with tab1:
     cols_tab1 = st.columns((4, 2.5), gap='medium')
     
@@ -298,107 +327,88 @@ with tab1:
         # TAB 1 -> COLUMN 1 -> CONTAINER 1:
         with st.container(border=True, height=260):
             cols_tab1_subcols = st.columns((1.25, 2.75), gap="medium")
-            # TAB 1 -> COLUMN 1 -> CONTAINER 1 -> COLUMN 1:
+
+            # Job Title (TAB 1 -> COLUMN 1 -> CONTAINER 1 -> COLUMN 1):
             with cols_tab1_subcols[0]:
-                job_title_fig.update_layout(height=210,
-                                            margin=dict(t=30, b=0, l=5, r=5),
-                                            showlegend=False,
-                                            title={'text': "Job Title",
-                                                   'y':0.988, 'x':0.5,
-                                                   'xanchor': 'center',
-                                                   'yanchor': 'top'})
-                st.plotly_chart(job_title_fig, 
-                                config={'displayModeBar': False},
-                                key="job_title_fig")
+                job_title_fig.update_layout(
+                    height=210,
+                    margin=dict(t=30, b=0, l=5, r=5),
+                    showlegend=False,
+                    title=customize_title("Job Title")
+                )
+                st.plotly_chart(job_title_fig, config=plotly_config)
                 
-            # TAB 1 -> COLUMN 1 -> CONTAINER 1 -> COLUMN 2:
+            # Tech Stack (TAB 1 -> COLUMN 1 -> CONTAINER 1 -> COLUMN 2):
             with cols_tab1_subcols[1]:
-                tech_stack_fig.update_layout(height=228,
-                                            margin=dict(t=20, b=0, l=0, r=0),
-                                            yaxis_title=None,
-                                            xaxis_title=None,
-                                            title={'text': "Tech Stack",
-                                                   'y':0.988, 'x':0.5,
-                                                   'xanchor': 'center',
-                                                   'yanchor': 'top'})
+                tech_stack_fig.update_layout(
+                    height=228,
+                    margin=dict(t=20, b=0, l=0, r=0),
+                    yaxis_title=None, xaxis_title=None,
+                    title=customize_title("Tech Stack")
+                )
                 tech_stack_fig.update_xaxes(tickangle=-45, tickfont=dict(size=10))
-                st.plotly_chart(tech_stack_fig,
-                                config={'displayModeBar': False},
-                                key="tech_stack_fig")
+                st.plotly_chart(tech_stack_fig, config=plotly_config)
 
         # TAB 1 -> COLUMN 1 -> CONTAINER 2:
         with st.container(border=True, height=260):
             col02 = st.columns((1.25, 2.75), gap="medium")
 
-            # TAB 1 -> COLUMN 1 -> CONTAINER 2 -> COLUMN 1:
+            # Level of Seniority (TAB 1 -> COLUMN 1 -> CONTAINER 2 -> COLUMN 1):
             with col02[0]:
-                seniority_fig.update_layout(height=210,
-                                            margin=dict(t=30, b=0, l=5, r=5),
-                                            showlegend=False,
-                                            title={'text': "Level of Seniority",
-                                                   'y':0.988, 'x':0.5,
-                                                   'xanchor': 'center',
-                                                   'yanchor': 'top'})        
-                st.plotly_chart(seniority_fig, 
-                                config={'displayModeBar': False},
-                                key="seniority_fig")
+                seniority_fig.update_layout(
+                    height=210,
+                    margin=dict(t=30, b=0, l=5, r=5),
+                    showlegend=False,
+                    title=customize_title("Level of Seniority")
+                )        
+                st.plotly_chart(seniority_fig, config=plotly_config)
 
-            # TAB 1 -> COLUMN 1 -> CONTAINER 2 -> COLUMN 2:
+            # Job Type (TAB 1 -> COLUMN 1 -> CONTAINER 2 -> COLUMN 2):
             with col02[1]:
-                job_type_fig.update_layout(height=228,
-                                        margin=dict(t=20, b=0, l=0, r=0),
-                                        yaxis_title=None,
-                                        xaxis_title=None,
-                                        title={'text': "Job Type",
-                                               'y':0.988, 'x':0.5,
-                                               'xanchor': 'center',
-                                               'yanchor': 'top'})
+                job_type_fig.update_layout(
+                    height=228,
+                    margin=dict(t=20, b=0, l=0, r=0),
+                    yaxis_title=None, xaxis_title=None,
+                    title=customize_title("Job Type")
+                )
                 job_type_fig.update_xaxes(tickangle=-45, tickfont=dict(size=10))
-                st.plotly_chart(job_type_fig,
-                                config={'displayModeBar': False},
-                                key="job_type_fig")    
+                st.plotly_chart(job_type_fig, config=plotly_config)  
                 
         # TAB 1 -> COLUMN 1 -> CONTAINER 3:
         with st.container(border=True, height=260):
             col03 = st.columns((2, 2), gap="medium")
 
-            # TAB 1 -> COLUMN 1 -> CONTAINER 3 -> COLUMN 1:
+            # Number of Days Online (TAB 1 -> COLUMN 1 -> CONTAINER 3 -> COLUMN 1): 
             with col03[0]:
-                days_online_fig.update_layout(height=228,
-                                            margin=dict(t=20, b=0, l=0, r=0),
-                                            yaxis_title=None,
-                                            xaxis_title=None,
-                                            title={'text': "Number of Days Online",
-                                                   'y':0.988, 'x':0.5,
-                                                   'xanchor': 'center',
-                                                   'yanchor': 'top'})
-                st.plotly_chart(days_online_fig, 
-                                config={'displayModeBar': False},
-                                key="days_online_fig")
+                days_online_fig.update_layout(
+                    height=228,
+                    margin=dict(t=20, b=0, l=0, r=0),
+                    yaxis_title=None, xaxis_title=None,
+                    title=customize_title("Number of Days Online")
+                )
+                st.plotly_chart(days_online_fig, config=plotly_config)
                 
-            # TAB 1 -> COLUMN 1 -> CONTAINER 3 -> COLUMN 2:
+            # Number of Applicants (TAB 1 -> COLUMN 1 -> CONTAINER 3 -> COLUMN 2): 
             with col03[1]:
-                number_applicants_fig.update_layout(height=228,
-                                                    margin=dict(t=20, b=0, l=0, r=0),
-                                                    yaxis_title=None,
-                                                    xaxis_title=None,
-                                                    title={'text': "Number of Applicants",
-                                                           'y':0.988, 'x':0.5,
-                                                           'xanchor': 'center',
-                                                           'yanchor': 'top'})
-                st.plotly_chart(number_applicants_fig, 
-                                config={'displayModeBar': False},
-                                key="number_applicants_fig")
+                number_applicants_fig.update_layout(
+                    height=228,
+                    margin=dict(t=20, b=0, l=0, r=0),
+                    yaxis_title=None, xaxis_title=None,
+                    title=customize_title("Number of Applicants")
+                )
+                st.plotly_chart(number_applicants_fig, config=plotly_config)
 
 
     # TAB 1 -> COLUMN 2:
     with cols_tab1[1]:
+        # Map
         with st.container(border=True, height=460):
-            st.pydeck_chart(chart, height=428)
+            st.pydeck_chart(location_map, height=428)
 
+        # About
         with st.expander("About this dashboard", expanded=True):
             st.write("""
-                - **Data**: Collected on 3 different job search sites. 
+                - **Data**: Collected on various job search sites. 
                      - Keywords: "Data Scientist"
                      - Location: "Germany"
                      - Accessed: 09.12.2024 - 13.12.2024
@@ -420,7 +430,8 @@ with tab2:
 # TAB 3: WORDCLOUD
 with tab3:
     cols_tab3 = st.columns((1.5, 6), gap='small')
-    # TAB 3 -> COLUMN 1:
+
+    # Description (TAB 3 -> COLUMN 1):
     with cols_tab3[0]:
         st.write("Click 'Generate Wordcloud' to create the wordcloud.")
         st.write("""Note that if filters are changed, the wordcloud will be cleared. 
@@ -445,33 +456,31 @@ with tab3:
                   value=st.session_state.auto_update_wordcloud, 
                   on_change=auto_update_wordcloud)
 
-    # TAB 3 -> COLUMN 2:
+    # Wordcloud (TAB 3 -> COLUMN 2):
     with cols_tab3[1]:
         with st.container(border=True, height=400):
-
+            stopwords = set(STOPWORDS)
+            stopwords.update(["und", "oder", "der", "die", "das", "den", "dem", "des", "dass",
+                              "zu", "zur", "mit", "auf", "aus", "um", "in", "im", "über", "wie", "sowie",
+                              "bei", "von", "für", "durch", "auch", "dabei", "wo", "als", "nach",
+                              "Du", "Sie", "wir", "Deine", "Ihre", "dir", "sich", "dich", "es",
+                              "uns", "unsere", "unser", "unseren", "unserer", "us",
+                              "ist", "bist", "sind", "hast", "haben", "will",
+                              "einem", "einer", "einen", "ein", "eine", "eines", "one", 
+                              "re", "etc", "un", "de", "al",
+                              "c", "e", "g", "s", "u", "ll", "w", "d", "m", "w", "z", "B"])
+            
             @st.cache_data
-            def create_wordcloud(text_column):
-                stopwords = set(STOPWORDS)
-                stopwords.update(["und", "oder", "der", "die", "das", "den", "dem", "des", "dass",
-                                "zu", "zur", "mit", "auf", "aus", "um", "in", "im", "über", "wie", "sowie",
-                                "bei", "von", "für", "durch", "auch", "dabei", "wo", "als", "nach",
-                                "Du", "Sie", "wir", "Deine", "Ihre", "dir", "sich", "dich", "es",
-                                "uns", "unsere", "unser", "unseren", "unserer", "us",
-                                "ist", "bist", "sind", "hast", "haben", "will",
-                                "einem", "einer", "einen", "ein", "eine", "eines", "one", 
-                                "re", "etc", "un", "de", "al",
-                                "c", "e", "g", "s", "u", "ll", "w", "d", "m", "w", "z", "B"])
-                
+            def create_wordcloud(text_column: pd.Series) -> plt.Figure:
                 wc = WordCloud(
                     stopwords=stopwords,
                     background_color = 'white',
                     width = 2000,
                     height = 950,
                     min_font_size=10
-                    )
+                )
             
                 text = " ".join(text_column)
-
                 wordcloud = wc.generate(text)
                 fig, ax = plt.subplots()
                 ax.imshow(wordcloud)
