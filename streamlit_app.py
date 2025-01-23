@@ -28,31 +28,56 @@ df_raw["location_count_initial"] = df_raw["location_clean"] \
 df_raw["location_size_initial"] = initial_size_scale(np.sqrt(df_raw["location_count_initial"]), low, high)
 
 
+def create_data_table(data: pd.DataFrame, column_in: str, column_out: str) -> pd.DataFrame:
+    """ 
+    Creates a dataframe containg counts and percentages of a specified column.
+
+    Args:
+        data:       Original dataframe used to draw the data from.
+        column_in:  Name of column to be addressed in data.
+        column_out: Column name in returned dataframe that contains
+                    the unique values (keys) from the input column.
+
+    Returns:
+        A dataframe containing columns [column_out], "Count" and "Percent".
+    """
+    data_keys = data[column_in].unique().tolist()
+    data_keys = [k for k in data_keys if k != "-"]
+
+    data_counts = data[column_in].value_counts()
+
+    data_table = pd.DataFrame({column_out: data_keys})
+    data_table["Count"] = data_table[column_out].map(data_counts)
+    data_table["Percent"] = round(data_table["Count"] / n_rows_filtered * 100, 1)
+    data_table = data_table.sort_values(by="Count", ascending=False)
+
+    return data_table
+
+
+
 ####  FILTERS  ####
 ###################
 
-df_long = df_long.rename(
-    columns={"location_clean": "Location",
-             "title_cat_ChatGPT": "Job Title",
-             "seniority_level_5": "Seniority Level",
-             "days_online_grouped": "Days Online",
-             "job_type": "Job/Contract Type",
-             "tech_stack": "Tech Stack"}
-    )
+filters_dict = {
+    "location_clean": "Location",
+    "title_cat_ChatGPT": "Job Title",
+    "seniority_level_5": "Seniority Level",
+    "days_online_grouped": "Days Online",
+    "job_type": "Job/Contract Type",
+    "tech_stack": "Tech Stack"
+}
+
+df_long = df_long.rename(columns=filters_dict)
 
 # Create dynamic filters class
-filter_columns = ["Location", 
-                  "Job Title",
-                  "Seniority Level",
-                  "Days Online",
-                  "Job/Contract Type",
-                  "Tech Stack"]
-dynamic_filters = DynamicFilters(df_long, filters=filter_columns)
+dynamic_filters = DynamicFilters(df_long, filters=filters_dict.values())
 
 # Update dataframes
 df_long_filtered = pd.DataFrame(dynamic_filters.filter_df())
 df_long_filtered_ids = df_long_filtered["id"].unique()
 df = df_raw.loc[df_long_filtered_ids]
+
+n_rows_filtered = len(df)
 
 
 #### DATA TABLE ####
@@ -90,7 +115,10 @@ df_location_agg = df_location_agg.rename(columns={"location_clean": "location_co
 df_location_agg["location"] = df_location_agg.index.to_list()
 
 # Make bubbles representing cities with more than 10 listings more transparent
-df_location_agg["location_color"] = df_location_agg["location_count"].apply(lambda x: [255,75,75,160] if x > 10 else [255,75,75,200])
+def set_alpha(count):
+    if count > 10: return [255,75,75,160]
+    return [255,75,75,200]
+df_location_agg["location_color"] = df_location_agg["location_count"].apply(set_alpha)
 df_location_agg["location_size"] = df_location_agg["location_size_initial"]
 
 # Highlight city if only 1 is selected and count is low
@@ -100,13 +128,10 @@ if len(df_location_agg) == 1 and df_location_agg["location_count"][0] < 10:
 
 # Update bubble size if other filters aside from location have been selected.
 check_filters = ["Job Title", "Seniority Level", "Days Online"]
-update_bubble_size = any(len(st.session_state["filters"][cf]) > 0 for cf in check_filters)
+update_bubble_size_on = any(len(st.session_state["filters"][cf]) > 0 for cf in check_filters)
 
 # Rescale size of bubbles if more than 1 city is selected
 def rescale_size(row, low, high):
-    """ This function is an altered version of the earlier defined 
-        function 'initial_size_scale', which returns the initial 
-        location bubble size if the min and max value are identical """
     min_count = min(df_location_agg["location_count"])
     max_count = max(df_location_agg["location_count"])
     if min_count == max_count:
@@ -116,9 +141,9 @@ def rescale_size(row, low, high):
     return scaled
 
 low, high = (6500, 30000)
-
-if len(df_location_agg) > 1 and update_bubble_size:
-    df_location_agg["location_size"] = df_location_agg.apply(lambda row: rescale_size(row, low, high), axis=1)
+if len(df_location_agg) > 1 and update_bubble_size_on:
+    df_location_agg["location_size"] = df_location_agg \
+        .apply(lambda row: rescale_size(row, low, high), axis=1)
 
 
 ### DRAW MAP
@@ -155,26 +180,8 @@ chart = pydeck.Deck(
 #### TECH STACK ####
 ####################
 
-# Prepara data
-tech_stack_columns = df.filter(like="tech").columns
-tech_stack_df = df.filter(tech_stack_columns)
+tech_stack_table = create_data_table(df_long_filtered, "Tech Stack", "Technology")
 
-tech_stack_table = pd.DataFrame(tech_stack_df.sum(), columns=["Count"])
-tech_stack_table["Percent"] = round(tech_stack_table["Count"] / len(tech_stack_df) * 100, 1)
-tech_stack_table = tech_stack_table.sort_values(by="Count", ascending=False)
-
-# Create column with clean technology name (e.g. "tech_stack_powerbi" -> "Power BI")
-tech_stack_table["Technology"] = tech_stack_table.index.str.replace("tech_stack_", "").str.capitalize()
-tech_stack_dict = {"Javascript": "JavaScript",
-                   "Gcp": "GCP",
-                   "Powerbi": "Power BI",
-                   "Spss": "SPSS",
-                   "Sas": "SAS",
-                   "Sql": "SQL",
-                   "Aws": "AWS"}
-tech_stack_table["Technology"] = tech_stack_table["Technology"].apply(lambda x: tech_stack_dict[x] if x in tech_stack_dict else x)
-
-# Draw graph
 tech_stack_fig = px.bar(tech_stack_table, x="Technology", y="Count",
                         hover_data=["Technology", "Count", "Percent"])
 
@@ -182,9 +189,7 @@ tech_stack_fig = px.bar(tech_stack_table, x="Technology", y="Count",
 #### JOB TITLE ####
 ###################
 
-job_title_table = pd.DataFrame({"Job Title": df["title_cat_ChatGPT"].unique()})
-job_title_table["Count"] = job_title_table["Job Title"].map(df["title_cat_ChatGPT"].value_counts())
-job_title_table["Percent"] = round(job_title_table["Count"] / len(df) * 100, 1)
+job_title_table = create_data_table(df, "title_cat_ChatGPT", "Job Title")
 
 job_title_fig = px.pie(job_title_table,
                        names="Job Title",
@@ -196,9 +201,7 @@ job_title_fig.update_traces(textposition='inside', textinfo='percent+label')
 #### SENIORITY ####
 ###################
 
-seniority_table = pd.DataFrame({"Seniority": df["seniority_level_5"].unique()})
-seniority_table["Count"] = seniority_table["Seniority"].map(df["seniority_level_5"].value_counts())
-seniority_table["Percent"] = round(seniority_table["Count"] / len(df) * 100, 1)
+seniority_table = create_data_table(df, "seniority_level_5", "Seniority")
 
 seniority_order = ['Entry level', 'Associate/Mid-Level', 'Senior', 'Director', 'Postdoc']
 
@@ -213,13 +216,7 @@ seniority_fig.update_traces(textposition='inside', textinfo='percent+label')
 #### JOB TYPE ####
 ##################
 
-job_type_columns = df.filter(like="job_type_").columns
-job_type_df = df.filter(job_type_columns)
-
-job_type_table = pd.DataFrame(job_type_df.sum(), columns=["Count"])
-job_type_table["Job Type"] = job_type_table.index.str.replace("job_type_", "")
-job_type_table["Percent"] = round(job_type_table["Count"] / len(job_type_df) * 100, 1)
-job_type_table = job_type_table.sort_values(by="Count", ascending=False)
+job_type_table = create_data_table(df_long_filtered, "Job/Contract Type", "Job Type")
 
 job_type_fig = px.bar(job_type_table,
                       x="Job Type", y="Count",
@@ -230,9 +227,7 @@ job_type_fig = px.bar(job_type_table,
 #### DAYS ONLINE ####
 #####################
 
-days_online_table = pd.DataFrame({"Days Online": df["days_online_grouped"].unique()})
-days_online_table["Count"] = days_online_table["Days Online"].map(df["days_online_grouped"].value_counts())
-days_online_table["Percent"] = round(days_online_table["Count"] / len(df) * 100, 1)
+days_online_table = create_data_table(df, "days_online_grouped", "Days Online")
 
 days_online_fig = px.bar(
     days_online_table,
