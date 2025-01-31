@@ -214,7 +214,7 @@ job_title_fig.update_traces(textposition='inside', textinfo='percent+label')
 
 seniority_table = create_data_table(df, "seniority_level_5", "Seniority")
 
-seniority_order = ['Entry level', 'Associate/Mid-Level', 'Senior', 'Director', 'Postdoc']
+seniority_order = ["Entry level", "Associate/Mid-Level", "Senior", "Director", "Postdoc"]
 
 seniority_fig = px.pie(
     seniority_table,
