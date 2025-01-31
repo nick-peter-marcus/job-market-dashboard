@@ -221,7 +221,7 @@ seniority_fig = px.pie(
     names="Seniority", 
     values="Count",
     hole=0.35,
-    category_orders={"Seniority": seniority_order}
+#    category_orders={"Seniority": seniority_order}
 )
 
 seniority_fig.update_traces(textposition='inside', textinfo='percent+label')
