@@ -30,7 +30,7 @@ df_raw["location_size_initial"] = initial_size_scale(np.sqrt(df_raw["location_co
 
 def create_data_table(data: pd.DataFrame, column_in: str, column_out: str) -> pd.DataFrame:
     """ 
-    Creates a dataframe containg counts and percentages of a specified column.
+    Creates a dataframe containing counts and percentages of a specified column.
 
     Args:
         data:       Original dataframe used to draw the data from.
