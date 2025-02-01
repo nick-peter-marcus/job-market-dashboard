@@ -20,7 +20,7 @@ In the next steps, the collected data was thoroughly cleaned. The code is provid
 ### 3. Building a dashboard in Streamlit
 Based on the cleaned datasets, a dashboard was created using the Streamlit API.
 The dashboard features dynamic filtering, interactive plotly charts, extracts from the data based on applied filters, as well as a wordcloud representing the written job descriptions.
-The dashboard is hosted Streamlit Community Cloud and can be publicly accessed via [this link](https://job-market-dashboard.streamlit.app/).
+The dashboard is hosted on the Streamlit Community Cloud and can be publicly accessed via [this link](https://job-market-dashboard.streamlit.app/).
 
 ## Screenshots
 ![main_page](https://github.com/nick-peter-marcus/job-market-dashboard/blob/main/images/main_page.png?raw=true)
