@@ -23,6 +23,8 @@ The dashboard features dynamic filtering, interactive plotly charts, extracts fr
 The dashboard is hosted on the Streamlit Community Cloud and can be publicly accessed via [this link](https://job-market-dashboard.streamlit.app/).
 
 ## Screenshots
-![main_page](https://github.com/nick-peter-marcus/job-market-dashboard/blob/main/images/main_page.png?raw=true)
-![data_tab](https://github.com/nick-peter-marcus/job-market-dashboard/blob/main/images/data_tab.png?raw=true)
-![wordcloud](https://github.com/nick-peter-marcus/job-market-dashboard/blob/main/images/wordcloud.png?raw=true)
+<div style="display: flex;">
+<img src="https://github.com/nick-peter-marcus/job-market-dashboard/blob/main/images/main_page.png" alt="main_page" width="250"/>
+<img src="https://github.com/nick-peter-marcus/job-market-dashboard/blob/main/images/data_tab.png" alt="data_tab" width="250"/>
+<img src="https://github.com/nick-peter-marcus/job-market-dashboard/blob/main/images/wordcloud.png" alt="wordcloud" width="250"/>
+</div>
