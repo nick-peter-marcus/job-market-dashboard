@@ -347,6 +347,12 @@ with tab1:
                     title=customize_title("Tech Stack")
                 )
                 tech_stack_fig.update_xaxes(tickangle=-45, tickfont=dict(size=10))
+
+                if len(tech_stack_fig._data[0]["x"]) == 0:
+                    tech_stack_fig.update_xaxes(showticklabels=False)
+                    tech_stack_fig.update_layout(xaxis_range=[0, 10], yaxis_range=[-.1, 11], height=160)
+                    tech_stack_fig.add_annotation(x=5, y=5, text="No data", showarrow=False)
+                    
                 st.plotly_chart(tech_stack_fig, config=plotly_config)
 
         # TAB 1 -> COLUMN 1 -> CONTAINER 2:
@@ -372,6 +378,12 @@ with tab1:
                     title=customize_title("Job Type")
                 )
                 job_type_fig.update_xaxes(tickangle=-45, tickfont=dict(size=10))
+
+                if len(job_type_fig._data[0]["x"]) == 0:
+                    job_type_fig.update_xaxes(showticklabels=False)
+                    job_type_fig.update_layout(xaxis_range=[0, 10], yaxis_range=[-.1, 11], height=160)
+                    job_type_fig.add_annotation(x=5, y=5, text="No data", showarrow=False)
+
                 st.plotly_chart(job_type_fig, config=plotly_config)  
                 
         # TAB 1 -> COLUMN 1 -> CONTAINER 3:
@@ -380,6 +392,13 @@ with tab1:
 
             # Number of Days Online (TAB 1 -> COLUMN 1 -> CONTAINER 3 -> COLUMN 1): 
             with col03[0]:
+                unique_days_online = np.unique(str(days_online_fig._data[0]["x"]))
+                if len(unique_days_online) == 1 and unique_days_online == "[nan]":
+                    days_online_fig = px.bar(pd.DataFrame({"y":[0], "x":[0]}), x="x", y="y")
+                    days_online_fig.update_layout(xaxis_range=[0, 10], yaxis_range=[-.1, 11],)
+                    days_online_fig.update_xaxes(showticklabels=False)
+                    days_online_fig.add_annotation(x=5, y=5, text="No data", showarrow=False)
+
                 days_online_fig.update_layout(
                     height=228,
                     margin=dict(t=20, b=0, l=0, r=0),
@@ -390,6 +409,13 @@ with tab1:
                 
             # Number of Applicants (TAB 1 -> COLUMN 1 -> CONTAINER 3 -> COLUMN 2): 
             with col03[1]:
+                unique_number_applicants = np.unique(str(number_applicants_fig._data[0]["x"]))
+                if len(unique_number_applicants) == 1 and unique_number_applicants == "[nan]":
+                    number_applicants_fig = px.bar(pd.DataFrame({"y":[0], "x":[0]}), x="x", y="y")
+                    number_applicants_fig.update_layout(xaxis_range=[0, 10], yaxis_range=[-.1, 11],)
+                    number_applicants_fig.update_xaxes(showticklabels=False)
+                    number_applicants_fig.add_annotation(x=5, y=5, text="No data", showarrow=False)
+
                 number_applicants_fig.update_layout(
                     height=228,
                     margin=dict(t=20, b=0, l=0, r=0),
