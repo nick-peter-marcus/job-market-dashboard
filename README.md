@@ -13,7 +13,7 @@ In the next steps, the collected data was thoroughly cleaned. The code is provid
 2. Duplicates were removed by comparing categorical columns as well as the written job description. The latter was performed by utilizing the Levenshtein string similarity algorithm.
 3. Columns were cleaned and added, e.g.
     - Tech stack requirement: Keyword search (e.g. "Python") in written job description.
-    - Job title category: Grouping task handed to ChatPGT.
+    - Job title category: Grouping task handed to ChatGPT.
     - Geodata: Extracting coordinates of job locations for future mapping.
 4. Finally, the cleaned data was stored twice - in the original format, and in long format. The latter guarantees proper filtering of the data in the dashboard application.
 
